@@ -1,43 +1,52 @@
+import time
 import requests
 
-OVERPASS_URL = "https://overpass-api.de/api/interpreter"
+OVERPASS_URLS = [
+    "https://overpass.kumi.systems/api/interpreter",
+    "https://overpass-api.de/api/interpreter",
+    "https://overpass.nchc.org.tw/api/interpreter",
+]
 
 HEADERS = {
     "User-Agent": "restaurant-location-analysis/1.0"
 }
 
 
-def run_query(query: str):
-    response = requests.post(
-        OVERPASS_URL,
-        data={"data": query},
-        headers=HEADERS,
-        timeout=60,
-    )
+def run_query(query: str, max_attempts=6):
 
-    response.raise_for_status()
-    return response.json()
+    last_error = None
 
+    for attempt in range(max_attempts):
 
-if __name__ == "__main__":
+        url = OVERPASS_URLS[attempt % len(OVERPASS_URLS)]
 
-    query = """
-    [out:json][timeout:25];
+        try:
+            print(f"  Overpass server: {url}")
 
-    node
-      ["amenity"="restaurant"]
-      (around:500,40.7536,-73.9832);
+            response = requests.post(
+                url,
+                data={"data": query},
+                headers=HEADERS,
+                timeout=180,
+            )
 
-    out;
-    """
+            response.raise_for_status()
 
-    data = run_query(query)
+            return response.json()
 
-    print("Overpass connection: OK")
-    print("Restaurants found:", len(data["elements"]))
+        except requests.RequestException as e:
 
-    for place in data["elements"][:10]:
-        print(
-            place.get("tags", {}).get("name", "Unnamed"),
-            place.get("tags", {}).get("cuisine", "unknown")
-        )
+            last_error = e
+
+            wait_seconds = 10 * (attempt + 1)
+
+            print(
+                f"  Attempt {attempt + 1} failed: "
+                f"{type(e).__name__}"
+            )
+
+            if attempt < max_attempts - 1:
+                print(f"  Waiting {wait_seconds}s...")
+                time.sleep(wait_seconds)
+
+    raise last_error

@@ -1,28 +1,30 @@
-import sys
 from pathlib import Path
-
+import time
 import pandas as pd
 
-sys.path.append("src")
 from osm_client import run_query
 
-OUTPUT_FILE = Path("data/manhattan_activity.csv")
+OUTPUT_FILE = Path("data/study_area_activity.csv")
 
-# Approximate Manhattan study bounding box
-BBOX = "40.7000,-74.0200,40.8800,-73.9000"
+BOROUGHS = ["Manhattan", "Brooklyn"]
+AMENITIES = ["restaurant", "cafe", "bar", "fast_food"]
 
 
-def collect_activity():
+def collect_category(borough, amenity):
+
+    print(f"Downloading {borough} / {amenity}...")
 
     query = f"""
-    [out:json][timeout:120];
+    [out:json][timeout:90];
 
-    (
-      nwr["amenity"="restaurant"]({BBOX});
-      nwr["amenity"="cafe"]({BBOX});
-      nwr["amenity"="bar"]({BBOX});
-      nwr["amenity"="fast_food"]({BBOX});
-    );
+    area
+      ["name"="{borough}"]
+      ["boundary"="administrative"]
+      ->.searchArea;
+
+    nwr
+      ["amenity"="{amenity}"]
+      (area.searchArea);
 
     out center tags;
     """
@@ -45,6 +47,7 @@ def collect_activity():
         rows.append({
             "osm_type": element.get("type"),
             "osm_id": element.get("id"),
+            "borough": borough,
             "name": tags.get("name"),
             "amenity": tags.get("amenity"),
             "cuisine": tags.get("cuisine"),
@@ -52,23 +55,70 @@ def collect_activity():
             "longitude": lon,
         })
 
-    return pd.DataFrame(rows)
+    print(f"  -> {len(rows)} POIs")
+
+    return rows
+
+
+def main():
+
+    all_rows = []
+
+    for borough in BOROUGHS:
+
+        for amenity in AMENITIES:
+
+            try:
+                rows = collect_category(
+                    borough,
+                    amenity
+                )
+
+                all_rows.extend(rows)
+
+            except Exception as e:
+                print(f"ERROR: {borough} / {amenity}")
+                print(e)
+
+            # Be polite to Overpass
+            time.sleep(2)
+
+    df = pd.DataFrame(all_rows)
+
+    df = df.drop_duplicates(
+        subset=["osm_type", "osm_id"]
+    ).copy()
+
+    df = df.dropna(
+        subset=["latitude", "longitude"]
+    ).copy()
+
+    OUTPUT_FILE.parent.mkdir(
+        parents=True,
+        exist_ok=True
+    )
+
+    df.to_csv(
+        OUTPUT_FILE,
+        index=False
+    )
+
+    print()
+    print("Study-area activity dataset created")
+    print("-----------------------------------")
+    print("Total POIs:", len(df))
+
+    print()
+    print("By borough:")
+    print(df["borough"].value_counts())
+
+    print()
+    print("By amenity:")
+    print(df["amenity"].value_counts())
+
+    print()
+    print("Saved:", OUTPUT_FILE)
 
 
 if __name__ == "__main__":
-
-    print("Downloading Manhattan activity POIs...")
-
-    df = collect_activity()
-
-    OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
-    df.to_csv(OUTPUT_FILE, index=False)
-
-    print()
-    print("Activity dataset created")
-    print("-------------------------")
-    print("Total POIs:", len(df))
-    print()
-    print(df["amenity"].value_counts())
-    print()
-    print("Saved:", OUTPUT_FILE)
+    main()
