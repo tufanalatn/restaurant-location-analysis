@@ -18,3 +18,6 @@ outputs/*.html
 
 # Large/raw data
 data/raw/
+# Downloaded NYC geographic source data
+data/nyc_borough_boundaries.geojson
+data/nyc_census_tracts_2020.geojson
