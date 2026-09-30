@@ -1,0 +1,278 @@
+complex_id,stop_name,display_name,daytime_routes,latitude,longitude,borough_name,cbd,ada
+398,77 St,77 St (6),6,40.77362,-73.959874,Manhattan,False,0
+399,68 St-Hunter College,68 St-Hunter College (6),6,40.768141,-73.96387,Manhattan,False,1
+403,33 St,33 St (6),6,40.746081,-73.982076,Manhattan,True,0
+404,28 St,28 St (6),6,40.74307,-73.984264,Manhattan,True,2
+405,23 St-Baruch College,23 St-Baruch College (6),6,40.739864,-73.986599,Manhattan,True,1
+407,Astor Pl,Astor Pl (6),6,40.730054,-73.99107,Manhattan,True,0
+409,Spring St,Spring St (6),6,40.722301,-73.997141,Manhattan,True,0
+413,Wall St,"Wall St (4,5)",4 5,40.707557,-74.011862,Manhattan,True,0
+414,Bowling Green,"Bowling Green (4,5)",4 5,40.704817,-74.014065,Manhattan,True,1
+436,Harlem-148 St,Harlem-148 St (3),3,40.82388,-73.93647,Manhattan,False,1
+437,145 St,145 St (3),3,40.820421,-73.936245,Manhattan,False,0
+438,135 St,"135 St (2,3)",2 3,40.814229,-73.94077,Manhattan,False,1
+439,125 St,"125 St (2,3)",2 3,40.807754,-73.945495,Manhattan,False,0
+440,116 St,"116 St (2,3)",2 3,40.802098,-73.949625,Manhattan,False,0
+441,110 St-Malcolm X Plaza,"110 St-Malcolm X Plaza (2,3)",2 3,40.799075,-73.951822,Manhattan,False,0
+471,34 St-Hudson Yards,34 St-Hudson Yards (7),7,40.755882,-74.00191,Manhattan,True,1
+475,96 St,96 St (Q),Q,40.784318,-73.947152,Manhattan,False,1
+476,86 St,86 St (Q),Q,40.777891,-73.951787,Manhattan,False,1
+477,72 St,72 St (Q),Q,40.768799,-73.958424,Manhattan,False,1
+601,14 St/6 Av,"14 St/6 Av (1,2,3,L,F,M)",1 2 3 L F M,40.73779633,-73.997732,Manhattan,True,1
+602,14 St-Union Sq,"14 St-Union Sq (4,5,6,L,N,Q,R,W)",4 5 6 L N Q R W,40.735066,-73.99041633,Manhattan,True,2
+605,168 St-Washington Hts,"168 St-Washington Hts (1,A,C)",1 A C,40.8406375,-73.939847,Manhattan,False,2
+607,34 St-Herald Sq,"34 St-Herald Sq (B,D,F,M,N,Q,R,W)",B D F M N Q R W,40.749643,-73.9878865,Manhattan,True,1
+608,4 Av-9 St,"4 Av-9 St (F,G,R)",F G R,40.6705595,-73.9890405,Brooklyn,False,0
+609,42 St-Bryant Pk/5 Av,"42 St-Bryant Pk/5 Av (7,B,D,F,M)",7 B D F M,40.7540215,-73.983266,Manhattan,True,0
+610,Grand Central-42 St,"Grand Central-42 St (4,5,6,7,S)",4 5 6 7 S,40.751992,-73.97735933,Manhattan,True,1
+611,Times Sq-42 St/Port Authority Bus Terminal,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",1 2 3 7 A C E N Q R W S,40.755746,-73.9875808,Manhattan,True,1
+612,Lexington Av/51-53 Sts,"Lexington Av/51-53 Sts (6,E,F)",6 E F,40.7573295,-73.9704875,Manhattan,True,1
+613,Lexington Av/59 St,"Lexington Av/59 St (4,5,6,N,R,W)",4 5 6 N R W,40.762593,-73.9676125,Manhattan,True,0
+614,59 St-Columbus Circle,"59 St-Columbus Circle (1,A,C,B,D)",1 A C B D,40.7682715,-73.9818325,Manhattan,True,1
+615,62 St/New Utrecht Av,"62 St/New Utrecht Av (D,N)",D N,40.625657,-73.996624,Brooklyn,False,1
+617,Atlantic Av-Barclays Ctr,"Atlantic Av-Barclays Ctr (2,3,4,5,B,D,N,Q,R)",2 3 4 5 B D N Q R,40.68416167,-73.97778867,Brooklyn,False,1
+618,14 St/8 Av,"14 St/8 Av (A,C,E,L)",A C E L,40.740335,-74.002134,Manhattan,True,1
+619,Broadway-Lafayette St/Bleecker St,"Broadway-Lafayette St/Bleecker St (6,B,D,F,M)",6 B D F M,40.725606,-73.9954315,Manhattan,True,1
+620,Borough Hall/Court St,"Borough Hall/Court St (2,3,4,5,R)",2 3 4 5 R,40.693241,-73.990642,Brooklyn,False,2
+621,Broadway Junction,"Broadway Junction (A,C,J,Z,L)",A C J Z L,40.678896,-73.904356,Brooklyn,False,0
+622,Brooklyn Bridge-City Hall/Chambers St,"Brooklyn Bridge-City Hall/Chambers St (4,5,6,J,Z)",4 5 6 J Z,40.713154,-74.003766,Manhattan,True,1
+623,Canal St,"Canal St (6,J,Z,N,Q,R,W)",6 J Z N Q R W,40.71870125,-74.00058,Manhattan,True,2
+624,Chambers St/WTC/Park Place/Cortlandt St,"Chambers St/WTC/Park Place/Cortlandt St (2,3,A,C,E,R,W)",2 3 A C E R W,40.712603,-74.0095515,Manhattan,True,2
+625,Delancey St-Essex St,"Delancey St-Essex St (F,M,J,Z)",F M J Z,40.718463,-73.9877755,Manhattan,True,0
+626,Franklin Av-Medgar Evers College/Botanic Garden,"Franklin Av-Medgar Evers College/Botanic Garden (2,3,4,5,S)",2 3 4 5 S,40.6705125,-73.958688,Brooklyn,False,0
+627,Franklin Av,"Franklin Av (C,S)",C S,40.680988,-73.9563375,Brooklyn,False,1
+628,Fulton St,"Fulton St (2,3,4,5,A,C,J,Z)",2 3 4 5 A C J Z,40.71008875,-74.00783825,Manhattan,True,1
+629,Metropolitan Av/Lorimer St,"Metropolitan Av/Lorimer St (G,L)",G L,40.7134275,-73.9508465,Brooklyn,False,1
+630,Myrtle-Wyckoff Avs,"Myrtle-Wyckoff Avs (M,L)",M L,40.699622,-73.9119855,Brooklyn,False,1
+635,Whitehall St-South Ferry,"Whitehall St-South Ferry (1,R,W)",1 R W,40.7025775,-74.013329,Manhattan,True,2
+636,Jay St-MetroTech,"Jay St-MetroTech (A,C,F,R)",A C F R,40.692259,-73.986642,Brooklyn,False,1
+276,5 Av/53 St,"5 Av/53 St (E,F)",E F,40.760167,-73.975224,Manhattan,True,0
+277,7 Av,"7 Av (E,B,D)",E B D,40.762862,-73.981637,Manhattan,True,0
+283,Greenpoint Av,Greenpoint Av (G),G,40.731352,-73.954449,Brooklyn,False,1
+284,Nassau Av,Nassau Av (G),G,40.724635,-73.951277,Brooklyn,False,0
+286,Broadway,Broadway (G),G,40.706092,-73.950308,Brooklyn,False,0
+287,Flushing Av,Flushing Av (G),G,40.700377,-73.950234,Brooklyn,False,0
+288,Myrtle-Willoughby Avs,Myrtle-Willoughby Avs (G),G,40.694568,-73.949046,Brooklyn,False,0
+289,Bedford-Nostrand Avs,Bedford-Nostrand Avs (G),G,40.689627,-73.953522,Brooklyn,False,0
+290,Classon Av,Classon Av (G),G,40.688873,-73.96007,Brooklyn,False,0
+291,Clinton-Washington Avs,Clinton-Washington Avs (G),G,40.688089,-73.966839,Brooklyn,False,0
+292,Fulton St,Fulton St (G),G,40.687119,-73.975375,Brooklyn,False,0
+296,Marble Hill-225 St,Marble Hill-225 St (1),1,40.874561,-73.909831,Manhattan,False,0
+297,215 St,215 St (1),1,40.869444,-73.915279,Manhattan,False,0
+298,207 St,207 St (1),1,40.864621,-73.918822,Manhattan,False,0
+299,Dyckman St,Dyckman St (1),1,40.860531,-73.925536,Manhattan,False,1
+300,191 St,191 St (1),1,40.855225,-73.929412,Manhattan,False,0
+301,181 St,181 St (1),1,40.849505,-73.933596,Manhattan,False,0
+303,157 St,157 St (1),1,40.834041,-73.94489,Manhattan,False,0
+304,145 St,145 St (1),1,40.826551,-73.95036,Manhattan,False,0
+305,137 St-City College,137 St-City College (1),1,40.822008,-73.953676,Manhattan,False,2
+306,125 St,125 St (1),1,40.815581,-73.958372,Manhattan,False,0
+307,116 St-Columbia University,116 St-Columbia University (1),1,40.807722,-73.96411,Manhattan,False,0
+308,Cathedral Pkwy (110 St),Cathedral Pkwy (110 St) (1),1,40.803967,-73.966847,Manhattan,False,0
+309,103 St,103 St (1),1,40.799446,-73.968379,Manhattan,False,0
+310,96 St,"96 St (1,2,3)",1 2 3,40.793919,-73.972323,Manhattan,False,1
+311,86 St,86 St (1),1,40.788644,-73.976218,Manhattan,False,0
+312,79 St,79 St (1),1,40.783934,-73.979917,Manhattan,False,0
+313,72 St,"72 St (1,2,3)",1 2 3,40.778453,-73.98197,Manhattan,False,1
+314,66 St-Lincoln Center,66 St-Lincoln Center (1),1,40.77344,-73.982209,Manhattan,False,1
+316,50 St,50 St (1),1,40.761728,-73.983849,Manhattan,True,0
+318,34 St-Penn Station,"34 St-Penn Station (1,2,3)",1 2 3,40.750373,-73.991057,Manhattan,True,1
+319,28 St,28 St (1),1,40.747215,-73.993365,Manhattan,True,0
+320,23 St,23 St (1),1,40.744081,-73.995657,Manhattan,True,0
+321,18 St,18 St (1),1,40.74104,-73.997871,Manhattan,True,0
+323,Christopher St-Stonewall,Christopher St-Stonewall (1),1,40.733422,-74.002906,Manhattan,True,0
+324,Houston St,Houston St (1),1,40.728251,-74.005367,Manhattan,True,0
+325,Canal St,Canal St (1),1,40.722854,-74.006277,Manhattan,True,0
+326,Franklin St,Franklin St (1),1,40.719318,-74.006886,Manhattan,True,0
+327,Chambers St,"Chambers St (1,2,3)",1 2 3,40.715478,-74.009266,Manhattan,True,1
+328,WTC Cortlandt,WTC Cortlandt (1),1,40.711835,-74.012188,Manhattan,True,1
+329,Rector St,Rector St (1),1,40.707513,-74.013783,Manhattan,True,0
+333,Wall St,"Wall St (2,3)",2 3,40.706821,-74.0091,Manhattan,True,0
+334,Clark St,"Clark St (2,3)",2 3,40.697466,-73.993086,Brooklyn,False,0
+336,Hoyt St,"Hoyt St (2,3)",2 3,40.690545,-73.985065,Brooklyn,False,2
+337,Nevins St,"Nevins St (2,3,4,5)",2 3 4 5,40.688246,-73.980492,Brooklyn,False,0
+339,Bergen St,"Bergen St (2,3)",2 3,40.680829,-73.975098,Brooklyn,False,0
+340,Grand Army Plaza,"Grand Army Plaza (2,3)",2 3,40.675235,-73.971046,Brooklyn,False,0
+341,Eastern Pkwy-Brooklyn Museum,"Eastern Pkwy-Brooklyn Museum (2,3)",2 3,40.671987,-73.964375,Brooklyn,False,1
+343,Nostrand Av,Nostrand Av (3),3,40.669847,-73.950466,Brooklyn,False,0
+344,Kingston Av,Kingston Av (3),3,40.669399,-73.942161,Brooklyn,False,0
+345,Crown Hts-Utica Av,"Crown Hts-Utica Av (3,4)",3 4,40.668897,-73.932942,Brooklyn,False,1
+346,Sutter Av-Rutland Rd,Sutter Av-Rutland Rd (3),3,40.664717,-73.92261,Brooklyn,False,0
+347,Saratoga Av,Saratoga Av (3),3,40.661453,-73.916327,Brooklyn,False,0
+348,Rockaway Av,Rockaway Av (3),3,40.662549,-73.908946,Brooklyn,False,0
+349,Junius St,Junius St (3),3,40.663515,-73.902447,Brooklyn,False,0
+350,Pennsylvania Av,Pennsylvania Av (3),3,40.664635,-73.894895,Brooklyn,False,0
+351,Van Siclen Av,Van Siclen Av (3),3,40.665449,-73.889395,Brooklyn,False,0
+352,New Lots Av,New Lots Av (3),3,40.666235,-73.884079,Brooklyn,False,0
+353,President St-Medgar Evers College,"President St-Medgar Evers College (2,5)",2 5,40.667883,-73.950683,Brooklyn,False,0
+354,Sterling St,"Sterling St (2,5)",2 5,40.662742,-73.95085,Brooklyn,False,0
+355,Winthrop St,"Winthrop St (2,5)",2 5,40.656652,-73.9502,Brooklyn,False,0
+356,Church Av,"Church Av (2,5)",2 5,40.650843,-73.949575,Brooklyn,False,1
+357,Beverly Rd,"Beverly Rd (2,5)",2 5,40.645098,-73.948959,Brooklyn,False,0
+358,Newkirk Av-Little Haiti,"Newkirk Av-Little Haiti (2,5)",2 5,40.639967,-73.948411,Brooklyn,False,0
+359,Flatbush Av-Brooklyn College,"Flatbush Av-Brooklyn College (2,5)",2 5,40.632836,-73.947642,Brooklyn,False,1
+392,125 St,"125 St (4,5,6)",4 5 6,40.804138,-73.937594,Manhattan,False,1
+393,116 St,116 St (6),6,40.798629,-73.941617,Manhattan,False,0
+394,110 St,110 St (6),6,40.79502,-73.94425,Manhattan,False,0
+395,103 St,103 St (6),6,40.7906,-73.947478,Manhattan,False,0
+396,96 St,96 St (6),6,40.785672,-73.95107,Manhattan,False,0
+397,86 St,"86 St (4,5,6)",4 5 6,40.779492,-73.955589,Manhattan,False,2
+141,Park Pl,Park Pl (S),S,40.674772,-73.957624,Brooklyn,False,1
+143,Inwood-207 St,Inwood-207 St (A),A,40.868072,-73.919899,Manhattan,False,1
+144,Dyckman St,Dyckman St (A),A,40.865491,-73.927271,Manhattan,False,0
+145,190 St,190 St (A),A,40.859022,-73.93418,Manhattan,False,0
+146,181 St,181 St (A),A,40.851695,-73.937969,Manhattan,False,1
+147,175 St,175 St (A),A,40.847391,-73.939704,Manhattan,False,1
+149,163 St-Amsterdam Av,163 St-Amsterdam Av (C),C,40.836013,-73.939892,Manhattan,False,0
+150,155 St,155 St (C),C,40.830518,-73.941514,Manhattan,False,0
+151,145 St,"145 St (A,C,B,D)",A C B D,40.824783,-73.944216,Manhattan,False,0
+152,135 St,"135 St (C,B)",C B,40.817894,-73.947649,Manhattan,False,0
+153,125 St,"125 St (A,C,B,D)",A C B D,40.811109,-73.952343,Manhattan,False,1
+154,116 St,"116 St (C,B)",C B,40.805085,-73.954882,Manhattan,False,0
+155,Cathedral Pkwy (110 St),"Cathedral Pkwy (110 St) (C,B)",C B,40.800603,-73.958161,Manhattan,False,0
+156,103 St,"103 St (C,B)",C B,40.796092,-73.961454,Manhattan,False,0
+157,96 St,"96 St (C,B)",C B,40.791642,-73.964696,Manhattan,False,0
+158,86 St,"86 St (C,B)",C B,40.785868,-73.968916,Manhattan,False,0
+159,81 St-Museum of Natural History,"81 St-Museum of Natural History (C,B)",C B,40.781433,-73.972143,Manhattan,False,0
+160,72 St,"72 St (C,B)",C B,40.775594,-73.97641,Manhattan,False,0
+162,50 St,"50 St (C,E)",C E,40.762456,-73.985984,Manhattan,True,2
+164,34 St-Penn Station,"34 St-Penn Station (A,C,E)",A C E,40.752287,-73.993391,Manhattan,True,1
+165,23 St,"23 St (C,E)",C E,40.745906,-73.998041,Manhattan,True,0
+167,W 4 St-Wash Sq,"W 4 St-Wash Sq (A,C,E,B,D,F,M)",A C E B D F M,40.732338,-74.000495,Manhattan,True,1
+168,Spring St,"Spring St (C,E)",C E,40.726227,-74.003739,Manhattan,True,2
+169,Canal St,"Canal St (A,C,E)",A C E,40.720824,-74.005229,Manhattan,True,0
+173,High St,"High St (A,C)",A C,40.699337,-73.990531,Brooklyn,False,0
+175,Hoyt-Schermerhorn Sts,"Hoyt-Schermerhorn Sts (A,C,G)",A C G,40.688484,-73.985001,Brooklyn,False,0
+176,Lafayette Av,Lafayette Av (C),C,40.686113,-73.973946,Brooklyn,False,0
+177,Clinton-Washington Avs,Clinton-Washington Avs (C),C,40.683263,-73.965838,Brooklyn,False,0
+179,Nostrand Av,"Nostrand Av (A,C)",A C,40.680438,-73.950426,Brooklyn,False,0
+180,Kingston-Throop Avs,Kingston-Throop Avs (C),C,40.679921,-73.940858,Brooklyn,False,0
+181,Utica Av,"Utica Av (A,C)",A C,40.679364,-73.930729,Brooklyn,False,1
+182,Ralph Av,Ralph Av (C),C,40.678822,-73.920786,Brooklyn,False,0
+183,Rockaway Av,Rockaway Av (C),C,40.67834,-73.911946,Brooklyn,False,0
+185,Liberty Av,Liberty Av (C),C,40.674542,-73.896548,Brooklyn,False,0
+186,Van Siclen Av,Van Siclen Av (C),C,40.67271,-73.890358,Brooklyn,False,0
+187,Shepherd Av,Shepherd Av (C),C,40.67413,-73.88075,Brooklyn,False,0
+188,Euclid Av,"Euclid Av (A,C)",A C,40.675377,-73.872106,Brooklyn,False,1
+189,Grant Av,Grant Av (A),A,40.677044,-73.86505,Brooklyn,False,0
+220,155 St,"155 St (B,D)",B D,40.830135,-73.938209,Manhattan,False,0
+222,Roosevelt Island,Roosevelt Island (M),M,40.759145,-73.95326,Manhattan,False,1
+223,Lexington Av/63 St,"Lexington Av/63 St (M,Q)",M Q,40.764629,-73.966113,Manhattan,False,1
+224,57 St,57 St (M),M,40.763972,-73.97745,Manhattan,True,1
+225,47-50 Sts-Rockefeller Ctr,"47-50 Sts-Rockefeller Ctr (B,D,F,M)",B D F M,40.758663,-73.981329,Manhattan,True,1
+228,23 St,"23 St (F,M)",F M,40.742878,-73.992821,Manhattan,True,0
+231,Grand St,"Grand St (B,D)",B D,40.718267,-73.993753,Manhattan,True,0
+232,2 Av,2 Av (F),F,40.723402,-73.989938,Manhattan,True,0
+234,East Broadway,East Broadway (F),F,40.713715,-73.990173,Manhattan,True,0
+235,York St,York St (F),F,40.701397,-73.986751,Brooklyn,False,0
+236,Bergen St,"Bergen St (F,G)",F G,40.686145,-73.990862,Brooklyn,False,0
+237,Carroll St,"Carroll St (F,G)",F G,40.680303,-73.995048,Brooklyn,False,0
+238,Smith-9 Sts,"Smith-9 Sts (F,G)",F G,40.67358,-73.995959,Brooklyn,False,0
+240,7 Av,"7 Av (F,G)",F G,40.666271,-73.980305,Brooklyn,False,1
+241,15 St-Prospect Park,"15 St-Prospect Park (F,G)",F G,40.660365,-73.979493,Brooklyn,False,0
+242,Fort Hamilton Pkwy,"Fort Hamilton Pkwy (F,G)",F G,40.650782,-73.975776,Brooklyn,False,0
+243,Church Av,"Church Av (F,G)",F G,40.644041,-73.979678,Brooklyn,False,1
+244,Ditmas Av,Ditmas Av (F),F,40.636119,-73.978172,Brooklyn,False,0
+245,18 Av,18 Av (F),F,40.629755,-73.976971,Brooklyn,False,0
+246,Avenue I,Avenue I (F),F,40.625322,-73.976127,Brooklyn,False,0
+247,Bay Pkwy,Bay Pkwy (F),F,40.620769,-73.975264,Brooklyn,False,0
+248,Avenue N,Avenue N (F),F,40.61514,-73.974197,Brooklyn,False,0
+249,Avenue P,Avenue P (F),F,40.608944,-73.973022,Brooklyn,False,0
+250,Kings Hwy,Kings Hwy (F),F,40.603217,-73.972361,Brooklyn,False,1
+251,Avenue U,Avenue U (F),F,40.596063,-73.973357,Brooklyn,False,0
+252,Avenue X,Avenue X (F),F,40.58962,-73.97425,Brooklyn,False,0
+253,Neptune Av,Neptune Av (F),F,40.581011,-73.974574,Brooklyn,False,0
+8,5 Av/59 St,"5 Av/59 St (N,R,W)",N R W,40.764811,-73.973347,Manhattan,True,0
+9,57 St-7 Av,"57 St-7 Av (N,Q,R,W)",N Q R W,40.764664,-73.980658,Manhattan,True,1
+10,49 St,"49 St (N,R,W)",N R W,40.759901,-73.984139,Manhattan,True,2
+13,28 St,"28 St (R,W)",R W,40.745494,-73.988691,Manhattan,True,0
+14,23 St,"23 St (R,W)",R W,40.741303,-73.989344,Manhattan,True,0
+16,8 St-NYU,"8 St-NYU (R,W)",R W,40.730328,-73.992629,Manhattan,True,0
+17,Prince St,"Prince St (R,W)",R W,40.724329,-73.997702,Manhattan,True,0
+20,City Hall,"City Hall (R,W)",R W,40.713282,-74.006978,Manhattan,True,0
+22,Rector St,"Rector St (R,W)",R W,40.70722,-74.013342,Manhattan,True,0
+26,DeKalb Av,"DeKalb Av (B,Q,R)",B Q R,40.690635,-73.981824,Brooklyn,False,1
+28,Union St,Union St (R),R,40.677316,-73.98311,Brooklyn,False,0
+30,Prospect Av,Prospect Av (R),R,40.665414,-73.992872,Brooklyn,False,0
+31,25 St,25 St (R),R,40.660397,-73.998091,Brooklyn,False,0
+32,36 St,"36 St (D,N,R)",D N R,40.655144,-74.003549,Brooklyn,False,0
+33,45 St,45 St (R),R,40.648939,-74.010006,Brooklyn,False,0
+34,53 St,53 St (R),R,40.645069,-74.014034,Brooklyn,False,0
+35,59 St,"59 St (N,R)",N R,40.641362,-74.017881,Brooklyn,False,1
+36,Bay Ridge Av,Bay Ridge Av (R),R,40.634967,-74.023377,Brooklyn,False,0
+37,77 St,77 St (R),R,40.629742,-74.02551,Brooklyn,False,0
+38,86 St,86 St (R),R,40.622687,-74.028398,Brooklyn,False,1
+39,Bay Ridge-95 St,Bay Ridge-95 St (R),R,40.616622,-74.030876,Brooklyn,False,1
+41,7 Av,"7 Av (B,Q)",B Q,40.67705,-73.972367,Brooklyn,False,0
+42,Prospect Park,"Prospect Park (B,Q,S)",B Q S,40.661614,-73.962246,Brooklyn,False,1
+43,Parkside Av,Parkside Av (Q),Q,40.655292,-73.961495,Brooklyn,False,0
+44,Church Av,"Church Av (B,Q)",B Q,40.650527,-73.962982,Brooklyn,False,1
+45,Beverley Rd,Beverley Rd (Q),Q,40.644031,-73.964492,Brooklyn,False,0
+46,Cortelyou Rd,Cortelyou Rd (Q),Q,40.640927,-73.963891,Brooklyn,False,0
+47,Newkirk Plaza,"Newkirk Plaza (B,Q)",B Q,40.635082,-73.962793,Brooklyn,False,0
+48,Avenue H,Avenue H (Q),Q,40.62927,-73.961639,Brooklyn,False,1
+49,Avenue J,Avenue J (Q),Q,40.625039,-73.960803,Brooklyn,False,0
+50,Avenue M,Avenue M (Q),Q,40.617618,-73.959399,Brooklyn,False,0
+51,Kings Hwy,"Kings Hwy (B,Q)",B Q,40.60867,-73.957734,Brooklyn,False,1
+52,Avenue U,Avenue U (Q),Q,40.5993,-73.955929,Brooklyn,False,0
+53,Neck Rd,Neck Rd (Q),Q,40.595246,-73.955161,Brooklyn,False,0
+54,Sheepshead Bay,"Sheepshead Bay (B,Q)",B Q,40.586896,-73.954155,Brooklyn,False,1
+55,Brighton Beach,"Brighton Beach (B,Q)",B Q,40.577621,-73.961376,Brooklyn,False,0
+56,Ocean Pkwy,Ocean Pkwy (Q),Q,40.576312,-73.968501,Brooklyn,False,0
+57,W 8 St-NY Aquarium,"W 8 St-NY Aquarium (F,Q)",F Q,40.576127,-73.975939,Brooklyn,False,0
+58,Coney Island-Stillwell Av,"Coney Island-Stillwell Av (D,F,N,Q)",D F N Q,40.577422,-73.981233,Brooklyn,False,1
+59,9 Av,9 Av (D),D,40.646292,-73.994324,Brooklyn,False,0
+60,Fort Hamilton Pkwy,Fort Hamilton Pkwy (D),D,40.640914,-73.994304,Brooklyn,False,0
+61,50 St,50 St (D),D,40.63626,-73.994791,Brooklyn,False,0
+62,55 St,55 St (D),D,40.631435,-73.995476,Brooklyn,False,0
+64,71 St,71 St (D),D,40.619589,-73.998864,Brooklyn,False,0
+65,79 St,79 St (D),D,40.613501,-74.00061,Brooklyn,False,0
+66,18 Av,18 Av (D),D,40.607954,-74.001736,Brooklyn,False,0
+67,20 Av,20 Av (D),D,40.604556,-73.998168,Brooklyn,False,0
+68,Bay Pkwy,Bay Pkwy (D),D,40.601875,-73.993728,Brooklyn,False,1
+69,25 Av,25 Av (D),D,40.597704,-73.986829,Brooklyn,False,0
+70,Bay 50 St,Bay 50 St (D),D,40.588841,-73.983765,Brooklyn,False,0
+71,8 Av,8 Av (N),N,40.635064,-74.011719,Brooklyn,False,1
+72,Fort Hamilton Pkwy,Fort Hamilton Pkwy (N),N,40.631386,-74.005351,Brooklyn,False,0
+74,18 Av,18 Av (N),N,40.620671,-73.990414,Brooklyn,False,0
+75,20 Av,20 Av (N),N,40.61741,-73.985026,Brooklyn,False,0
+76,Bay Pkwy,Bay Pkwy (N),N,40.611815,-73.981848,Brooklyn,False,0
+77,Kings Hwy,Kings Hwy (N),N,40.603923,-73.980353,Brooklyn,False,0
+78,Avenue U,Avenue U (N),N,40.597473,-73.979137,Brooklyn,False,0
+79,86 St,86 St (N),N,40.592721,-73.97823,Brooklyn,False,0
+86,Cypress Hills,Cypress Hills (J),J,40.689941,-73.87255,Brooklyn,False,0
+87,Crescent St,"Crescent St (J,Z)",J Z,40.683194,-73.873785,Brooklyn,False,0
+88,Norwood Av,"Norwood Av (J,Z)",J Z,40.68141,-73.880039,Brooklyn,False,0
+89,Cleveland St,Cleveland St (J),J,40.679947,-73.884639,Brooklyn,False,0
+90,Van Siclen Av,"Van Siclen Av (J,Z)",J Z,40.678024,-73.891688,Brooklyn,False,0
+91,Alabama Av,"Alabama Av (J,Z)",J Z,40.676992,-73.898654,Brooklyn,False,0
+93,Chauncey St,"Chauncey St (J,Z)",J Z,40.682893,-73.910456,Brooklyn,False,0
+94,Halsey St,Halsey St (J),J,40.68637,-73.916559,Brooklyn,False,0
+95,Gates Av,"Gates Av (J,Z)",J Z,40.68963,-73.92227,Brooklyn,False,0
+96,Kosciuszko St,Kosciuszko St (J),J,40.693342,-73.928814,Brooklyn,False,0
+97,Myrtle Av,"Myrtle Av (M,J,Z)",M J Z,40.697207,-73.935657,Brooklyn,False,0
+98,Flushing Av,"Flushing Av (M,J)",M J,40.70026,-73.941126,Brooklyn,False,1
+99,Lorimer St,"Lorimer St (M,J)",M J,40.703869,-73.947408,Brooklyn,False,0
+100,Hewes St,"Hewes St (M,J)",M J,40.70687,-73.953431,Brooklyn,False,0
+101,Marcy Av,"Marcy Av (M,J,Z)",M J Z,40.708359,-73.957757,Brooklyn,False,1
+103,Bowery,"Bowery (J,Z)",J Z,40.72028,-73.993915,Manhattan,True,0
+107,Broad St,"Broad St (J,Z)",J Z,40.706476,-74.011056,Manhattan,True,0
+113,Knickerbocker Av,Knickerbocker Av (M),M,40.698664,-73.919711,Brooklyn,False,0
+114,Central Av,Central Av (M),M,40.697857,-73.927397,Brooklyn,False,0
+118,3 Av,3 Av (L),L,40.732849,-73.986122,Manhattan,True,0
+119,1 Av,1 Av (L),L,40.730953,-73.981628,Manhattan,True,1
+120,Bedford Av,Bedford Av (L),L,40.717304,-73.956872,Brooklyn,False,1
+122,Graham Av,Graham Av (L),L,40.714565,-73.944053,Brooklyn,False,0
+123,Grand St,Grand St (L),L,40.711926,-73.94067,Brooklyn,False,1
+124,Montrose Av,Montrose Av (L),L,40.707739,-73.93985,Brooklyn,False,0
+125,Morgan Av,Morgan Av (L),L,40.706152,-73.933147,Brooklyn,False,0
+126,Jefferson St,Jefferson St (L),L,40.706607,-73.922913,Brooklyn,False,0
+127,DeKalb Av,DeKalb Av (L),L,40.703811,-73.918425,Brooklyn,False,0
+130,Wilson Av,Wilson Av (L),L,40.688764,-73.904046,Brooklyn,False,2
+131,Bushwick Av-Aberdeen St,Bushwick Av-Aberdeen St (L),L,40.682829,-73.905249,Brooklyn,False,0
+133,Atlantic Av,Atlantic Av (L),L,40.675345,-73.903097,Brooklyn,False,0
+134,Sutter Av,Sutter Av (L),L,40.669367,-73.901975,Brooklyn,False,0
+135,Livonia Av,Livonia Av (L),L,40.664038,-73.900571,Brooklyn,False,1
+136,New Lots Av,New Lots Av (L),L,40.658733,-73.899232,Brooklyn,False,0
+137,East 105 St,East 105 St (L),L,40.650573,-73.899485,Brooklyn,False,0
+138,Canarsie-Rockaway Pkwy,Canarsie-Rockaway Pkwy (L),L,40.646654,-73.90185,Brooklyn,False,1

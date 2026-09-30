@@ -1,0 +1,122 @@
+complex_id,stop_name,display_name,daytime_routes,latitude,longitude,cbd,ada
+398,77 St,77 St (6),6,40.77362,-73.959874,False,0
+399,68 St-Hunter College,68 St-Hunter College (6),6,40.768141,-73.96387,False,1
+403,33 St,33 St (6),6,40.746081,-73.982076,True,0
+404,28 St,28 St (6),6,40.74307,-73.984264,True,2
+405,23 St-Baruch College,23 St-Baruch College (6),6,40.739864,-73.986599,True,1
+407,Astor Pl,Astor Pl (6),6,40.730054,-73.99107,True,0
+409,Spring St,Spring St (6),6,40.722301,-73.997141,True,0
+413,Wall St,"Wall St (4,5)",4 5,40.707557,-74.011862,True,0
+414,Bowling Green,"Bowling Green (4,5)",4 5,40.704817,-74.014065,True,1
+436,Harlem-148 St,Harlem-148 St (3),3,40.82388,-73.93647,False,1
+437,145 St,145 St (3),3,40.820421,-73.936245,False,0
+438,135 St,"135 St (2,3)",2 3,40.814229,-73.94077,False,1
+439,125 St,"125 St (2,3)",2 3,40.807754,-73.945495,False,0
+440,116 St,"116 St (2,3)",2 3,40.802098,-73.949625,False,0
+441,110 St-Malcolm X Plaza,"110 St-Malcolm X Plaza (2,3)",2 3,40.799075,-73.951822,False,0
+471,34 St-Hudson Yards,34 St-Hudson Yards (7),7,40.755882,-74.00191,True,1
+475,96 St,96 St (Q),Q,40.784318,-73.947152,False,1
+476,86 St,86 St (Q),Q,40.777891,-73.951787,False,1
+477,72 St,72 St (Q),Q,40.768799,-73.958424,False,1
+601,14 St/6 Av,"14 St/6 Av (1,2,3,L,F,M)",1 2 3 L F M,40.73779633,-73.997732,True,1
+602,14 St-Union Sq,"14 St-Union Sq (4,5,6,L,N,Q,R,W)",4 5 6 L N Q R W,40.735066,-73.99041633,True,2
+605,168 St-Washington Hts,"168 St-Washington Hts (1,A,C)",1 A C,40.8406375,-73.939847,False,2
+607,34 St-Herald Sq,"34 St-Herald Sq (B,D,F,M,N,Q,R,W)",B D F M N Q R W,40.749643,-73.9878865,True,1
+609,42 St-Bryant Pk/5 Av,"42 St-Bryant Pk/5 Av (7,B,D,F,M)",7 B D F M,40.7540215,-73.983266,True,0
+610,Grand Central-42 St,"Grand Central-42 St (4,5,6,7,S)",4 5 6 7 S,40.751992,-73.97735933,True,1
+611,Times Sq-42 St/Port Authority Bus Terminal,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",1 2 3 7 A C E N Q R W S,40.755746,-73.9875808,True,1
+612,Lexington Av/51-53 Sts,"Lexington Av/51-53 Sts (6,E,F)",6 E F,40.7573295,-73.9704875,True,1
+613,Lexington Av/59 St,"Lexington Av/59 St (4,5,6,N,R,W)",4 5 6 N R W,40.762593,-73.9676125,True,0
+614,59 St-Columbus Circle,"59 St-Columbus Circle (1,A,C,B,D)",1 A C B D,40.7682715,-73.9818325,True,1
+618,14 St/8 Av,"14 St/8 Av (A,C,E,L)",A C E L,40.740335,-74.002134,True,1
+619,Broadway-Lafayette St/Bleecker St,"Broadway-Lafayette St/Bleecker St (6,B,D,F,M)",6 B D F M,40.725606,-73.9954315,True,1
+622,Brooklyn Bridge-City Hall/Chambers St,"Brooklyn Bridge-City Hall/Chambers St (4,5,6,J,Z)",4 5 6 J Z,40.713154,-74.003766,True,1
+623,Canal St,"Canal St (6,J,Z,N,Q,R,W)",6 J Z N Q R W,40.71870125,-74.00058,True,2
+624,Chambers St/WTC/Park Place/Cortlandt St,"Chambers St/WTC/Park Place/Cortlandt St (2,3,A,C,E,R,W)",2 3 A C E R W,40.712603,-74.0095515,True,2
+625,Delancey St-Essex St,"Delancey St-Essex St (F,M,J,Z)",F M J Z,40.718463,-73.9877755,True,0
+628,Fulton St,"Fulton St (2,3,4,5,A,C,J,Z)",2 3 4 5 A C J Z,40.71008875,-74.00783825,True,1
+635,Whitehall St-South Ferry,"Whitehall St-South Ferry (1,R,W)",1 R W,40.7025775,-74.013329,True,2
+276,5 Av/53 St,"5 Av/53 St (E,F)",E F,40.760167,-73.975224,True,0
+277,7 Av,"7 Av (E,B,D)",E B D,40.762862,-73.981637,True,0
+296,Marble Hill-225 St,Marble Hill-225 St (1),1,40.874561,-73.909831,False,0
+297,215 St,215 St (1),1,40.869444,-73.915279,False,0
+298,207 St,207 St (1),1,40.864621,-73.918822,False,0
+299,Dyckman St,Dyckman St (1),1,40.860531,-73.925536,False,1
+300,191 St,191 St (1),1,40.855225,-73.929412,False,0
+301,181 St,181 St (1),1,40.849505,-73.933596,False,0
+303,157 St,157 St (1),1,40.834041,-73.94489,False,0
+304,145 St,145 St (1),1,40.826551,-73.95036,False,0
+305,137 St-City College,137 St-City College (1),1,40.822008,-73.953676,False,2
+306,125 St,125 St (1),1,40.815581,-73.958372,False,0
+307,116 St-Columbia University,116 St-Columbia University (1),1,40.807722,-73.96411,False,0
+308,Cathedral Pkwy (110 St),Cathedral Pkwy (110 St) (1),1,40.803967,-73.966847,False,0
+309,103 St,103 St (1),1,40.799446,-73.968379,False,0
+310,96 St,"96 St (1,2,3)",1 2 3,40.793919,-73.972323,False,1
+311,86 St,86 St (1),1,40.788644,-73.976218,False,0
+312,79 St,79 St (1),1,40.783934,-73.979917,False,0
+313,72 St,"72 St (1,2,3)",1 2 3,40.778453,-73.98197,False,1
+314,66 St-Lincoln Center,66 St-Lincoln Center (1),1,40.77344,-73.982209,False,1
+316,50 St,50 St (1),1,40.761728,-73.983849,True,0
+318,34 St-Penn Station,"34 St-Penn Station (1,2,3)",1 2 3,40.750373,-73.991057,True,1
+319,28 St,28 St (1),1,40.747215,-73.993365,True,0
+320,23 St,23 St (1),1,40.744081,-73.995657,True,0
+321,18 St,18 St (1),1,40.74104,-73.997871,True,0
+323,Christopher St-Stonewall,Christopher St-Stonewall (1),1,40.733422,-74.002906,True,0
+324,Houston St,Houston St (1),1,40.728251,-74.005367,True,0
+325,Canal St,Canal St (1),1,40.722854,-74.006277,True,0
+326,Franklin St,Franklin St (1),1,40.719318,-74.006886,True,0
+327,Chambers St,"Chambers St (1,2,3)",1 2 3,40.715478,-74.009266,True,1
+328,WTC Cortlandt,WTC Cortlandt (1),1,40.711835,-74.012188,True,1
+329,Rector St,Rector St (1),1,40.707513,-74.013783,True,0
+333,Wall St,"Wall St (2,3)",2 3,40.706821,-74.0091,True,0
+392,125 St,"125 St (4,5,6)",4 5 6,40.804138,-73.937594,False,1
+393,116 St,116 St (6),6,40.798629,-73.941617,False,0
+394,110 St,110 St (6),6,40.79502,-73.94425,False,0
+395,103 St,103 St (6),6,40.7906,-73.947478,False,0
+396,96 St,96 St (6),6,40.785672,-73.95107,False,0
+397,86 St,"86 St (4,5,6)",4 5 6,40.779492,-73.955589,False,2
+143,Inwood-207 St,Inwood-207 St (A),A,40.868072,-73.919899,False,1
+144,Dyckman St,Dyckman St (A),A,40.865491,-73.927271,False,0
+145,190 St,190 St (A),A,40.859022,-73.93418,False,0
+146,181 St,181 St (A),A,40.851695,-73.937969,False,1
+147,175 St,175 St (A),A,40.847391,-73.939704,False,1
+149,163 St-Amsterdam Av,163 St-Amsterdam Av (C),C,40.836013,-73.939892,False,0
+150,155 St,155 St (C),C,40.830518,-73.941514,False,0
+151,145 St,"145 St (A,C,B,D)",A C B D,40.824783,-73.944216,False,0
+152,135 St,"135 St (C,B)",C B,40.817894,-73.947649,False,0
+153,125 St,"125 St (A,C,B,D)",A C B D,40.811109,-73.952343,False,1
+154,116 St,"116 St (C,B)",C B,40.805085,-73.954882,False,0
+155,Cathedral Pkwy (110 St),"Cathedral Pkwy (110 St) (C,B)",C B,40.800603,-73.958161,False,0
+156,103 St,"103 St (C,B)",C B,40.796092,-73.961454,False,0
+157,96 St,"96 St (C,B)",C B,40.791642,-73.964696,False,0
+158,86 St,"86 St (C,B)",C B,40.785868,-73.968916,False,0
+159,81 St-Museum of Natural History,"81 St-Museum of Natural History (C,B)",C B,40.781433,-73.972143,False,0
+160,72 St,"72 St (C,B)",C B,40.775594,-73.97641,False,0
+162,50 St,"50 St (C,E)",C E,40.762456,-73.985984,True,2
+164,34 St-Penn Station,"34 St-Penn Station (A,C,E)",A C E,40.752287,-73.993391,True,1
+165,23 St,"23 St (C,E)",C E,40.745906,-73.998041,True,0
+167,W 4 St-Wash Sq,"W 4 St-Wash Sq (A,C,E,B,D,F,M)",A C E B D F M,40.732338,-74.000495,True,1
+168,Spring St,"Spring St (C,E)",C E,40.726227,-74.003739,True,2
+169,Canal St,"Canal St (A,C,E)",A C E,40.720824,-74.005229,True,0
+220,155 St,"155 St (B,D)",B D,40.830135,-73.938209,False,0
+222,Roosevelt Island,Roosevelt Island (M),M,40.759145,-73.95326,False,1
+223,Lexington Av/63 St,"Lexington Av/63 St (M,Q)",M Q,40.764629,-73.966113,False,1
+224,57 St,57 St (M),M,40.763972,-73.97745,True,1
+225,47-50 Sts-Rockefeller Ctr,"47-50 Sts-Rockefeller Ctr (B,D,F,M)",B D F M,40.758663,-73.981329,True,1
+228,23 St,"23 St (F,M)",F M,40.742878,-73.992821,True,0
+231,Grand St,"Grand St (B,D)",B D,40.718267,-73.993753,True,0
+232,2 Av,2 Av (F),F,40.723402,-73.989938,True,0
+234,East Broadway,East Broadway (F),F,40.713715,-73.990173,True,0
+8,5 Av/59 St,"5 Av/59 St (N,R,W)",N R W,40.764811,-73.973347,True,0
+9,57 St-7 Av,"57 St-7 Av (N,Q,R,W)",N Q R W,40.764664,-73.980658,True,1
+10,49 St,"49 St (N,R,W)",N R W,40.759901,-73.984139,True,2
+13,28 St,"28 St (R,W)",R W,40.745494,-73.988691,True,0
+14,23 St,"23 St (R,W)",R W,40.741303,-73.989344,True,0
+16,8 St-NYU,"8 St-NYU (R,W)",R W,40.730328,-73.992629,True,0
+17,Prince St,"Prince St (R,W)",R W,40.724329,-73.997702,True,0
+20,City Hall,"City Hall (R,W)",R W,40.713282,-74.006978,True,0
+22,Rector St,"Rector St (R,W)",R W,40.70722,-74.013342,True,0
+103,Bowery,"Bowery (J,Z)",J Z,40.72028,-73.993915,True,0
+107,Broad St,"Broad St (J,Z)",J Z,40.706476,-74.011056,True,0
+118,3 Av,3 Av (L),L,40.732849,-73.986122,True,0
+119,1 Av,1 Av (L),L,40.730953,-73.981628,True,1

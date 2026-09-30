@@ -1,0 +1,2000 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7313b8e7e875f46b85745d88c5cec036 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7313b8e7e875f46b85745d88c5cec036" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7313b8e7e875f46b85745d88c5cec036 = L.map(
+                "map_7313b8e7e875f46b85745d88c5cec036",
+                {
+                    center: [40.758, -73.9855],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_52bb0d5fb8ce7d7d5200ddff7ccbdf23 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_52bb0d5fb8ce7d7d5200ddff7ccbdf23.addTo(map_7313b8e7e875f46b85745d88c5cec036);
+        
+    
+            var feature_group_7a0cf6ebc1f44ae3659d4d77366c3828 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_edd464809fe105ab966dda7ffef97dab = L.circleMarker(
+                [40.70463665187375, -74.01155687409947],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.78436330535046, "stroke": true, "weight": 2}
+            ).addTo(feature_group_7a0cf6ebc1f44ae3659d4d77366c3828);
+        
+    
+        var popup_dd079a34941b37df6605a4efd1fc6ae4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2cf08a52b95235c99df00ca08c14abd9 = $(`<div id="html_2cf08a52b95235c99df00ca08c14abd9" style="width: 100.0%; height: 100.0%;"><b>Broad Street</b><br>Beaver Street → South William Street<br><br>AM: 2,676<br>MD: 1,831<br>PM: 4,405<br><b>MD/PM Activity: 3,118</b></div>`)[0];
+                popup_dd079a34941b37df6605a4efd1fc6ae4.setContent(html_2cf08a52b95235c99df00ca08c14abd9);
+            
+        
+
+        circle_marker_edd464809fe105ab966dda7ffef97dab.bindPopup(popup_dd079a34941b37df6605a4efd1fc6ae4)
+        ;
+
+        
+    
+    
+            circle_marker_edd464809fe105ab966dda7ffef97dab.bindTooltip(
+                `<div>
+                     Broad Street — 3,118
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fe1b60300050929f39e474b9955b2d21 = L.circleMarker(
+                [40.70634164448271, -74.01286204592034],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.895317083038334, "stroke": true, "weight": 2}
+            ).addTo(feature_group_7a0cf6ebc1f44ae3659d4d77366c3828);
+        
+    
+        var popup_2192b1b057a0ff9d7dbb6cec1b807e55 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6d363d6bab4e7837400c1924359bb9ae = $(`<div id="html_6d363d6bab4e7837400c1924359bb9ae" style="width: 100.0%; height: 100.0%;"><b>Broadway</b><br>Morris Street → Exchange Place<br><br>AM: 2,791<br>MD: 6,776<br>PM: 7,882<br><b>MD/PM Activity: 7,329</b></div>`)[0];
+                popup_2192b1b057a0ff9d7dbb6cec1b807e55.setContent(html_6d363d6bab4e7837400c1924359bb9ae);
+            
+        
+
+        circle_marker_fe1b60300050929f39e474b9955b2d21.bindPopup(popup_2192b1b057a0ff9d7dbb6cec1b807e55)
+        ;
+
+        
+    
+    
+            circle_marker_fe1b60300050929f39e474b9955b2d21.bindTooltip(
+                `<div>
+                     Broadway — 7,329
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4d195cf13c20d18b092e28f003ccd2cc = L.circleMarker(
+                [40.7718134030119, -73.98219706247882],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.544250025285729, "stroke": true, "weight": 2}
+            ).addTo(feature_group_7a0cf6ebc1f44ae3659d4d77366c3828);
+        
+    
+        var popup_9bc602f97a784252b319caed50be10f9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d23ab1f142f7f34770bd6aa56ddaca18 = $(`<div id="html_d23ab1f142f7f34770bd6aa56ddaca18" style="width: 100.0%; height: 100.0%;"><b>Broadway</b><br>West 63rd Street → West 64th Street<br><br>AM: 1,605<br>MD: 3,684<br>PM: 5,452<br><b>MD/PM Activity: 4,568</b></div>`)[0];
+                popup_9bc602f97a784252b319caed50be10f9.setContent(html_d23ab1f142f7f34770bd6aa56ddaca18);
+            
+        
+
+        circle_marker_4d195cf13c20d18b092e28f003ccd2cc.bindPopup(popup_9bc602f97a784252b319caed50be10f9)
+        ;
+
+        
+    
+    
+            circle_marker_4d195cf13c20d18b092e28f003ccd2cc.bindTooltip(
+                `<div>
+                     Broadway — 4,568
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d781894a2513d48ead104db5b366d039 = L.circleMarker(
+                [40.71590455900424, -74.01009312926121],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.899160513806008, "stroke": true, "weight": 2}
+            ).addTo(feature_group_7a0cf6ebc1f44ae3659d4d77366c3828);
+        
+    
+        var popup_0ed279ba23862f5c62a6c68ac35a3e61 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e92881f7607d00c3780f245ea89eb005 = $(`<div id="html_e92881f7607d00c3780f245ea89eb005" style="width: 100.0%; height: 100.0%;"><b>Chambers Street</b><br>West Broadway → Greenwich Street<br><br>AM: 4,677<br>MD: 2,190<br>PM: 5,883<br><b>MD/PM Activity: 4,036</b></div>`)[0];
+                popup_0ed279ba23862f5c62a6c68ac35a3e61.setContent(html_e92881f7607d00c3780f245ea89eb005);
+            
+        
+
+        circle_marker_d781894a2513d48ead104db5b366d039.bindPopup(popup_0ed279ba23862f5c62a6c68ac35a3e61)
+        ;
+
+        
+    
+    
+            circle_marker_d781894a2513d48ead104db5b366d039.bindTooltip(
+                `<div>
+                     Chambers Street — 4,036
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_59c7102c54444c3716c3d683515733ea = L.circleMarker(
+                [40.77968082763136, -73.97713579908014],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.868817639324366, "stroke": true, "weight": 2}
+            ).addTo(feature_group_7a0cf6ebc1f44ae3659d4d77366c3828);
+        
+    
+        var popup_b8ac62bc07d5bf71c8e617775f9a7259 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c7d6e02e3987272928c490853dfd852e = $(`<div id="html_c7d6e02e3987272928c490853dfd852e" style="width: 100.0%; height: 100.0%;"><b>Columbus Avenue</b><br>West 75th Street → West 76th Street<br><br>AM: 1,340<br>MD: 3,840<br>PM: 4,183<br><b>MD/PM Activity: 4,012</b></div>`)[0];
+                popup_b8ac62bc07d5bf71c8e617775f9a7259.setContent(html_c7d6e02e3987272928c490853dfd852e);
+            
+        
+
+        circle_marker_59c7102c54444c3716c3d683515733ea.bindPopup(popup_b8ac62bc07d5bf71c8e617775f9a7259)
+        ;
+
+        
+    
+    
+            circle_marker_59c7102c54444c3716c3d683515733ea.bindTooltip(
+                `<div>
+                     Columbus Avenue — 4,012
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9a6b7beda280c69df1ab126583c1fa9a = L.circleMarker(
+                [40.71898935935359, -73.98936305063111],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.771113583493477, "stroke": true, "weight": 2}
+            ).addTo(feature_group_7a0cf6ebc1f44ae3659d4d77366c3828);
+        
+    
+        var popup_30507a398c8d4a19e807c0b2c5335789 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_adb64188562048c3f35caae52bf35aea = $(`<div id="html_adb64188562048c3f35caae52bf35aea" style="width: 100.0%; height: 100.0%;"><b>Delancey Street</b><br>Orchard Street → Ludlow Street<br><br>AM: 1,217<br>MD: 3,547<br>PM: 4,315<br><b>MD/PM Activity: 3,931</b></div>`)[0];
+                popup_30507a398c8d4a19e807c0b2c5335789.setContent(html_adb64188562048c3f35caae52bf35aea);
+            
+        
+
+        circle_marker_9a6b7beda280c69df1ab126583c1fa9a.bindPopup(popup_30507a398c8d4a19e807c0b2c5335789)
+        ;
+
+        
+    
+    
+            circle_marker_9a6b7beda280c69df1ab126583c1fa9a.bindTooltip(
+                `<div>
+                     Delancey Street — 3,931
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f1ebe529e90213d241c6aa5dbc5482bb = L.circleMarker(
+                [40.73559926423828, -73.99265748471083],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.476585415191666, "stroke": true, "weight": 2}
+            ).addTo(feature_group_7a0cf6ebc1f44ae3659d4d77366c3828);
+        
+    
+        var popup_f34e01cc3d6d948eff2adc18c409c0f0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e9432daace5daf536d4b828f7d7ec05b = $(`<div id="html_e9432daace5daf536d4b828f7d7ec05b" style="width: 100.0%; height: 100.0%;"><b>East 14th Street</b><br>Fifth Avenue → University Place<br><br>AM: 2,370<br>MD: 4,799<br>PM: 9,169<br><b>MD/PM Activity: 6,984</b></div>`)[0];
+                popup_f34e01cc3d6d948eff2adc18c409c0f0.setContent(html_e9432daace5daf536d4b828f7d7ec05b);
+            
+        
+
+        circle_marker_f1ebe529e90213d241c6aa5dbc5482bb.bindPopup(popup_f34e01cc3d6d948eff2adc18c409c0f0)
+        ;
+
+        
+    
+    
+            circle_marker_f1ebe529e90213d241c6aa5dbc5482bb.bindTooltip(
+                `<div>
+                     East 14th Street — 6,984
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d3b5ce65b37b2cc33d71791c9f98514b = L.circleMarker(
+                [40.75169473512389, -73.97665547944715],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.614847779913017, "stroke": true, "weight": 2}
+            ).addTo(feature_group_7a0cf6ebc1f44ae3659d4d77366c3828);
+        
+    
+        var popup_10b9da9aa37aab4ee40032a85fb18437 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_43a98f64d10e54fc0e4333d5d2f4f05f = $(`<div id="html_43a98f64d10e54fc0e4333d5d2f4f05f" style="width: 100.0%; height: 100.0%;"><b>East 42 Street</b><br>Park Avenue → Lexington Avenue<br><br>AM: 7,285<br>MD: 6,138<br>PM: 16,297<br><b>MD/PM Activity: 11,218</b></div>`)[0];
+                popup_10b9da9aa37aab4ee40032a85fb18437.setContent(html_43a98f64d10e54fc0e4333d5d2f4f05f);
+            
+        
+
+        circle_marker_d3b5ce65b37b2cc33d71791c9f98514b.bindPopup(popup_10b9da9aa37aab4ee40032a85fb18437)
+        ;
+
+        
+    
+    
+            circle_marker_d3b5ce65b37b2cc33d71791c9f98514b.bindTooltip(
+                `<div>
+                     East 42 Street — 11,218
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_66e4e34b4ec798ca6f309fbbdf1cdecc = L.circleMarker(
+                [40.73143601770708, -73.99441204702927],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.999291999595428, "stroke": true, "weight": 2}
+            ).addTo(feature_group_7a0cf6ebc1f44ae3659d4d77366c3828);
+        
+    
+        var popup_91107873343f77395a4516c918ffabd4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ecb2d18ac7be216d15bb9662de8e049a = $(`<div id="html_ecb2d18ac7be216d15bb9662de8e049a" style="width: 100.0%; height: 100.0%;"><b>East 8th Street</b><br>University Place → Greene Street<br><br>AM: 1,177<br>MD: 2,617<br>PM: 5,621<br><b>MD/PM Activity: 4,119</b></div>`)[0];
+                popup_91107873343f77395a4516c918ffabd4.setContent(html_ecb2d18ac7be216d15bb9662de8e049a);
+            
+        
+
+        circle_marker_66e4e34b4ec798ca6f309fbbdf1cdecc.bindPopup(popup_91107873343f77395a4516c918ffabd4)
+        ;
+
+        
+    
+    
+            circle_marker_66e4e34b4ec798ca6f309fbbdf1cdecc.bindTooltip(
+                `<div>
+                     East 8th Street — 4,119
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d269d615647d473ea5ac1fbaba7a1b2e = L.circleMarker(
+                [40.7588482835213, -73.98861503057542],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 22.94659654091231, "stroke": true, "weight": 2}
+            ).addTo(feature_group_7a0cf6ebc1f44ae3659d4d77366c3828);
+        
+    
+        var popup_d8d426d16bd8bbaa8a91ad2effcce407 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_077a91beeec128abbc2e9ae75a342f26 = $(`<div id="html_077a91beeec128abbc2e9ae75a342f26" style="width: 100.0%; height: 100.0%;"><b>Eighth Avenue</b><br>West 44th Street → West 45th Street<br><br>AM: 5,915<br>MD: 11,075<br>PM: 18,498<br><b>MD/PM Activity: 14,786</b></div>`)[0];
+                popup_d8d426d16bd8bbaa8a91ad2effcce407.setContent(html_077a91beeec128abbc2e9ae75a342f26);
+            
+        
+
+        circle_marker_d269d615647d473ea5ac1fbaba7a1b2e.bindPopup(popup_d8d426d16bd8bbaa8a91ad2effcce407)
+        ;
+
+        
+    
+    
+            circle_marker_d269d615647d473ea5ac1fbaba7a1b2e.bindTooltip(
+                `<div>
+                     Eighth Avenue — 14,786
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4b36ef291ee0c6af9404334e130408a5 = L.circleMarker(
+                [40.761353610911776, -73.97514418621735],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.769798725599273, "stroke": true, "weight": 2}
+            ).addTo(feature_group_7a0cf6ebc1f44ae3659d4d77366c3828);
+        
+    
+        var popup_3e1534c789173b0b5c73a3eff0085f4b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5f06adcf0d6525a37d2b34587d4bd7cb = $(`<div id="html_5f06adcf0d6525a37d2b34587d4bd7cb" style="width: 100.0%; height: 100.0%;"><b>Fifth Avenue</b><br>East 54th Street → East 55th Street<br><br>AM: 4,182<br>MD: 10,980<br>PM: 15,006<br><b>MD/PM Activity: 12,993</b></div>`)[0];
+                popup_3e1534c789173b0b5c73a3eff0085f4b.setContent(html_5f06adcf0d6525a37d2b34587d4bd7cb);
+            
+        
+
+        circle_marker_4b36ef291ee0c6af9404334e130408a5.bindPopup(popup_3e1534c789173b0b5c73a3eff0085f4b)
+        ;
+
+        
+    
+    
+            circle_marker_4b36ef291ee0c6af9404334e130408a5.bindTooltip(
+                `<div>
+                     Fifth Avenue — 12,993
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4ce9677193da207cd56a24d4961f11b2 = L.circleMarker(
+                [40.71493552371378, -73.99451531515767],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.67573581470618, "stroke": true, "weight": 2}
+            ).addTo(feature_group_7a0cf6ebc1f44ae3659d4d77366c3828);
+        
+    
+        var popup_7d0d65625391eabf14f92a25957c8208 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ed6c5c8fcbcffb3d65aac9eab0a7ea3d = $(`<div id="html_ed6c5c8fcbcffb3d65aac9eab0a7ea3d" style="width: 100.0%; height: 100.0%;"><b>Forsyth Street</b><br>Canal Street → Division Street<br><br>AM: 1,087<br>MD: 2,961<br>PM: 3,096<br><b>MD/PM Activity: 3,028</b></div>`)[0];
+                popup_7d0d65625391eabf14f92a25957c8208.setContent(html_ed6c5c8fcbcffb3d65aac9eab0a7ea3d);
+            
+        
+
+        circle_marker_4ce9677193da207cd56a24d4961f11b2.bindPopup(popup_7d0d65625391eabf14f92a25957c8208)
+        ;
+
+        
+    
+    
+            circle_marker_4ce9677193da207cd56a24d4961f11b2.bindTooltip(
+                `<div>
+                     Forsyth Street — 3,028
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4bd98b93fc87fd92afbd897191f5d902 = L.circleMarker(
+                [40.71055376746076, -74.0084036486757],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.456457975118843, "stroke": true, "weight": 2}
+            ).addTo(feature_group_7a0cf6ebc1f44ae3659d4d77366c3828);
+        
+    
+        var popup_2db1c71a81790cedec59ad0c7dbebfc2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3f683cc9bb077dc6e939112d7e65637b = $(`<div id="html_3f683cc9bb077dc6e939112d7e65637b" style="width: 100.0%; height: 100.0%;"><b>Fulton Street</b><br>Broadway → Nassau Street<br><br>AM: 3,728<br>MD: 3,910<br>PM: 8,377<br><b>MD/PM Activity: 6,144</b></div>`)[0];
+                popup_2db1c71a81790cedec59ad0c7dbebfc2.setContent(html_3f683cc9bb077dc6e939112d7e65637b);
+            
+        
+
+        circle_marker_4bd98b93fc87fd92afbd897191f5d902.bindPopup(popup_2db1c71a81790cedec59ad0c7dbebfc2)
+        ;
+
+        
+    
+    
+            circle_marker_4bd98b93fc87fd92afbd897191f5d902.bindTooltip(
+                `<div>
+                     Fulton Street — 6,144
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_138db63f5eb849e203c7a8efe28adc87 = L.circleMarker(
+                [40.70806272095774, -74.00451806937401],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.442297967027411, "stroke": true, "weight": 2}
+            ).addTo(feature_group_7a0cf6ebc1f44ae3659d4d77366c3828);
+        
+    
+        var popup_2e8ec6a5df03aca5a174630f899c1c99 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ba98d52fd288ab976a170ba25398d817 = $(`<div id="html_ba98d52fd288ab976a170ba25398d817" style="width: 100.0%; height: 100.0%;"><b>Fulton Street</b><br>Cliff Street → Pearl Street<br><br>AM: 1,908<br>MD: 2,959<br>PM: 6,009<br><b>MD/PM Activity: 4,484</b></div>`)[0];
+                popup_2e8ec6a5df03aca5a174630f899c1c99.setContent(html_ba98d52fd288ab976a170ba25398d817);
+            
+        
+
+        circle_marker_138db63f5eb849e203c7a8efe28adc87.bindPopup(popup_2e8ec6a5df03aca5a174630f899c1c99)
+        ;
+
+        
+    
+    
+            circle_marker_138db63f5eb849e203c7a8efe28adc87.bindTooltip(
+                `<div>
+                     Fulton Street — 4,484
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7903efcdfc841b704ce48e341b32c8ba = L.circleMarker(
+                [40.761264607952285, -73.96888735867235],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.43208253261859, "stroke": true, "weight": 2}
+            ).addTo(feature_group_7a0cf6ebc1f44ae3659d4d77366c3828);
+        
+    
+        var popup_9cf7bda7334a52ce7b094b37867d8cf2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f3f0376556ed6f7e28d4a512c488504c = $(`<div id="html_f3f0376556ed6f7e28d4a512c488504c" style="width: 100.0%; height: 100.0%;"><b>Lexington Avenue</b><br>East 57th Street → East 58th Street<br><br>AM: 3,686<br>MD: 2,688<br>PM: 7,911<br><b>MD/PM Activity: 5,300</b></div>`)[0];
+                popup_9cf7bda7334a52ce7b094b37867d8cf2.setContent(html_f3f0376556ed6f7e28d4a512c488504c);
+            
+        
+
+        circle_marker_7903efcdfc841b704ce48e341b32c8ba.bindPopup(popup_9cf7bda7334a52ce7b094b37867d8cf2)
+        ;
+
+        
+    
+    
+            circle_marker_7903efcdfc841b704ce48e341b32c8ba.bindTooltip(
+                `<div>
+                     Lexington Avenue — 5,300
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6b21d705dcdd3a598d0c7f4c1fa284f2 = L.circleMarker(
+                [40.77144062263456, -73.96568512678532],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.869930211388692, "stroke": true, "weight": 2}
+            ).addTo(feature_group_7a0cf6ebc1f44ae3659d4d77366c3828);
+        
+    
+        var popup_fa892eb22042d76b5ec003bb991869b7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4a3b2ae3e54ef953135f3b24827ece2c = $(`<div id="html_4a3b2ae3e54ef953135f3b24827ece2c" style="width: 100.0%; height: 100.0%;"><b>Madison Avenue</b><br>East 71st Street → East 72 Street<br><br>AM: 940<br>MD: 3,223<br>PM: 3,154<br><b>MD/PM Activity: 3,188</b></div>`)[0];
+                popup_fa892eb22042d76b5ec003bb991869b7.setContent(html_4a3b2ae3e54ef953135f3b24827ece2c);
+            
+        
+
+        circle_marker_6b21d705dcdd3a598d0c7f4c1fa284f2.bindPopup(popup_fa892eb22042d76b5ec003bb991869b7)
+        ;
+
+        
+    
+    
+            circle_marker_6b21d705dcdd3a598d0c7f4c1fa284f2.bindTooltip(
+                `<div>
+                     Madison Avenue — 3,188
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_08f21e00270e3ad90a6913be9cacca35 = L.circleMarker(
+                [40.749996387066574, -73.99134284997088],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 21.496813998179427, "stroke": true, "weight": 2}
+            ).addTo(feature_group_7a0cf6ebc1f44ae3659d4d77366c3828);
+        
+    
+        var popup_207caefc3fd5a2909d177f9b2de71c61 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d88fcccb71e0400d9742a3791be54432 = $(`<div id="html_d88fcccb71e0400d9742a3791be54432" style="width: 100.0%; height: 100.0%;"><b>Seventh Avenue</b><br>West 32 Street → West 33rd Street<br><br>AM: 7,281<br>MD: 8,617<br>PM: 18,567<br><b>MD/PM Activity: 13,592</b></div>`)[0];
+                popup_207caefc3fd5a2909d177f9b2de71c61.setContent(html_d88fcccb71e0400d9742a3791be54432);
+            
+        
+
+        circle_marker_08f21e00270e3ad90a6913be9cacca35.bindPopup(popup_207caefc3fd5a2909d177f9b2de71c61)
+        ;
+
+        
+    
+    
+            circle_marker_08f21e00270e3ad90a6913be9cacca35.bindTooltip(
+                `<div>
+                     Seventh Avenue — 13,592
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bd9d83b13e247bce4f1bba243f3eec61 = L.circleMarker(
+                [40.708351612740366, -74.01257537541983],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.63922322241327, "stroke": true, "weight": 2}
+            ).addTo(feature_group_7a0cf6ebc1f44ae3659d4d77366c3828);
+        
+    
+        var popup_d48b58e7c537b6e9d87eec3f743ed19f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_310fbf0e9c0cd0f2fafcc4687d1a9f95 = $(`<div id="html_310fbf0e9c0cd0f2fafcc4687d1a9f95" style="width: 100.0%; height: 100.0%;"><b>Trinity Place</b><br>Rector Street → Thames Street<br><br>AM: 1,355<br>MD: 1,776<br>PM: 2,573<br><b>MD/PM Activity: 2,174</b></div>`)[0];
+                popup_d48b58e7c537b6e9d87eec3f743ed19f.setContent(html_310fbf0e9c0cd0f2fafcc4687d1a9f95);
+            
+        
+
+        circle_marker_bd9d83b13e247bce4f1bba243f3eec61.bindPopup(popup_d48b58e7c537b6e9d87eec3f743ed19f)
+        ;
+
+        
+    
+    
+            circle_marker_bd9d83b13e247bce4f1bba243f3eec61.bindTooltip(
+                `<div>
+                     Trinity Place — 2,174
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_245227c85717f49c038ca7d9d4b13c9e = L.circleMarker(
+                [40.70733537559069, -74.01098647762808],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.062708607262062, "stroke": true, "weight": 2}
+            ).addTo(feature_group_7a0cf6ebc1f44ae3659d4d77366c3828);
+        
+    
+        var popup_e12c469c379ec61abcc02ddd30a0cafb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2dc1f30eecd061c235c468e92ae9488a = $(`<div id="html_2dc1f30eecd061c235c468e92ae9488a" style="width: 100.0%; height: 100.0%;"><b>Wall Street</b><br>New Street → Nassau Street<br><br>AM: 4,057<br>MD: 4,818<br>PM: 8,468<br><b>MD/PM Activity: 6,643</b></div>`)[0];
+                popup_e12c469c379ec61abcc02ddd30a0cafb.setContent(html_2dc1f30eecd061c235c468e92ae9488a);
+            
+        
+
+        circle_marker_245227c85717f49c038ca7d9d4b13c9e.bindPopup(popup_e12c469c379ec61abcc02ddd30a0cafb)
+        ;
+
+        
+    
+    
+            circle_marker_245227c85717f49c038ca7d9d4b13c9e.bindTooltip(
+                `<div>
+                     Wall Street — 6,643
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_323694dd6134dbe1d67b1fec36093010 = L.circleMarker(
+                [40.80842973710492, -73.94703781905247],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.72418327096187, "stroke": true, "weight": 2}
+            ).addTo(feature_group_7a0cf6ebc1f44ae3659d4d77366c3828);
+        
+    
+        var popup_f87a9c7abe52d6c144efeb2c242354a5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0a1e98acd3197a8b7f4ad80d7332e5f4 = $(`<div id="html_0a1e98acd3197a8b7f4ad80d7332e5f4" style="width: 100.0%; height: 100.0%;"><b>West 125th Street</b><br>Adam C. Powell Boulevard → Lenox Avenue<br><br>AM: 1,942<br>MD: 4,632<br>PM: 9,744<br><b>MD/PM Activity: 7,188</b></div>`)[0];
+                popup_f87a9c7abe52d6c144efeb2c242354a5.setContent(html_0a1e98acd3197a8b7f4ad80d7332e5f4);
+            
+        
+
+        circle_marker_323694dd6134dbe1d67b1fec36093010.bindPopup(popup_f87a9c7abe52d6c144efeb2c242354a5)
+        ;
+
+        
+    
+    
+            circle_marker_323694dd6134dbe1d67b1fec36093010.bindTooltip(
+                `<div>
+                     West 125th Street — 7,188
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e241570491e766e8c280f7b7e2533427 = L.circleMarker(
+                [40.740305392828965, -74.00384095197924],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.37766764438151, "stroke": true, "weight": 2}
+            ).addTo(feature_group_7a0cf6ebc1f44ae3659d4d77366c3828);
+        
+    
+        var popup_a5edbb26da5f75e6a8a7d06850e1fd9a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a1fe32dda1803ade54e3b2fdd3387904 = $(`<div id="html_a1fe32dda1803ade54e3b2fdd3387904" style="width: 100.0%; height: 100.0%;"><b>West 14th Street</b><br>Hudson Street → Eighth Avenue<br><br>AM: 2,648<br>MD: 5,374<br>PM: 8,431<br><b>MD/PM Activity: 6,902</b></div>`)[0];
+                popup_a5edbb26da5f75e6a8a7d06850e1fd9a.setContent(html_a1fe32dda1803ade54e3b2fdd3387904);
+            
+        
+
+        circle_marker_e241570491e766e8c280f7b7e2533427.bindPopup(popup_a5edbb26da5f75e6a8a7d06850e1fd9a)
+        ;
+
+        
+    
+    
+            circle_marker_e241570491e766e8c280f7b7e2533427.bindTooltip(
+                `<div>
+                     West 14th Street — 6,902
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_aa8da4faf82d3c36df05c27ad310056e = L.circleMarker(
+                [40.84958094443508, -73.93434784508338],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.524223728127843, "stroke": true, "weight": 2}
+            ).addTo(feature_group_7a0cf6ebc1f44ae3659d4d77366c3828);
+        
+    
+        var popup_0fe448f910bab8570f1c70f89f99a611 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_674c09211368264cf76df5c34a1c7ba6 = $(`<div id="html_674c09211368264cf76df5c34a1c7ba6" style="width: 100.0%; height: 100.0%;"><b>West 181st Street</b><br>St. Nicholas Avenue → Wadsworth Avenue<br><br>AM: 1,202<br>MD: 3,567<br>PM: 5,536<br><b>MD/PM Activity: 4,552</b></div>`)[0];
+                popup_0fe448f910bab8570f1c70f89f99a611.setContent(html_674c09211368264cf76df5c34a1c7ba6);
+            
+        
+
+        circle_marker_aa8da4faf82d3c36df05c27ad310056e.bindPopup(popup_0fe448f910bab8570f1c70f89f99a611)
+        ;
+
+        
+    
+    
+            circle_marker_aa8da4faf82d3c36df05c27ad310056e.bindTooltip(
+                `<div>
+                     West 181st Street — 4,552
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4a7d0ff953a9a9cd61e0367b243918bd = L.circleMarker(
+                [40.75045405486473, -73.98934552114228],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 23.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_7a0cf6ebc1f44ae3659d4d77366c3828);
+        
+    
+        var popup_77d9204695389d8c94a2b07878f3d6d2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2415049d1e916331f0c887abeded2c23 = $(`<div id="html_2415049d1e916331f0c887abeded2c23" style="width: 100.0%; height: 100.0%;"><b>West 34th Street</b><br>Broadway → Seventh Avenue<br><br>AM: 7,448<br>MD: 9,658<br>PM: 20,003<br><b>MD/PM Activity: 14,830</b></div>`)[0];
+                popup_77d9204695389d8c94a2b07878f3d6d2.setContent(html_2415049d1e916331f0c887abeded2c23);
+            
+        
+
+        circle_marker_4a7d0ff953a9a9cd61e0367b243918bd.bindPopup(popup_77d9204695389d8c94a2b07878f3d6d2)
+        ;
+
+        
+    
+    
+            circle_marker_4a7d0ff953a9a9cd61e0367b243918bd.bindTooltip(
+                `<div>
+                     West 34th Street — 14,830
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fca05911afef7905e7abebfcc7660f1c = L.circleMarker(
+                [40.752843606340384, -73.98335689692979],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.54576716900981, "stroke": true, "weight": 2}
+            ).addTo(feature_group_7a0cf6ebc1f44ae3659d4d77366c3828);
+        
+    
+        var popup_380785ef1572bb13032360e5e9e02a05 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9f8250f56f95ec735ef63c0d1265ba14 = $(`<div id="html_9f8250f56f95ec735ef63c0d1265ba14" style="width: 100.0%; height: 100.0%;"><b>West 40th Street</b><br>Avenue of the Americas → Fifth Avenue<br><br>AM: 4,189<br>MD: 3,334<br>PM: 10,748<br><b>MD/PM Activity: 7,041</b></div>`)[0];
+                popup_380785ef1572bb13032360e5e9e02a05.setContent(html_9f8250f56f95ec735ef63c0d1265ba14);
+            
+        
+
+        circle_marker_fca05911afef7905e7abebfcc7660f1c.bindPopup(popup_380785ef1572bb13032360e5e9e02a05)
+        ;
+
+        
+    
+    
+            circle_marker_fca05911afef7905e7abebfcc7660f1c.bindTooltip(
+                `<div>
+                     West 40th Street — 7,041
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c5ba1e324f68b9cebaf02464c6df5bdc = L.circleMarker(
+                [40.757338486389926, -73.98017962622333],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.272377869930212, "stroke": true, "weight": 2}
+            ).addTo(feature_group_7a0cf6ebc1f44ae3659d4d77366c3828);
+        
+    
+        var popup_895ce394d25d96eac04ecf6e834b46b7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c030e59b8c5838d1344dd6a7d110aaa = $(`<div id="html_1c030e59b8c5838d1344dd6a7d110aaa" style="width: 100.0%; height: 100.0%;"><b>West 47th Street</b><br>Avenue of the Americas → Fifth Avenue<br><br>AM: 2,002<br>MD: 2,634<br>PM: 6,054<br><b>MD/PM Activity: 4,344</b></div>`)[0];
+                popup_895ce394d25d96eac04ecf6e834b46b7.setContent(html_1c030e59b8c5838d1344dd6a7d110aaa);
+            
+        
+
+        circle_marker_c5ba1e324f68b9cebaf02464c6df5bdc.bindPopup(popup_895ce394d25d96eac04ecf6e834b46b7)
+        ;
+
+        
+    
+    
+            circle_marker_c5ba1e324f68b9cebaf02464c6df5bdc.bindTooltip(
+                `<div>
+                     West 47th Street — 4,344
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b0ea0f658f185aed29d256a3d39563da = L.circleMarker(
+                [40.755190220332366, -73.96829307507049],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.728026701729544, "stroke": true, "weight": 2}
+            ).addTo(feature_group_7a0cf6ebc1f44ae3659d4d77366c3828);
+        
+    
+        var popup_86d31dc060306d1417cc36b0c6c33cf6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7f7a602a889e0a2c6d847a7722588702 = $(`<div id="html_7f7a602a889e0a2c6d847a7722588702" style="width: 100.0%; height: 100.0%;"><b>Seco Avenue</b><br>50th Street → 51st Street<br><br>AM: 2,106<br>MD: 2,546<br>PM: 5,245<br><b>MD/PM Activity: 3,896</b></div>`)[0];
+                popup_86d31dc060306d1417cc36b0c6c33cf6.setContent(html_7f7a602a889e0a2c6d847a7722588702);
+            
+        
+
+        circle_marker_b0ea0f658f185aed29d256a3d39563da.bindPopup(popup_86d31dc060306d1417cc36b0c6c33cf6)
+        ;
+
+        
+    
+    
+            circle_marker_b0ea0f658f185aed29d256a3d39563da.bindTooltip(
+                `<div>
+                     Seco Avenue — 3,896
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_40b95b4d189c0a208a488cd3d81f770d = L.circleMarker(
+                [40.75613758564416, -73.97053303866996],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.253059573176898, "stroke": true, "weight": 2}
+            ).addTo(feature_group_7a0cf6ebc1f44ae3659d4d77366c3828);
+        
+    
+        var popup_603e7347e8f5e782d17bf2253690988b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fd023b7befbbe36716aeee41557b1ddc = $(`<div id="html_fd023b7befbbe36716aeee41557b1ddc" style="width: 100.0%; height: 100.0%;"><b>Third Avenue</b><br>50th Street → 51st Street<br><br>AM: 3,734<br>MD: 2,546<br>PM: 7,758<br><b>MD/PM Activity: 5,152</b></div>`)[0];
+                popup_603e7347e8f5e782d17bf2253690988b.setContent(html_fd023b7befbbe36716aeee41557b1ddc);
+            
+        
+
+        circle_marker_40b95b4d189c0a208a488cd3d81f770d.bindPopup(popup_603e7347e8f5e782d17bf2253690988b)
+        ;
+
+        
+    
+    
+            circle_marker_40b95b4d189c0a208a488cd3d81f770d.bindTooltip(
+                `<div>
+                     Third Avenue — 5,152
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a40c8e52b56072591df64115f37d645b = L.circleMarker(
+                [40.756810835163854, -73.97213382742112],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.109234348133914, "stroke": true, "weight": 2}
+            ).addTo(feature_group_7a0cf6ebc1f44ae3659d4d77366c3828);
+        
+    
+        var popup_24b5bb4bfcd0f984f783273a9d7c2834 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_13ce5605508826fc85620ac7529f3834 = $(`<div id="html_13ce5605508826fc85620ac7529f3834" style="width: 100.0%; height: 100.0%;"><b>Lexington Avenue</b><br>50th Street → 51st Street<br><br>AM: 4,250<br>MD: 2,343<br>PM: 7,724<br><b>MD/PM Activity: 5,034</b></div>`)[0];
+                popup_24b5bb4bfcd0f984f783273a9d7c2834.setContent(html_13ce5605508826fc85620ac7529f3834);
+            
+        
+
+        circle_marker_a40c8e52b56072591df64115f37d645b.bindPopup(popup_24b5bb4bfcd0f984f783273a9d7c2834)
+        ;
+
+        
+    
+    
+            circle_marker_a40c8e52b56072591df64115f37d645b.bindTooltip(
+                `<div>
+                     Lexington Avenue — 5,034
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5e2a498fb292466e3ea38cbf22bdf31f = L.circleMarker(
+                [40.75753624831215, -73.97385284104773],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.10023262870436, "stroke": true, "weight": 2}
+            ).addTo(feature_group_7a0cf6ebc1f44ae3659d4d77366c3828);
+        
+    
+        var popup_130f74a7fdd2a64b586735a9a16d7f98 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_21b18cda66160725a2e5e6cf46fae61f = $(`<div id="html_21b18cda66160725a2e5e6cf46fae61f" style="width: 100.0%; height: 100.0%;"><b>Park Avenue</b><br>50th Street → 51st Street<br><br>AM: 5,407<br>MD: 1,393<br>PM: 10,307<br><b>MD/PM Activity: 5,850</b></div>`)[0];
+                popup_130f74a7fdd2a64b586735a9a16d7f98.setContent(html_21b18cda66160725a2e5e6cf46fae61f);
+            
+        
+
+        circle_marker_5e2a498fb292466e3ea38cbf22bdf31f.bindPopup(popup_130f74a7fdd2a64b586735a9a16d7f98)
+        ;
+
+        
+    
+    
+            circle_marker_5e2a498fb292466e3ea38cbf22bdf31f.bindTooltip(
+                `<div>
+                     Park Avenue — 5,850
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8e06fd3e093e133dee7a335d7d6b314e = L.circleMarker(
+                [40.75817343083521, -73.97536263666144],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.066855466774552, "stroke": true, "weight": 2}
+            ).addTo(feature_group_7a0cf6ebc1f44ae3659d4d77366c3828);
+        
+    
+        var popup_08f0539787bcda0e38c8c27572b785a3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_37d825f502f48a6a1163fec89f274d5b = $(`<div id="html_37d825f502f48a6a1163fec89f274d5b" style="width: 100.0%; height: 100.0%;"><b>Madison Avenue</b><br>50th Street → 51st Street<br><br>AM: 4,968<br>MD: 2,015<br>PM: 9,630<br><b>MD/PM Activity: 5,822</b></div>`)[0];
+                popup_08f0539787bcda0e38c8c27572b785a3.setContent(html_37d825f502f48a6a1163fec89f274d5b);
+            
+        
+
+        circle_marker_8e06fd3e093e133dee7a335d7d6b314e.bindPopup(popup_08f0539787bcda0e38c8c27572b785a3)
+        ;
+
+        
+    
+    
+            circle_marker_8e06fd3e093e133dee7a335d7d6b314e.bindTooltip(
+                `<div>
+                     Madison Avenue — 5,822
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_86d2d5705b0528aa5abe3edbc20d5f58 = L.circleMarker(
+                [40.75885135958746, -73.97697246269053],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 19.49843228481845, "stroke": true, "weight": 2}
+            ).addTo(feature_group_7a0cf6ebc1f44ae3659d4d77366c3828);
+        
+    
+        var popup_c039beda4c48107f01d78e2356c473ec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e0a3da0d71c94f0d22eac12bc9537519 = $(`<div id="html_e0a3da0d71c94f0d22eac12bc9537519" style="width: 100.0%; height: 100.0%;"><b>Fifth Avenue</b><br>50th Street → 51st Street<br><br>AM: 3,940<br>MD: 10,999<br>PM: 12,892<br><b>MD/PM Activity: 11,946</b></div>`)[0];
+                popup_c039beda4c48107f01d78e2356c473ec.setContent(html_e0a3da0d71c94f0d22eac12bc9537519);
+            
+        
+
+        circle_marker_86d2d5705b0528aa5abe3edbc20d5f58.bindPopup(popup_c039beda4c48107f01d78e2356c473ec)
+        ;
+
+        
+    
+    
+            circle_marker_86d2d5705b0528aa5abe3edbc20d5f58.bindTooltip(
+                `<div>
+                     Fifth Avenue — 11,946
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_60eebae97cd0a07ed20c06384f2935ce = L.circleMarker(
+                [40.76021178450935, -73.98019868261785],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.827247901284515, "stroke": true, "weight": 2}
+            ).addTo(feature_group_7a0cf6ebc1f44ae3659d4d77366c3828);
+        
+    
+        var popup_8287013d5f5e22e66f2dbad7801887fd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_72e0bdb30d23a7c49f184afacd9c25db = $(`<div id="html_72e0bdb30d23a7c49f184afacd9c25db" style="width: 100.0%; height: 100.0%;"><b>Sixth Avenue</b><br>50th Street → 51st Street<br><br>AM: 5,540<br>MD: 6,607<br>PM: 16,178<br><b>MD/PM Activity: 11,392</b></div>`)[0];
+                popup_8287013d5f5e22e66f2dbad7801887fd.setContent(html_72e0bdb30d23a7c49f184afacd9c25db);
+            
+        
+
+        circle_marker_60eebae97cd0a07ed20c06384f2935ce.bindPopup(popup_8287013d5f5e22e66f2dbad7801887fd)
+        ;
+
+        
+    
+    
+            circle_marker_60eebae97cd0a07ed20c06384f2935ce.bindTooltip(
+                `<div>
+                     Sixth Avenue — 11,392
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3c342bd1d3c0013cf5b4bdda90290f87 = L.circleMarker(
+                [40.76140611887666, -73.98303507483828],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.476686558106605, "stroke": true, "weight": 2}
+            ).addTo(feature_group_7a0cf6ebc1f44ae3659d4d77366c3828);
+        
+    
+        var popup_b6313ba6325e17b01a153028d8842578 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cffd0719c8617b7391a590ed4b6899dd = $(`<div id="html_cffd0719c8617b7391a590ed4b6899dd" style="width: 100.0%; height: 100.0%;"><b>Seventh Avenue</b><br>50th Street → 51st Street<br><br>AM: 3,756<br>MD: 5,651<br>PM: 9,965<br><b>MD/PM Activity: 7,808</b></div>`)[0];
+                popup_b6313ba6325e17b01a153028d8842578.setContent(html_cffd0719c8617b7391a590ed4b6899dd);
+            
+        
+
+        circle_marker_3c342bd1d3c0013cf5b4bdda90290f87.bindPopup(popup_b6313ba6325e17b01a153028d8842578)
+        ;
+
+        
+    
+    
+            circle_marker_3c342bd1d3c0013cf5b4bdda90290f87.bindTooltip(
+                `<div>
+                     Seventh Avenue — 7,808
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9bb47b06f1341fcaf4e62fa46230e4fa = L.circleMarker(
+                [40.76174395517826, -73.98383919698608],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.533832305047031, "stroke": true, "weight": 2}
+            ).addTo(feature_group_7a0cf6ebc1f44ae3659d4d77366c3828);
+        
+    
+        var popup_80a423f3aa9d93185ba4ac18cb6dc720 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8469eed761e70c70599cc6c47ca0a7e3 = $(`<div id="html_8469eed761e70c70599cc6c47ca0a7e3" style="width: 100.0%; height: 100.0%;"><b>Broadway</b><br>50th Street → 51st Street<br><br>AM: 2,675<br>MD: 5,859<br>PM: 11,499<br><b>MD/PM Activity: 8,679</b></div>`)[0];
+                popup_80a423f3aa9d93185ba4ac18cb6dc720.setContent(html_8469eed761e70c70599cc6c47ca0a7e3);
+            
+        
+
+        circle_marker_9bb47b06f1341fcaf4e62fa46230e4fa.bindPopup(popup_80a423f3aa9d93185ba4ac18cb6dc720)
+        ;
+
+        
+    
+    
+            circle_marker_9bb47b06f1341fcaf4e62fa46230e4fa.bindTooltip(
+                `<div>
+                     Broadway — 8,679
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e1084714b0d68da20060fbebb360bc14 = L.circleMarker(
+                [40.76257065006476, -73.98589867014988],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.37422878527359, "stroke": true, "weight": 2}
+            ).addTo(feature_group_7a0cf6ebc1f44ae3659d4d77366c3828);
+        
+    
+        var popup_9117f9ab23a84c449eebf9195c5868e0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7e57fd55ecc61b1130feb3cbda4c6e5b = $(`<div id="html_7e57fd55ecc61b1130feb3cbda4c6e5b" style="width: 100.0%; height: 100.0%;"><b>Eighth Avenue</b><br>50th Street → 51st Street<br><br>AM: 3,573<br>MD: 6,271<br>PM: 10,824<br><b>MD/PM Activity: 8,548</b></div>`)[0];
+                popup_9117f9ab23a84c449eebf9195c5868e0.setContent(html_7e57fd55ecc61b1130feb3cbda4c6e5b);
+            
+        
+
+        circle_marker_e1084714b0d68da20060fbebb360bc14.bindPopup(popup_9117f9ab23a84c449eebf9195c5868e0)
+        ;
+
+        
+    
+    
+            circle_marker_e1084714b0d68da20060fbebb360bc14.bindTooltip(
+                `<div>
+                     Eighth Avenue — 8,548
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_efb536ff67bd9a24d0b7dd098c3cf6bc = L.circleMarker(
+                [40.7673124325193, -73.99694382805035],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.394558511176292, "stroke": true, "weight": 2}
+            ).addTo(feature_group_7a0cf6ebc1f44ae3659d4d77366c3828);
+        
+    
+        var popup_6966cdb6ca9d7b8abb55057bcbc54559 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_72003fe3ace4f37894dbc0cee05dcd67 = $(`<div id="html_72003fe3ace4f37894dbc0cee05dcd67" style="width: 100.0%; height: 100.0%;"><b>Hudson River Greenway</b><br>50th Street → 51st Street<br><br>AM: 657<br>MD: 957<br>PM: 1,341<br><b>MD/PM Activity: 1,149</b></div>`)[0];
+                popup_6966cdb6ca9d7b8abb55057bcbc54559.setContent(html_72003fe3ace4f37894dbc0cee05dcd67);
+            
+        
+
+        circle_marker_efb536ff67bd9a24d0b7dd098c3cf6bc.bindPopup(popup_6966cdb6ca9d7b8abb55057bcbc54559)
+        ;
+
+        
+    
+    
+            circle_marker_efb536ff67bd9a24d0b7dd098c3cf6bc.bindTooltip(
+                `<div>
+                     Hudson River Greenway — 1,149
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_7a0cf6ebc1f44ae3659d4d77366c3828.addTo(map_7313b8e7e875f46b85745d88c5cec036);
+        
+    
+            var feature_group_ddfc136b5294927e2554f61635ed554c = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_7f2785bbc1847a2d498e0fdf8ab28bc2 = L.marker(
+                [40.7414352, -73.9785461],
+                {
+}
+            ).addTo(feature_group_ddfc136b5294927e2554f61635ed554c);
+        
+    
+            var icon_16f34fa41306bb4b90fcf5de9802de24 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bd8ae8ff7869f4cdc478c4b949fe068f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9de07824166e82deacedff18b61713f1 = $(`<div id="html_9de07824166e82deacedff18b61713f1" style="width: 100.0%; height: 100.0%;"><b>Sahara's</b><br>Cuisine: turkish</div>`)[0];
+                popup_bd8ae8ff7869f4cdc478c4b949fe068f.setContent(html_9de07824166e82deacedff18b61713f1);
+            
+        
+
+        marker_7f2785bbc1847a2d498e0fdf8ab28bc2.bindPopup(popup_bd8ae8ff7869f4cdc478c4b949fe068f)
+        ;
+
+        
+    
+    
+            marker_7f2785bbc1847a2d498e0fdf8ab28bc2.bindTooltip(
+                `<div>
+                     Sahara's
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7f2785bbc1847a2d498e0fdf8ab28bc2.setIcon(icon_16f34fa41306bb4b90fcf5de9802de24);
+            
+    
+            var marker_1a1a3dd9bdc4c185159765aab2b67346 = L.marker(
+                [40.7524053, -73.9700918],
+                {
+}
+            ).addTo(feature_group_ddfc136b5294927e2554f61635ed554c);
+        
+    
+            var icon_6455a6cd6d5d91859e881933485f7b08 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_239bc2fb8d8d249450c1da72d36bbfd5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8a7d3e708a31d177b63e103ae3acb5f9 = $(`<div id="html_8a7d3e708a31d177b63e103ae3acb5f9" style="width: 100.0%; height: 100.0%;"><b>Zara Terrace</b><br>Cuisine: turkish;mediterranean</div>`)[0];
+                popup_239bc2fb8d8d249450c1da72d36bbfd5.setContent(html_8a7d3e708a31d177b63e103ae3acb5f9);
+            
+        
+
+        marker_1a1a3dd9bdc4c185159765aab2b67346.bindPopup(popup_239bc2fb8d8d249450c1da72d36bbfd5)
+        ;
+
+        
+    
+    
+            marker_1a1a3dd9bdc4c185159765aab2b67346.bindTooltip(
+                `<div>
+                     Zara Terrace
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1a1a3dd9bdc4c185159765aab2b67346.setIcon(icon_6455a6cd6d5d91859e881933485f7b08);
+            
+    
+            var marker_0c081ccc2b442b3b777175000b4e538e = L.marker(
+                [40.7700896, -73.9576457],
+                {
+}
+            ).addTo(feature_group_ddfc136b5294927e2554f61635ed554c);
+        
+    
+            var icon_2046934b31cb552530d7c17971758a45 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_32e7038576564a4740f40ff57d2a6004 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c0edfbfa3bc3a7013d9b519797796767 = $(`<div id="html_c0edfbfa3bc3a7013d9b519797796767" style="width: 100.0%; height: 100.0%;"><b>A La Turka Restaurant</b><br>Cuisine: turkish</div>`)[0];
+                popup_32e7038576564a4740f40ff57d2a6004.setContent(html_c0edfbfa3bc3a7013d9b519797796767);
+            
+        
+
+        marker_0c081ccc2b442b3b777175000b4e538e.bindPopup(popup_32e7038576564a4740f40ff57d2a6004)
+        ;
+
+        
+    
+    
+            marker_0c081ccc2b442b3b777175000b4e538e.bindTooltip(
+                `<div>
+                     A La Turka Restaurant
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0c081ccc2b442b3b777175000b4e538e.setIcon(icon_2046934b31cb552530d7c17971758a45);
+            
+    
+            var marker_4f3294f094029bc199f6a8493e159c6f = L.marker(
+                [40.7674386, -73.9839741],
+                {
+}
+            ).addTo(feature_group_ddfc136b5294927e2554f61635ed554c);
+        
+    
+            var icon_8a7c523fc56b4c1b51132fe2d09e3db6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2e0b13e22cf8a635c80f1d4086bdb1fc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_14ee0e4586dbd75d8adba05dd2216d5e = $(`<div id="html_14ee0e4586dbd75d8adba05dd2216d5e" style="width: 100.0%; height: 100.0%;"><b>ABA Turkish Restaurant</b><br>Cuisine: turkish</div>`)[0];
+                popup_2e0b13e22cf8a635c80f1d4086bdb1fc.setContent(html_14ee0e4586dbd75d8adba05dd2216d5e);
+            
+        
+
+        marker_4f3294f094029bc199f6a8493e159c6f.bindPopup(popup_2e0b13e22cf8a635c80f1d4086bdb1fc)
+        ;
+
+        
+    
+    
+            marker_4f3294f094029bc199f6a8493e159c6f.bindTooltip(
+                `<div>
+                     ABA Turkish Restaurant
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4f3294f094029bc199f6a8493e159c6f.setIcon(icon_8a7c523fc56b4c1b51132fe2d09e3db6);
+            
+    
+            var marker_029b40e1c4139b57cb62ad291c107bdc = L.marker(
+                [40.7559182, -73.9804278],
+                {
+}
+            ).addTo(feature_group_ddfc136b5294927e2554f61635ed554c);
+        
+    
+            var icon_60c652127858e12c3f9942bdd68826fb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d65b31960995bf9ac3562f41e1f6dda6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3dd684e8ac3ec5dd7443973145500df3 = $(`<div id="html_3dd684e8ac3ec5dd7443973145500df3" style="width: 100.0%; height: 100.0%;"><b>Antalia</b><br>Cuisine: turkish</div>`)[0];
+                popup_d65b31960995bf9ac3562f41e1f6dda6.setContent(html_3dd684e8ac3ec5dd7443973145500df3);
+            
+        
+
+        marker_029b40e1c4139b57cb62ad291c107bdc.bindPopup(popup_d65b31960995bf9ac3562f41e1f6dda6)
+        ;
+
+        
+    
+    
+            marker_029b40e1c4139b57cb62ad291c107bdc.bindTooltip(
+                `<div>
+                     Antalia
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_029b40e1c4139b57cb62ad291c107bdc.setIcon(icon_60c652127858e12c3f9942bdd68826fb);
+            
+    
+            var marker_7d06f93f54ab7db6ef533f6f0d25bf86 = L.marker(
+                [40.7357449, -74.0073406],
+                {
+}
+            ).addTo(feature_group_ddfc136b5294927e2554f61635ed554c);
+        
+    
+            var icon_c59ed6d9875d117821d15ad27d9a097c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_905e2d05180cdb6128cf84f89eccf7bb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_922f87b785ee6d7e68ba2154ecfe8e1c = $(`<div id="html_922f87b785ee6d7e68ba2154ecfe8e1c" style="width: 100.0%; height: 100.0%;"><b>Turks and Frogs</b><br>Cuisine: turkish</div>`)[0];
+                popup_905e2d05180cdb6128cf84f89eccf7bb.setContent(html_922f87b785ee6d7e68ba2154ecfe8e1c);
+            
+        
+
+        marker_7d06f93f54ab7db6ef533f6f0d25bf86.bindPopup(popup_905e2d05180cdb6128cf84f89eccf7bb)
+        ;
+
+        
+    
+    
+            marker_7d06f93f54ab7db6ef533f6f0d25bf86.bindTooltip(
+                `<div>
+                     Turks and Frogs
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7d06f93f54ab7db6ef533f6f0d25bf86.setIcon(icon_c59ed6d9875d117821d15ad27d9a097c);
+            
+    
+            var marker_d542eefe688a3eaf8d2e9a50f80c98fe = L.marker(
+                [40.7600863, -73.9916414],
+                {
+}
+            ).addTo(feature_group_ddfc136b5294927e2554f61635ed554c);
+        
+    
+            var icon_a86176ad755179368eaecab9775b71ee = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8e6b1adfc80118332b3ae8ea61463ca1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e1ba1563ee330ba0c47307b8182a0266 = $(`<div id="html_e1ba1563ee330ba0c47307b8182a0266" style="width: 100.0%; height: 100.0%;"><b>Turkish Cuisine</b><br>Cuisine: turkish</div>`)[0];
+                popup_8e6b1adfc80118332b3ae8ea61463ca1.setContent(html_e1ba1563ee330ba0c47307b8182a0266);
+            
+        
+
+        marker_d542eefe688a3eaf8d2e9a50f80c98fe.bindPopup(popup_8e6b1adfc80118332b3ae8ea61463ca1)
+        ;
+
+        
+    
+    
+            marker_d542eefe688a3eaf8d2e9a50f80c98fe.bindTooltip(
+                `<div>
+                     Turkish Cuisine
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d542eefe688a3eaf8d2e9a50f80c98fe.setIcon(icon_a86176ad755179368eaecab9775b71ee);
+            
+    
+            var marker_773239a3c22bfedcdbf74e0dbd050dd4 = L.marker(
+                [40.7626427, -73.9897868],
+                {
+}
+            ).addTo(feature_group_ddfc136b5294927e2554f61635ed554c);
+        
+    
+            var icon_ce78cc2efe91ea4c2c0921ffc33c8498 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0eefbb7a044694fb566d3511d9196b72 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f42bf144e824515ddc797e6343e0ead0 = $(`<div id="html_f42bf144e824515ddc797e6343e0ead0" style="width: 100.0%; height: 100.0%;"><b>Gazalas</b><br>Cuisine: turkish</div>`)[0];
+                popup_0eefbb7a044694fb566d3511d9196b72.setContent(html_f42bf144e824515ddc797e6343e0ead0);
+            
+        
+
+        marker_773239a3c22bfedcdbf74e0dbd050dd4.bindPopup(popup_0eefbb7a044694fb566d3511d9196b72)
+        ;
+
+        
+    
+    
+            marker_773239a3c22bfedcdbf74e0dbd050dd4.bindTooltip(
+                `<div>
+                     Gazalas
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_773239a3c22bfedcdbf74e0dbd050dd4.setIcon(icon_ce78cc2efe91ea4c2c0921ffc33c8498);
+            
+    
+            var marker_bb1c85c647aae65984fbb519b5d8657a = L.marker(
+                [40.7225587, -73.988108],
+                {
+}
+            ).addTo(feature_group_ddfc136b5294927e2554f61635ed554c);
+        
+    
+            var icon_af810ab369de64b99473e0331bb17274 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_307ffe08e64b558154f829a71a5fdb91 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c282c977f113a59d0789ba94a7744653 = $(`<div id="html_c282c977f113a59d0789ba94a7744653" style="width: 100.0%; height: 100.0%;"><b>Ankara #3</b><br>Cuisine: turkish</div>`)[0];
+                popup_307ffe08e64b558154f829a71a5fdb91.setContent(html_c282c977f113a59d0789ba94a7744653);
+            
+        
+
+        marker_bb1c85c647aae65984fbb519b5d8657a.bindPopup(popup_307ffe08e64b558154f829a71a5fdb91)
+        ;
+
+        
+    
+    
+            marker_bb1c85c647aae65984fbb519b5d8657a.bindTooltip(
+                `<div>
+                     Ankara #3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_bb1c85c647aae65984fbb519b5d8657a.setIcon(icon_af810ab369de64b99473e0331bb17274);
+            
+    
+            var marker_72ca796e73bfb3e6aff03089583fcccb = L.marker(
+                [40.7466487, -73.9771934],
+                {
+}
+            ).addTo(feature_group_ddfc136b5294927e2554f61635ed554c);
+        
+    
+            var icon_722ac58b4a7db169dc75b5fb32de1a2f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0a378466f7f3b105ee64a0494e755cd7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dfe47324f11ff0afc52e15ee95d19ef6 = $(`<div id="html_dfe47324f11ff0afc52e15ee95d19ef6" style="width: 100.0%; height: 100.0%;"><b>Sophra Grill</b><br>Cuisine: turkish</div>`)[0];
+                popup_0a378466f7f3b105ee64a0494e755cd7.setContent(html_dfe47324f11ff0afc52e15ee95d19ef6);
+            
+        
+
+        marker_72ca796e73bfb3e6aff03089583fcccb.bindPopup(popup_0a378466f7f3b105ee64a0494e755cd7)
+        ;
+
+        
+    
+    
+            marker_72ca796e73bfb3e6aff03089583fcccb.bindTooltip(
+                `<div>
+                     Sophra Grill
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_72ca796e73bfb3e6aff03089583fcccb.setIcon(icon_722ac58b4a7db169dc75b5fb32de1a2f);
+            
+    
+            var marker_3c38ad885c76297636a1107bbf6bb892 = L.marker(
+                [40.7157083, -74.0075514],
+                {
+}
+            ).addTo(feature_group_ddfc136b5294927e2554f61635ed554c);
+        
+    
+            var icon_47f06c7f42344872352b76fa64da88f5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_69a6aa53f7ce247ef6cadaa0a987c3f1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c0d4a286eaad9228eb2a3b026b1a6e2 = $(`<div id="html_1c0d4a286eaad9228eb2a3b026b1a6e2" style="width: 100.0%; height: 100.0%;"><b>Soup & Gyro</b><br>Cuisine: turkish</div>`)[0];
+                popup_69a6aa53f7ce247ef6cadaa0a987c3f1.setContent(html_1c0d4a286eaad9228eb2a3b026b1a6e2);
+            
+        
+
+        marker_3c38ad885c76297636a1107bbf6bb892.bindPopup(popup_69a6aa53f7ce247ef6cadaa0a987c3f1)
+        ;
+
+        
+    
+    
+            marker_3c38ad885c76297636a1107bbf6bb892.bindTooltip(
+                `<div>
+                     Soup & Gyro
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3c38ad885c76297636a1107bbf6bb892.setIcon(icon_47f06c7f42344872352b76fa64da88f5);
+            
+    
+            var marker_e2c45c8b6bc3763fd7b80c1a68d63439 = L.marker(
+                [40.7208393, -73.9950056],
+                {
+}
+            ).addTo(feature_group_ddfc136b5294927e2554f61635ed554c);
+        
+    
+            var icon_be17c3214d3a90261dd4c28e7c8a97f6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a4b335aa421004153b83f8f7580a6c93 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aeb830f471d72a2976ef61c98304dc99 = $(`<div id="html_aeb830f471d72a2976ef61c98304dc99" style="width: 100.0%; height: 100.0%;"><b>Little Rascal</b><br>Cuisine: turkish</div>`)[0];
+                popup_a4b335aa421004153b83f8f7580a6c93.setContent(html_aeb830f471d72a2976ef61c98304dc99);
+            
+        
+
+        marker_e2c45c8b6bc3763fd7b80c1a68d63439.bindPopup(popup_a4b335aa421004153b83f8f7580a6c93)
+        ;
+
+        
+    
+    
+            marker_e2c45c8b6bc3763fd7b80c1a68d63439.bindTooltip(
+                `<div>
+                     Little Rascal
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e2c45c8b6bc3763fd7b80c1a68d63439.setIcon(icon_be17c3214d3a90261dd4c28e7c8a97f6);
+            
+    
+            var marker_5a302496c08fa772853cb0e6214d139e = L.marker(
+                [40.7354601, -73.9980005],
+                {
+}
+            ).addTo(feature_group_ddfc136b5294927e2554f61635ed554c);
+        
+    
+            var icon_3940943b25793e379df224fcf1b40606 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_272737511e01dfdfa9e84898a38d7c87 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0a5886537b1291488b1bb822cf17cfe8 = $(`<div id="html_0a5886537b1291488b1bb822cf17cfe8" style="width: 100.0%; height: 100.0%;"><b>Kubeh</b><br>Cuisine: arab;lebanese;persian;turkish;middle_eastern</div>`)[0];
+                popup_272737511e01dfdfa9e84898a38d7c87.setContent(html_0a5886537b1291488b1bb822cf17cfe8);
+            
+        
+
+        marker_5a302496c08fa772853cb0e6214d139e.bindPopup(popup_272737511e01dfdfa9e84898a38d7c87)
+        ;
+
+        
+    
+    
+            marker_5a302496c08fa772853cb0e6214d139e.bindTooltip(
+                `<div>
+                     Kubeh
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5a302496c08fa772853cb0e6214d139e.setIcon(icon_3940943b25793e379df224fcf1b40606);
+            
+    
+            var marker_4f5e9ca87e49c7893ad9e2671f2f2d64 = L.marker(
+                [40.7568615, -73.9806953],
+                {
+}
+            ).addTo(feature_group_ddfc136b5294927e2554f61635ed554c);
+        
+    
+            var icon_4469d3cf042000ac1f7208b3b3a27d60 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6661edeb15895c08030d6565f38058cd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b1dee28965471372587541ed7536a468 = $(`<div id="html_b1dee28965471372587541ed7536a468" style="width: 100.0%; height: 100.0%;"><b>Akdeniz</b><br>Cuisine: turkish</div>`)[0];
+                popup_6661edeb15895c08030d6565f38058cd.setContent(html_b1dee28965471372587541ed7536a468);
+            
+        
+
+        marker_4f5e9ca87e49c7893ad9e2671f2f2d64.bindPopup(popup_6661edeb15895c08030d6565f38058cd)
+        ;
+
+        
+    
+    
+            marker_4f5e9ca87e49c7893ad9e2671f2f2d64.bindTooltip(
+                `<div>
+                     Akdeniz
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4f5e9ca87e49c7893ad9e2671f2f2d64.setIcon(icon_4469d3cf042000ac1f7208b3b3a27d60);
+            
+    
+            feature_group_ddfc136b5294927e2554f61635ed554c.addTo(map_7313b8e7e875f46b85745d88c5cec036);
+        
+    
+            var layer_control_69cd0f6910736eeedf2c6787853d6614_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_52bb0d5fb8ce7d7d5200ddff7ccbdf23,
+                },
+                overlays :  {
+                    "NYC DOT Pedestrian Activity" : feature_group_7a0cf6ebc1f44ae3659d4d77366c3828,
+                    "Turkish Restaurants" : feature_group_ddfc136b5294927e2554f61635ed554c,
+                },
+            };
+            let layer_control_69cd0f6910736eeedf2c6787853d6614 = L.control.layers(
+                layer_control_69cd0f6910736eeedf2c6787853d6614_layers.base_layers,
+                layer_control_69cd0f6910736eeedf2c6787853d6614_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": false,
+  "autoZIndex": true,
+}
+            ).addTo(map_7313b8e7e875f46b85745d88c5cec036);
+
+        
+</script>
+</html>

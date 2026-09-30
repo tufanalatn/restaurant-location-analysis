@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5e8417622a99db8ab9a3ec91c034e3ee {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_5e8417622a99db8ab9a3ec91c034e3ee" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_5e8417622a99db8ab9a3ec91c034e3ee = L.map(
+                "map_5e8417622a99db8ab9a3ec91c034e3ee",
+                {
+                    center: [40.7536, -73.9832],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ba37f4de0296481012f13c617f8faa47 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_ba37f4de0296481012f13c617f8faa47.addTo(map_5e8417622a99db8ab9a3ec91c034e3ee);
+        
+    
+            var marker_c71c6f5190f90ba07122103ba6803810 = L.marker(
+                [40.7536, -73.9832],
+                {
+}
+            ).addTo(map_5e8417622a99db8ab9a3ec91c034e3ee);
+        
+    
+            var icon_696d881dcb1294228cba4761a8a07145 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b1c624bf38784c428db36f77ee9fb86d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8ad8c00e605a616bbddaee612654ed9a = $(`<div id="html_8ad8c00e605a616bbddaee612654ed9a" style="width: 100.0%; height: 100.0%;">Bryant Park — 2019 Study Center</div>`)[0];
+                popup_b1c624bf38784c428db36f77ee9fb86d.setContent(html_8ad8c00e605a616bbddaee612654ed9a);
+            
+        
+
+        marker_c71c6f5190f90ba07122103ba6803810.bindPopup(popup_b1c624bf38784c428db36f77ee9fb86d)
+        ;
+
+        
+    
+    
+            marker_c71c6f5190f90ba07122103ba6803810.bindTooltip(
+                `<div>
+                     Bryant Park
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c71c6f5190f90ba07122103ba6803810.setIcon(icon_696d881dcb1294228cba4761a8a07145);
+            
+    
+            var circle_marker_b60346f32302f4658f981aa03b7a41d3 = L.circleMarker(
+                [40.7414352, -73.9785461],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5e8417622a99db8ab9a3ec91c034e3ee);
+        
+    
+        var popup_665dff9cc56d604ffa364eefaec30f06 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b296a208b5ea9e1ebe0ee23a04c5e0ff = $(`<div id="html_b296a208b5ea9e1ebe0ee23a04c5e0ff" style="width: 100.0%; height: 100.0%;"><b>Sahara's</b><br>Cuisine: turkish<br>OSM ID: 2704114395</div>`)[0];
+                popup_665dff9cc56d604ffa364eefaec30f06.setContent(html_b296a208b5ea9e1ebe0ee23a04c5e0ff);
+            
+        
+
+        circle_marker_b60346f32302f4658f981aa03b7a41d3.bindPopup(popup_665dff9cc56d604ffa364eefaec30f06)
+        ;
+
+        
+    
+    
+            circle_marker_b60346f32302f4658f981aa03b7a41d3.bindTooltip(
+                `<div>
+                     Sahara's
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_71a2f1c0689aed7679fe4a1c044cf9b8 = L.circleMarker(
+                [40.7524053, -73.9700918],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5e8417622a99db8ab9a3ec91c034e3ee);
+        
+    
+        var popup_230389cc92b51a5356767b11d2855708 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b4753e2eedf666972c1372cd3daf1838 = $(`<div id="html_b4753e2eedf666972c1372cd3daf1838" style="width: 100.0%; height: 100.0%;"><b>Zara Terrace</b><br>Cuisine: turkish;mediterranean<br>OSM ID: 2711639380</div>`)[0];
+                popup_230389cc92b51a5356767b11d2855708.setContent(html_b4753e2eedf666972c1372cd3daf1838);
+            
+        
+
+        circle_marker_71a2f1c0689aed7679fe4a1c044cf9b8.bindPopup(popup_230389cc92b51a5356767b11d2855708)
+        ;
+
+        
+    
+    
+            circle_marker_71a2f1c0689aed7679fe4a1c044cf9b8.bindTooltip(
+                `<div>
+                     Zara Terrace
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_25bd1eb03ae1890fa83611c9be9ed2b6 = L.circleMarker(
+                [40.7700896, -73.9576457],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5e8417622a99db8ab9a3ec91c034e3ee);
+        
+    
+        var popup_9804ca9d895973af01f35ab3088677d0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_754d91ccf0bba1fc0560b31c5e0f448d = $(`<div id="html_754d91ccf0bba1fc0560b31c5e0f448d" style="width: 100.0%; height: 100.0%;"><b>A La Turka Restaurant</b><br>Cuisine: turkish<br>OSM ID: 2723789296</div>`)[0];
+                popup_9804ca9d895973af01f35ab3088677d0.setContent(html_754d91ccf0bba1fc0560b31c5e0f448d);
+            
+        
+
+        circle_marker_25bd1eb03ae1890fa83611c9be9ed2b6.bindPopup(popup_9804ca9d895973af01f35ab3088677d0)
+        ;
+
+        
+    
+    
+            circle_marker_25bd1eb03ae1890fa83611c9be9ed2b6.bindTooltip(
+                `<div>
+                     A La Turka Restaurant
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1c57e5a302ccbb0d92ab0877c8911212 = L.circleMarker(
+                [40.7674386, -73.9839741],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5e8417622a99db8ab9a3ec91c034e3ee);
+        
+    
+        var popup_54480431fd1dd145cdaf54d1c6994e39 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1bf9457c19d97537db88bc39c5421b11 = $(`<div id="html_1bf9457c19d97537db88bc39c5421b11" style="width: 100.0%; height: 100.0%;"><b>ABA Turkish Restaurant</b><br>Cuisine: turkish<br>OSM ID: 4149450808</div>`)[0];
+                popup_54480431fd1dd145cdaf54d1c6994e39.setContent(html_1bf9457c19d97537db88bc39c5421b11);
+            
+        
+
+        circle_marker_1c57e5a302ccbb0d92ab0877c8911212.bindPopup(popup_54480431fd1dd145cdaf54d1c6994e39)
+        ;
+
+        
+    
+    
+            circle_marker_1c57e5a302ccbb0d92ab0877c8911212.bindTooltip(
+                `<div>
+                     ABA Turkish Restaurant
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_df93b2f2b65b4256f00268dbf0511f2e = L.circleMarker(
+                [40.7559182, -73.9804278],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5e8417622a99db8ab9a3ec91c034e3ee);
+        
+    
+        var popup_16d1ae3c4799a239a99b6e929389f272 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c4067179324d912cb0f35550483684e8 = $(`<div id="html_c4067179324d912cb0f35550483684e8" style="width: 100.0%; height: 100.0%;"><b>Antalia</b><br>Cuisine: turkish<br>OSM ID: 4709047192</div>`)[0];
+                popup_16d1ae3c4799a239a99b6e929389f272.setContent(html_c4067179324d912cb0f35550483684e8);
+            
+        
+
+        circle_marker_df93b2f2b65b4256f00268dbf0511f2e.bindPopup(popup_16d1ae3c4799a239a99b6e929389f272)
+        ;
+
+        
+    
+    
+            circle_marker_df93b2f2b65b4256f00268dbf0511f2e.bindTooltip(
+                `<div>
+                     Antalia
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_64dd8c6f3e5325eb3aa675bc2992c06b = L.circleMarker(
+                [40.7357449, -74.0073406],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5e8417622a99db8ab9a3ec91c034e3ee);
+        
+    
+        var popup_082782ed2d104ca3630ad1cf24dca41a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9f7e2006f00060dd5bb4627a9b598e05 = $(`<div id="html_9f7e2006f00060dd5bb4627a9b598e05" style="width: 100.0%; height: 100.0%;"><b>Turks and Frogs</b><br>Cuisine: turkish<br>OSM ID: 6110126636</div>`)[0];
+                popup_082782ed2d104ca3630ad1cf24dca41a.setContent(html_9f7e2006f00060dd5bb4627a9b598e05);
+            
+        
+
+        circle_marker_64dd8c6f3e5325eb3aa675bc2992c06b.bindPopup(popup_082782ed2d104ca3630ad1cf24dca41a)
+        ;
+
+        
+    
+    
+            circle_marker_64dd8c6f3e5325eb3aa675bc2992c06b.bindTooltip(
+                `<div>
+                     Turks and Frogs
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_539b45ac4294dac961833a51b2d5e84f = L.circleMarker(
+                [40.7600863, -73.9916414],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5e8417622a99db8ab9a3ec91c034e3ee);
+        
+    
+        var popup_8b4ba8edefa3b3954a595685f24d48e0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aae44d9db628fd990fe77fa0409dae8f = $(`<div id="html_aae44d9db628fd990fe77fa0409dae8f" style="width: 100.0%; height: 100.0%;"><b>Turkish Cuisine</b><br>Cuisine: turkish<br>OSM ID: 6233991635</div>`)[0];
+                popup_8b4ba8edefa3b3954a595685f24d48e0.setContent(html_aae44d9db628fd990fe77fa0409dae8f);
+            
+        
+
+        circle_marker_539b45ac4294dac961833a51b2d5e84f.bindPopup(popup_8b4ba8edefa3b3954a595685f24d48e0)
+        ;
+
+        
+    
+    
+            circle_marker_539b45ac4294dac961833a51b2d5e84f.bindTooltip(
+                `<div>
+                     Turkish Cuisine
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_75123a5305c135d84353673ee42a84a8 = L.circleMarker(
+                [40.7626427, -73.9897868],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5e8417622a99db8ab9a3ec91c034e3ee);
+        
+    
+        var popup_1e4be3b12481baa308638d39e0daea0a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8d69e7b2137e081dbfccfad026f723c0 = $(`<div id="html_8d69e7b2137e081dbfccfad026f723c0" style="width: 100.0%; height: 100.0%;"><b>Gazalas</b><br>Cuisine: turkish<br>OSM ID: 6233999017</div>`)[0];
+                popup_1e4be3b12481baa308638d39e0daea0a.setContent(html_8d69e7b2137e081dbfccfad026f723c0);
+            
+        
+
+        circle_marker_75123a5305c135d84353673ee42a84a8.bindPopup(popup_1e4be3b12481baa308638d39e0daea0a)
+        ;
+
+        
+    
+    
+            circle_marker_75123a5305c135d84353673ee42a84a8.bindTooltip(
+                `<div>
+                     Gazalas
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_64e180e1bb154b58b68e97ec11166503 = L.circleMarker(
+                [40.7225587, -73.988108],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5e8417622a99db8ab9a3ec91c034e3ee);
+        
+    
+        var popup_04bd638f911f7623c244e1625592bda5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bafebb98294531a6b07fce4d1115f82d = $(`<div id="html_bafebb98294531a6b07fce4d1115f82d" style="width: 100.0%; height: 100.0%;"><b>Ankara #3</b><br>Cuisine: turkish<br>OSM ID: 7097867546</div>`)[0];
+                popup_04bd638f911f7623c244e1625592bda5.setContent(html_bafebb98294531a6b07fce4d1115f82d);
+            
+        
+
+        circle_marker_64e180e1bb154b58b68e97ec11166503.bindPopup(popup_04bd638f911f7623c244e1625592bda5)
+        ;
+
+        
+    
+    
+            circle_marker_64e180e1bb154b58b68e97ec11166503.bindTooltip(
+                `<div>
+                     Ankara #3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_060ed5cb82b1cdee19f7609300093556 = L.circleMarker(
+                [40.7466487, -73.9771934],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5e8417622a99db8ab9a3ec91c034e3ee);
+        
+    
+        var popup_a72f92b8778384ac8b4124ca5c582bb2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5f288fd02870694acc570b44e4258dc8 = $(`<div id="html_5f288fd02870694acc570b44e4258dc8" style="width: 100.0%; height: 100.0%;"><b>Sophra Grill</b><br>Cuisine: turkish<br>OSM ID: 7112624485</div>`)[0];
+                popup_a72f92b8778384ac8b4124ca5c582bb2.setContent(html_5f288fd02870694acc570b44e4258dc8);
+            
+        
+
+        circle_marker_060ed5cb82b1cdee19f7609300093556.bindPopup(popup_a72f92b8778384ac8b4124ca5c582bb2)
+        ;
+
+        
+    
+    
+            circle_marker_060ed5cb82b1cdee19f7609300093556.bindTooltip(
+                `<div>
+                     Sophra Grill
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_511c63e35b094cb658f413b7bf39e769 = L.circleMarker(
+                [40.7157083, -74.0075514],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5e8417622a99db8ab9a3ec91c034e3ee);
+        
+    
+        var popup_b04172f90ab8537ed2215ce6ababb273 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6983ea09b19fb63006347d4c6902098e = $(`<div id="html_6983ea09b19fb63006347d4c6902098e" style="width: 100.0%; height: 100.0%;"><b>Soup & Gyro</b><br>Cuisine: turkish<br>OSM ID: 8333736447</div>`)[0];
+                popup_b04172f90ab8537ed2215ce6ababb273.setContent(html_6983ea09b19fb63006347d4c6902098e);
+            
+        
+
+        circle_marker_511c63e35b094cb658f413b7bf39e769.bindPopup(popup_b04172f90ab8537ed2215ce6ababb273)
+        ;
+
+        
+    
+    
+            circle_marker_511c63e35b094cb658f413b7bf39e769.bindTooltip(
+                `<div>
+                     Soup & Gyro
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1b857eda28ef76d25d11440687ef6eb5 = L.circleMarker(
+                [40.7208393, -73.9950056],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5e8417622a99db8ab9a3ec91c034e3ee);
+        
+    
+        var popup_f11e3d9182d90771387540013bba6484 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4d2b1cfc8cf4cfac1575a4c7aacc0ca5 = $(`<div id="html_4d2b1cfc8cf4cfac1575a4c7aacc0ca5" style="width: 100.0%; height: 100.0%;"><b>Little Rascal</b><br>Cuisine: turkish<br>OSM ID: 10261382324</div>`)[0];
+                popup_f11e3d9182d90771387540013bba6484.setContent(html_4d2b1cfc8cf4cfac1575a4c7aacc0ca5);
+            
+        
+
+        circle_marker_1b857eda28ef76d25d11440687ef6eb5.bindPopup(popup_f11e3d9182d90771387540013bba6484)
+        ;
+
+        
+    
+    
+            circle_marker_1b857eda28ef76d25d11440687ef6eb5.bindTooltip(
+                `<div>
+                     Little Rascal
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8b1c10d276332602f0ec0913072743da = L.circleMarker(
+                [40.7354601, -73.9980005],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5e8417622a99db8ab9a3ec91c034e3ee);
+        
+    
+        var popup_4e9f069ab615c8f59662a0fdc1516356 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ecafa52c693b1f8efb96bc899c11e39e = $(`<div id="html_ecafa52c693b1f8efb96bc899c11e39e" style="width: 100.0%; height: 100.0%;"><b>Kubeh</b><br>Cuisine: arab;lebanese;persian;turkish;middle_eastern<br>OSM ID: 10863519205</div>`)[0];
+                popup_4e9f069ab615c8f59662a0fdc1516356.setContent(html_ecafa52c693b1f8efb96bc899c11e39e);
+            
+        
+
+        circle_marker_8b1c10d276332602f0ec0913072743da.bindPopup(popup_4e9f069ab615c8f59662a0fdc1516356)
+        ;
+
+        
+    
+    
+            circle_marker_8b1c10d276332602f0ec0913072743da.bindTooltip(
+                `<div>
+                     Kubeh
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8e89862c7f6e64ba4970f1f62cff6df8 = L.circleMarker(
+                [40.7568615, -73.9806953],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5e8417622a99db8ab9a3ec91c034e3ee);
+        
+    
+        var popup_0c890cc69c68fd3757e8e8cfb9346b93 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e32eea9264846e6d3a6e8aa652abd958 = $(`<div id="html_e32eea9264846e6d3a6e8aa652abd958" style="width: 100.0%; height: 100.0%;"><b>Akdeniz</b><br>Cuisine: turkish<br>OSM ID: 11674339848</div>`)[0];
+                popup_0c890cc69c68fd3757e8e8cfb9346b93.setContent(html_e32eea9264846e6d3a6e8aa652abd958);
+            
+        
+
+        circle_marker_8e89862c7f6e64ba4970f1f62cff6df8.bindPopup(popup_0c890cc69c68fd3757e8e8cfb9346b93)
+        ;
+
+        
+    
+    
+            circle_marker_8e89862c7f6e64ba4970f1f62cff6df8.bindTooltip(
+                `<div>
+                     Akdeniz
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
