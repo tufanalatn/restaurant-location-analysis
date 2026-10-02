@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4789f9f59062e9f615a2fa05636c2663 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4789f9f59062e9f615a2fa05636c2663" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4789f9f59062e9f615a2fa05636c2663 = L.map(
+                "map_4789f9f59062e9f615a2fa05636c2663",
+                {
+                    center: [40.70784549999999, -73.90353024999999],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0ccfc912c265d5ca1ef828dcc08f8147 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_0ccfc912c265d5ca1ef828dcc08f8147.addTo(map_4789f9f59062e9f615a2fa05636c2663);
+        
+    
+            var circle_marker_9ddf9da8e89c42725d7c59b581455cba = L.circleMarker(
+                [40.65053, -73.899097],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
+            ).addTo(map_4789f9f59062e9f615a2fa05636c2663);
+        
+    
+        var popup_aa891f57bcd7f06872ab07cde29c15f0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_416b068ecd724d6db7082bab991988f3 = $(`<div id="html_416b068ecd724d6db7082bab991988f3" style="width: 100.0%; height: 100.0%;">     <b>C0398</b><br>     Zone: 1<br>     Borough: Brooklyn<br><br>      Pedestrian score: 0.826<br>     Competition score: 0.139<br>     Rent score: 0.000<br>     Average rank: 2.0     </div>`)[0];
+                popup_aa891f57bcd7f06872ab07cde29c15f0.setContent(html_416b068ecd724d6db7082bab991988f3);
+            
+        
+
+        circle_marker_9ddf9da8e89c42725d7c59b581455cba.bindPopup(popup_aa891f57bcd7f06872ab07cde29c15f0)
+        ;
+
+        
+    
+    
+            circle_marker_9ddf9da8e89c42725d7c59b581455cba.bindTooltip(
+                `<div>
+                     C0398 — Zone 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d1de8f150ca1bdb35ca9e33b5054382d = L.circleMarker(
+                [40.66403, -73.905047],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
+            ).addTo(map_4789f9f59062e9f615a2fa05636c2663);
+        
+    
+        var popup_aa5ddf070bb46f9d890cfa7718a5c8f7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2bad117d4570bd67a831d35079615d40 = $(`<div id="html_2bad117d4570bd67a831d35079615d40" style="width: 100.0%; height: 100.0%;">     <b>C0473</b><br>     Zone: 2<br>     Borough: Brooklyn<br><br>      Pedestrian score: 0.742<br>     Competition score: 0.145<br>     Rent score: 0.203<br>     Average rank: 16.0     </div>`)[0];
+                popup_aa5ddf070bb46f9d890cfa7718a5c8f7.setContent(html_2bad117d4570bd67a831d35079615d40);
+            
+        
+
+        circle_marker_d1de8f150ca1bdb35ca9e33b5054382d.bindPopup(popup_aa5ddf070bb46f9d890cfa7718a5c8f7)
+        ;
+
+        
+    
+    
+            circle_marker_d1de8f150ca1bdb35ca9e33b5054382d.bindTooltip(
+                `<div>
+                     C0473 — Zone 2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7fae362adf0e4ae2f2a4991a86b3e3bb = L.circleMarker(
+                [40.66403, -73.899097],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
+            ).addTo(map_4789f9f59062e9f615a2fa05636c2663);
+        
+    
+        var popup_3bd72805d601fd55847a73a004ac9f38 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1d859af3e92827dd06ba2ab88e90354e = $(`<div id="html_1d859af3e92827dd06ba2ab88e90354e" style="width: 100.0%; height: 100.0%;">     <b>C0474</b><br>     Zone: 2<br>     Borough: Brooklyn<br><br>      Pedestrian score: 0.812<br>     Competition score: 0.126<br>     Rent score: 0.203<br>     Average rank: 8.0     </div>`)[0];
+                popup_3bd72805d601fd55847a73a004ac9f38.setContent(html_1d859af3e92827dd06ba2ab88e90354e);
+            
+        
+
+        circle_marker_7fae362adf0e4ae2f2a4991a86b3e3bb.bindPopup(popup_3bd72805d601fd55847a73a004ac9f38)
+        ;
+
+        
+    
+    
+            circle_marker_7fae362adf0e4ae2f2a4991a86b3e3bb.bindTooltip(
+                `<div>
+                     C0474 — Zone 2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_27d7902b8d067d85178937b7422d4867 = L.circleMarker(
+                [40.66403, -73.893147],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
+            ).addTo(map_4789f9f59062e9f615a2fa05636c2663);
+        
+    
+        var popup_5b989847caf7bfad75df7c254ba211b0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6fdafa724e54f0e3d7811d9787bbc8bb = $(`<div id="html_6fdafa724e54f0e3d7811d9787bbc8bb" style="width: 100.0%; height: 100.0%;">     <b>C0475</b><br>     Zone: 2<br>     Borough: Brooklyn<br><br>      Pedestrian score: 0.726<br>     Competition score: 0.108<br>     Rent score: 0.203<br>     Average rank: 14.0     </div>`)[0];
+                popup_5b989847caf7bfad75df7c254ba211b0.setContent(html_6fdafa724e54f0e3d7811d9787bbc8bb);
+            
+        
+
+        circle_marker_27d7902b8d067d85178937b7422d4867.bindPopup(popup_5b989847caf7bfad75df7c254ba211b0)
+        ;
+
+        
+    
+    
+            circle_marker_27d7902b8d067d85178937b7422d4867.bindTooltip(
+                `<div>
+                     C0475 — Zone 2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f312477ec4dbe3fc36a168c681fa261b = L.circleMarker(
+                [40.67303, -73.899097],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
+            ).addTo(map_4789f9f59062e9f615a2fa05636c2663);
+        
+    
+        var popup_b978d9b0585e7544e295f590f4c90974 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d0214a62d6fa31d5366cd0d615e28060 = $(`<div id="html_d0214a62d6fa31d5366cd0d615e28060" style="width: 100.0%; height: 100.0%;">     <b>C0526</b><br>     Zone: 3<br>     Borough: Brooklyn<br><br>      Pedestrian score: 0.739<br>     Competition score: 0.133<br>     Rent score: 0.203<br>     Average rank: 14.3     </div>`)[0];
+                popup_b978d9b0585e7544e295f590f4c90974.setContent(html_d0214a62d6fa31d5366cd0d615e28060);
+            
+        
+
+        circle_marker_f312477ec4dbe3fc36a168c681fa261b.bindPopup(popup_b978d9b0585e7544e295f590f4c90974)
+        ;
+
+        
+    
+    
+            circle_marker_f312477ec4dbe3fc36a168c681fa261b.bindTooltip(
+                `<div>
+                     C0526 — Zone 3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_aa6c55068bda56553997ecfc081fa65a = L.circleMarker(
+                [40.67303, -73.881247],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
+            ).addTo(map_4789f9f59062e9f615a2fa05636c2663);
+        
+    
+        var popup_6c6c1d1370d8a4159f6dc62f448c04a4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b0b279087a58dbf97ffb8831ce455b0f = $(`<div id="html_b0b279087a58dbf97ffb8831ce455b0f" style="width: 100.0%; height: 100.0%;">     <b>C0529</b><br>     Zone: 4<br>     Borough: Brooklyn<br><br>      Pedestrian score: 0.633<br>     Competition score: 0.076<br>     Rent score: 0.060<br>     Average rank: 11.3     </div>`)[0];
+                popup_6c6c1d1370d8a4159f6dc62f448c04a4.setContent(html_b0b279087a58dbf97ffb8831ce455b0f);
+            
+        
+
+        circle_marker_aa6c55068bda56553997ecfc081fa65a.bindPopup(popup_6c6c1d1370d8a4159f6dc62f448c04a4)
+        ;
+
+        
+    
+    
+            circle_marker_aa6c55068bda56553997ecfc081fa65a.bindTooltip(
+                `<div>
+                     C0529 — Zone 4
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8ad104398bee193378627e4d6fe8aa85 = L.circleMarker(
+                [40.67753, -73.905047],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
+            ).addTo(map_4789f9f59062e9f615a2fa05636c2663);
+        
+    
+        var popup_ab31eb43954a98845e7e536a90466f2e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_08287db87222102e8892ffdcc3975217 = $(`<div id="html_08287db87222102e8892ffdcc3975217" style="width: 100.0%; height: 100.0%;">     <b>C0552</b><br>     Zone: 3<br>     Borough: Brooklyn<br><br>      Pedestrian score: 0.737<br>     Competition score: 0.156<br>     Rent score: 0.203<br>     Average rank: 18.3     </div>`)[0];
+                popup_ab31eb43954a98845e7e536a90466f2e.setContent(html_08287db87222102e8892ffdcc3975217);
+            
+        
+
+        circle_marker_8ad104398bee193378627e4d6fe8aa85.bindPopup(popup_ab31eb43954a98845e7e536a90466f2e)
+        ;
+
+        
+    
+    
+            circle_marker_8ad104398bee193378627e4d6fe8aa85.bindTooltip(
+                `<div>
+                     C0552 — Zone 3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fd1385e342a3c175eb9c97468b183b7f = L.circleMarker(
+                [40.67753, -73.899097],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
+            ).addTo(map_4789f9f59062e9f615a2fa05636c2663);
+        
+    
+        var popup_b4152151510cc87d1ba7fc4d6da4925a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bae21d0f0c029d24e746c864d882ad0f = $(`<div id="html_bae21d0f0c029d24e746c864d882ad0f" style="width: 100.0%; height: 100.0%;">     <b>C0553</b><br>     Zone: 3<br>     Borough: Brooklyn<br><br>      Pedestrian score: 0.868<br>     Competition score: 0.136<br>     Rent score: 0.203<br>     Average rank: 5.7     </div>`)[0];
+                popup_b4152151510cc87d1ba7fc4d6da4925a.setContent(html_bae21d0f0c029d24e746c864d882ad0f);
+            
+        
+
+        circle_marker_fd1385e342a3c175eb9c97468b183b7f.bindPopup(popup_b4152151510cc87d1ba7fc4d6da4925a)
+        ;
+
+        
+    
+    
+            circle_marker_fd1385e342a3c175eb9c97468b183b7f.bindTooltip(
+                `<div>
+                     C0553 — Zone 3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e99b562a7bc3a4b60115358c1f247ec4 = L.circleMarker(
+                [40.67753, -73.893147],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
+            ).addTo(map_4789f9f59062e9f615a2fa05636c2663);
+        
+    
+        var popup_ccdf75ec9ff34caf659973334cd808ee = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e861f6a46c696cdd1a754296ebf209a7 = $(`<div id="html_e861f6a46c696cdd1a754296ebf209a7" style="width: 100.0%; height: 100.0%;">     <b>C0554</b><br>     Zone: 3<br>     Borough: Brooklyn<br><br>      Pedestrian score: 0.809<br>     Competition score: 0.116<br>     Rent score: 0.031<br>     Average rank: 3.0     </div>`)[0];
+                popup_ccdf75ec9ff34caf659973334cd808ee.setContent(html_e861f6a46c696cdd1a754296ebf209a7);
+            
+        
+
+        circle_marker_e99b562a7bc3a4b60115358c1f247ec4.bindPopup(popup_ccdf75ec9ff34caf659973334cd808ee)
+        ;
+
+        
+    
+    
+            circle_marker_e99b562a7bc3a4b60115358c1f247ec4.bindTooltip(
+                `<div>
+                     C0554 — Zone 3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f49cd6883b17cb1b84e8b04a3918f21d = L.circleMarker(
+                [40.67753, -73.863397],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
+            ).addTo(map_4789f9f59062e9f615a2fa05636c2663);
+        
+    
+        var popup_5f5ab976af61049000fc67c28e8b11ec = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5a2a346003da9aef9f7437a19bdc6164 = $(`<div id="html_5a2a346003da9aef9f7437a19bdc6164" style="width: 100.0%; height: 100.0%;">     <b>C0559</b><br>     Zone: 5<br>     Borough: Brooklyn<br><br>      Pedestrian score: 0.610<br>     Competition score: 0.032<br>     Rent score: 0.060<br>     Average rank: 11.3     </div>`)[0];
+                popup_5f5ab976af61049000fc67c28e8b11ec.setContent(html_5a2a346003da9aef9f7437a19bdc6164);
+            
+        
+
+        circle_marker_f49cd6883b17cb1b84e8b04a3918f21d.bindPopup(popup_5f5ab976af61049000fc67c28e8b11ec)
+        ;
+
+        
+    
+    
+            circle_marker_f49cd6883b17cb1b84e8b04a3918f21d.bindTooltip(
+                `<div>
+                     C0559 — Zone 5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ccd22ea6a0cf6ab8de11466e4bcdf685 = L.circleMarker(
+                [40.68203, -73.881247],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
+            ).addTo(map_4789f9f59062e9f615a2fa05636c2663);
+        
+    
+        var popup_9782759fb1785c74704ce19114dcba10 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4bd571acf580d65aba7ddd21960401c4 = $(`<div id="html_4bd571acf580d65aba7ddd21960401c4" style="width: 100.0%; height: 100.0%;">     <b>C0581</b><br>     Zone: 6<br>     Borough: Brooklyn<br><br>      Pedestrian score: 0.760<br>     Competition score: 0.081<br>     Rent score: 0.203<br>     Average rank: 10.3     </div>`)[0];
+                popup_9782759fb1785c74704ce19114dcba10.setContent(html_4bd571acf580d65aba7ddd21960401c4);
+            
+        
+
+        circle_marker_ccd22ea6a0cf6ab8de11466e4bcdf685.bindPopup(popup_9782759fb1785c74704ce19114dcba10)
+        ;
+
+        
+    
+    
+            circle_marker_ccd22ea6a0cf6ab8de11466e4bcdf685.bindTooltip(
+                `<div>
+                     C0581 — Zone 6
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_86563197a823d00bdc5606ab6b2738da = L.circleMarker(
+                [40.68203, -73.875297],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
+            ).addTo(map_4789f9f59062e9f615a2fa05636c2663);
+        
+    
+        var popup_cc61feecc1f9686ab54da8b93981d707 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c1d698588f6b451691d02e9b86e00358 = $(`<div id="html_c1d698588f6b451691d02e9b86e00358" style="width: 100.0%; height: 100.0%;">     <b>C0582</b><br>     Zone: 6<br>     Borough: Brooklyn<br><br>      Pedestrian score: 0.705<br>     Competition score: 0.066<br>     Rent score: 0.060<br>     Average rank: 5.3     </div>`)[0];
+                popup_cc61feecc1f9686ab54da8b93981d707.setContent(html_c1d698588f6b451691d02e9b86e00358);
+            
+        
+
+        circle_marker_86563197a823d00bdc5606ab6b2738da.bindPopup(popup_cc61feecc1f9686ab54da8b93981d707)
+        ;
+
+        
+    
+    
+            circle_marker_86563197a823d00bdc5606ab6b2738da.bindTooltip(
+                `<div>
+                     C0582 — Zone 6
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ca151dad8f414e8fd7aee98ef1e4547e = L.circleMarker(
+                [40.804417, -73.93468],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
+            ).addTo(map_4789f9f59062e9f615a2fa05636c2663);
+        
+    
+        var popup_79029076329dba701dd2495b500dfacc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_eb305581a386445b66ac28d3ac55fc13 = $(`<div id="html_eb305581a386445b66ac28d3ac55fc13" style="width: 100.0%; height: 100.0%;">     <b>C0881</b><br>     Zone: 7<br>     Borough: Manhattan<br><br>      Pedestrian score: 0.713<br>     Competition score: 0.203<br>     Rent score: 0.009<br>     Average rank: 8.0     </div>`)[0];
+                popup_79029076329dba701dd2495b500dfacc.setContent(html_eb305581a386445b66ac28d3ac55fc13);
+            
+        
+
+        circle_marker_ca151dad8f414e8fd7aee98ef1e4547e.bindPopup(popup_79029076329dba701dd2495b500dfacc)
+        ;
+
+        
+    
+    
+            circle_marker_ca151dad8f414e8fd7aee98ef1e4547e.bindTooltip(
+                `<div>
+                     C0881 — Zone 7
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0ddbf7031a254707e5194bc97ea776a9 = L.circleMarker(
+                [40.808917, -73.95848],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
+            ).addTo(map_4789f9f59062e9f615a2fa05636c2663);
+        
+    
+        var popup_ccccd5bcbeeb9ac37a003ee35aa15d61 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a9eb1ba27adafc08fe00a225ed92438d = $(`<div id="html_a9eb1ba27adafc08fe00a225ed92438d" style="width: 100.0%; height: 100.0%;">     <b>C0883</b><br>     Zone: 8<br>     Borough: Manhattan<br><br>      Pedestrian score: 0.745<br>     Competition score: 0.213<br>     Rent score: 0.060<br>     Average rank: 9.7     </div>`)[0];
+                popup_ccccd5bcbeeb9ac37a003ee35aa15d61.setContent(html_a9eb1ba27adafc08fe00a225ed92438d);
+            
+        
+
+        circle_marker_0ddbf7031a254707e5194bc97ea776a9.bindPopup(popup_ccccd5bcbeeb9ac37a003ee35aa15d61)
+        ;
+
+        
+    
+    
+            circle_marker_0ddbf7031a254707e5194bc97ea776a9.bindTooltip(
+                `<div>
+                     C0883 — Zone 8
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_42a5015c23da3fb9c45a14841f49ea20 = L.circleMarker(
+                [40.822417, -73.93468],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
+            ).addTo(map_4789f9f59062e9f615a2fa05636c2663);
+        
+    
+        var popup_c95a7d2aeefef68f55ff1445e55a0a20 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_929728f79e954689b50f8fc2292fd06d = $(`<div id="html_929728f79e954689b50f8fc2292fd06d" style="width: 100.0%; height: 100.0%;">     <b>C0902</b><br>     Zone: 9<br>     Borough: Manhattan<br><br>      Pedestrian score: 0.811<br>     Competition score: 0.107<br>     Rent score: 0.000<br>     Average rank: 1.0     </div>`)[0];
+                popup_c95a7d2aeefef68f55ff1445e55a0a20.setContent(html_929728f79e954689b50f8fc2292fd06d);
+            
+        
+
+        circle_marker_42a5015c23da3fb9c45a14841f49ea20.bindPopup(popup_c95a7d2aeefef68f55ff1445e55a0a20)
+        ;
+
+        
+    
+    
+            circle_marker_42a5015c23da3fb9c45a14841f49ea20.bindTooltip(
+                `<div>
+                     C0902 — Zone 9
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a81ae472867b5b298c79ef54e59e75d4 = L.circleMarker(
+                [40.826917, -73.93468],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
+            ).addTo(map_4789f9f59062e9f615a2fa05636c2663);
+        
+    
+        var popup_99ecb96ff933362b4ebe2856f0c53aed = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c5f7978a2c519763e5318e6395bafa29 = $(`<div id="html_c5f7978a2c519763e5318e6395bafa29" style="width: 100.0%; height: 100.0%;">     <b>C0906</b><br>     Zone: 9<br>     Borough: Manhattan<br><br>      Pedestrian score: 0.677<br>     Competition score: 0.091<br>     Rent score: 0.000<br>     Average rank: 5.0     </div>`)[0];
+                popup_99ecb96ff933362b4ebe2856f0c53aed.setContent(html_c5f7978a2c519763e5318e6395bafa29);
+            
+        
+
+        circle_marker_a81ae472867b5b298c79ef54e59e75d4.bindPopup(popup_99ecb96ff933362b4ebe2856f0c53aed)
+        ;
+
+        
+    
+    
+            circle_marker_a81ae472867b5b298c79ef54e59e75d4.bindTooltip(
+                `<div>
+                     C0906 — Zone 9
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_673cffec5966a480a63a02cd2bdf8410 = L.marker(
+                [40.676405, -73.899097],
+                {
+}
+            ).addTo(map_4789f9f59062e9f615a2fa05636c2663);
+        
+    
+            var div_icon_ff7c4e31a2d20d94eb6edd21ce071b7a = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                font-size: 14px;\n                font-weight: bold;\n                text-align: center;\n                background: white;\n                border: 2px solid black;\n                border-radius: 50%;\n                width: 34px;\n                height: 34px;\n                line-height: 30px;\n            \"\u003e\n                3\n            \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+        var popup_0b74d0727cc33611dc6ff701dba83670 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_53d44d9486a0a2f53b0874971b032e35 = $(`<div id="html_53d44d9486a0a2f53b0874971b032e35" style="width: 100.0%; height: 100.0%;">     <b>Opportunity Zone 3</b><br>     Borough: Brooklyn<br>     Candidates: 4<br><br>      Mean pedestrian score: 0.788<br>     Mean competition score: 0.135<br>     Mean rent score: 0.160<br>     Mean average rank: 10.3     </div>`)[0];
+                popup_0b74d0727cc33611dc6ff701dba83670.setContent(html_53d44d9486a0a2f53b0874971b032e35);
+            
+        
+
+        marker_673cffec5966a480a63a02cd2bdf8410.bindPopup(popup_0b74d0727cc33611dc6ff701dba83670)
+        ;
+
+        
+    
+    
+            marker_673cffec5966a480a63a02cd2bdf8410.bindTooltip(
+                `<div>
+                     ZONE 3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_673cffec5966a480a63a02cd2bdf8410.setIcon(div_icon_ff7c4e31a2d20d94eb6edd21ce071b7a);
+            
+    
+            var marker_29d2f0a4fffa3cf585749098e2a6456c = L.marker(
+                [40.66403, -73.899097],
+                {
+}
+            ).addTo(map_4789f9f59062e9f615a2fa05636c2663);
+        
+    
+            var div_icon_1c04998288601dcd3510f25f63e43725 = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                font-size: 14px;\n                font-weight: bold;\n                text-align: center;\n                background: white;\n                border: 2px solid black;\n                border-radius: 50%;\n                width: 34px;\n                height: 34px;\n                line-height: 30px;\n            \"\u003e\n                2\n            \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+        var popup_6537c1889e45b2192a1e96f4537ccb68 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e83fd55317cd12224cf52435d0d7ad7a = $(`<div id="html_e83fd55317cd12224cf52435d0d7ad7a" style="width: 100.0%; height: 100.0%;">     <b>Opportunity Zone 2</b><br>     Borough: Brooklyn<br>     Candidates: 3<br><br>      Mean pedestrian score: 0.760<br>     Mean competition score: 0.126<br>     Mean rent score: 0.203<br>     Mean average rank: 12.7     </div>`)[0];
+                popup_6537c1889e45b2192a1e96f4537ccb68.setContent(html_e83fd55317cd12224cf52435d0d7ad7a);
+            
+        
+
+        marker_29d2f0a4fffa3cf585749098e2a6456c.bindPopup(popup_6537c1889e45b2192a1e96f4537ccb68)
+        ;
+
+        
+    
+    
+            marker_29d2f0a4fffa3cf585749098e2a6456c.bindTooltip(
+                `<div>
+                     ZONE 2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_29d2f0a4fffa3cf585749098e2a6456c.setIcon(div_icon_1c04998288601dcd3510f25f63e43725);
+            
+    
+            var marker_8a6d44504b386f0d49591c9c5698b1e8 = L.marker(
+                [40.824667000000005, -73.93468],
+                {
+}
+            ).addTo(map_4789f9f59062e9f615a2fa05636c2663);
+        
+    
+            var div_icon_42aedd374edbdec5ba94cab94e8f02c1 = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                font-size: 14px;\n                font-weight: bold;\n                text-align: center;\n                background: white;\n                border: 2px solid black;\n                border-radius: 50%;\n                width: 34px;\n                height: 34px;\n                line-height: 30px;\n            \"\u003e\n                9\n            \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+        var popup_b478c7063053e651e854ee17d31f816b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_64b9f870e8774577478723789a4ccf6b = $(`<div id="html_64b9f870e8774577478723789a4ccf6b" style="width: 100.0%; height: 100.0%;">     <b>Opportunity Zone 9</b><br>     Borough: Manhattan<br>     Candidates: 2<br><br>      Mean pedestrian score: 0.744<br>     Mean competition score: 0.099<br>     Mean rent score: 0.000<br>     Mean average rank: 3.0     </div>`)[0];
+                popup_b478c7063053e651e854ee17d31f816b.setContent(html_64b9f870e8774577478723789a4ccf6b);
+            
+        
+
+        marker_8a6d44504b386f0d49591c9c5698b1e8.bindPopup(popup_b478c7063053e651e854ee17d31f816b)
+        ;
+
+        
+    
+    
+            marker_8a6d44504b386f0d49591c9c5698b1e8.bindTooltip(
+                `<div>
+                     ZONE 9
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8a6d44504b386f0d49591c9c5698b1e8.setIcon(div_icon_42aedd374edbdec5ba94cab94e8f02c1);
+            
+    
+            var marker_65fa24040256431f62cefe14e6e16e82 = L.marker(
+                [40.68203, -73.87827200000001],
+                {
+}
+            ).addTo(map_4789f9f59062e9f615a2fa05636c2663);
+        
+    
+            var div_icon_2cdeca9a21d69ddba1cda9fe497faf35 = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                font-size: 14px;\n                font-weight: bold;\n                text-align: center;\n                background: white;\n                border: 2px solid black;\n                border-radius: 50%;\n                width: 34px;\n                height: 34px;\n                line-height: 30px;\n            \"\u003e\n                6\n            \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+        var popup_b9ddfdf32a35a7f9074fb35dad48e1e5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1bb303a72a091dd366f2a44c0f257459 = $(`<div id="html_1bb303a72a091dd366f2a44c0f257459" style="width: 100.0%; height: 100.0%;">     <b>Opportunity Zone 6</b><br>     Borough: Brooklyn<br>     Candidates: 2<br><br>      Mean pedestrian score: 0.732<br>     Mean competition score: 0.074<br>     Mean rent score: 0.132<br>     Mean average rank: 7.8     </div>`)[0];
+                popup_b9ddfdf32a35a7f9074fb35dad48e1e5.setContent(html_1bb303a72a091dd366f2a44c0f257459);
+            
+        
+
+        marker_65fa24040256431f62cefe14e6e16e82.bindPopup(popup_b9ddfdf32a35a7f9074fb35dad48e1e5)
+        ;
+
+        
+    
+    
+            marker_65fa24040256431f62cefe14e6e16e82.bindTooltip(
+                `<div>
+                     ZONE 6
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_65fa24040256431f62cefe14e6e16e82.setIcon(div_icon_2cdeca9a21d69ddba1cda9fe497faf35);
+            
+    
+            var marker_d08980bf009fa1c6ef042cadb8fecc41 = L.marker(
+                [40.65053, -73.899097],
+                {
+}
+            ).addTo(map_4789f9f59062e9f615a2fa05636c2663);
+        
+    
+            var div_icon_bd5c8192c403aacd529aece226df0f2b = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                font-size: 14px;\n                font-weight: bold;\n                text-align: center;\n                background: white;\n                border: 2px solid black;\n                border-radius: 50%;\n                width: 34px;\n                height: 34px;\n                line-height: 30px;\n            \"\u003e\n                1\n            \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+        var popup_9ce46832de8cf70e9b14d2799257af9e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bb031ec7a964076591d840cabd6904ce = $(`<div id="html_bb031ec7a964076591d840cabd6904ce" style="width: 100.0%; height: 100.0%;">     <b>Opportunity Zone 1</b><br>     Borough: Brooklyn<br>     Candidates: 1<br><br>      Mean pedestrian score: 0.826<br>     Mean competition score: 0.139<br>     Mean rent score: 0.000<br>     Mean average rank: 2.0     </div>`)[0];
+                popup_9ce46832de8cf70e9b14d2799257af9e.setContent(html_bb031ec7a964076591d840cabd6904ce);
+            
+        
+
+        marker_d08980bf009fa1c6ef042cadb8fecc41.bindPopup(popup_9ce46832de8cf70e9b14d2799257af9e)
+        ;
+
+        
+    
+    
+            marker_d08980bf009fa1c6ef042cadb8fecc41.bindTooltip(
+                `<div>
+                     ZONE 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d08980bf009fa1c6ef042cadb8fecc41.setIcon(div_icon_bd5c8192c403aacd529aece226df0f2b);
+            
+    
+            var marker_9adfbedd8459593b1333b4ba07168952 = L.marker(
+                [40.804417, -73.93468],
+                {
+}
+            ).addTo(map_4789f9f59062e9f615a2fa05636c2663);
+        
+    
+            var div_icon_f4a6b7e65d10fe57693133511c9dabf3 = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                font-size: 14px;\n                font-weight: bold;\n                text-align: center;\n                background: white;\n                border: 2px solid black;\n                border-radius: 50%;\n                width: 34px;\n                height: 34px;\n                line-height: 30px;\n            \"\u003e\n                7\n            \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+        var popup_c5d2a9ba3bc03e0a8d548b03626ed26b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_80a8a2b94545e9fc59c1dbf4df6bcfc7 = $(`<div id="html_80a8a2b94545e9fc59c1dbf4df6bcfc7" style="width: 100.0%; height: 100.0%;">     <b>Opportunity Zone 7</b><br>     Borough: Manhattan<br>     Candidates: 1<br><br>      Mean pedestrian score: 0.713<br>     Mean competition score: 0.203<br>     Mean rent score: 0.009<br>     Mean average rank: 8.0     </div>`)[0];
+                popup_c5d2a9ba3bc03e0a8d548b03626ed26b.setContent(html_80a8a2b94545e9fc59c1dbf4df6bcfc7);
+            
+        
+
+        marker_9adfbedd8459593b1333b4ba07168952.bindPopup(popup_c5d2a9ba3bc03e0a8d548b03626ed26b)
+        ;
+
+        
+    
+    
+            marker_9adfbedd8459593b1333b4ba07168952.bindTooltip(
+                `<div>
+                     ZONE 7
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9adfbedd8459593b1333b4ba07168952.setIcon(div_icon_f4a6b7e65d10fe57693133511c9dabf3);
+            
+    
+            var marker_85833c081b6ce99606ee66935afbb989 = L.marker(
+                [40.808917, -73.95848],
+                {
+}
+            ).addTo(map_4789f9f59062e9f615a2fa05636c2663);
+        
+    
+            var div_icon_4d5d1a9acecb88e5232ec446ca11f532 = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                font-size: 14px;\n                font-weight: bold;\n                text-align: center;\n                background: white;\n                border: 2px solid black;\n                border-radius: 50%;\n                width: 34px;\n                height: 34px;\n                line-height: 30px;\n            \"\u003e\n                8\n            \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+        var popup_242457906ccd9a98c7eb1fe541f91f3b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1c198843a1440cbd5962d30ef8ffbd68 = $(`<div id="html_1c198843a1440cbd5962d30ef8ffbd68" style="width: 100.0%; height: 100.0%;">     <b>Opportunity Zone 8</b><br>     Borough: Manhattan<br>     Candidates: 1<br><br>      Mean pedestrian score: 0.745<br>     Mean competition score: 0.213<br>     Mean rent score: 0.060<br>     Mean average rank: 9.7     </div>`)[0];
+                popup_242457906ccd9a98c7eb1fe541f91f3b.setContent(html_1c198843a1440cbd5962d30ef8ffbd68);
+            
+        
+
+        marker_85833c081b6ce99606ee66935afbb989.bindPopup(popup_242457906ccd9a98c7eb1fe541f91f3b)
+        ;
+
+        
+    
+    
+            marker_85833c081b6ce99606ee66935afbb989.bindTooltip(
+                `<div>
+                     ZONE 8
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_85833c081b6ce99606ee66935afbb989.setIcon(div_icon_4d5d1a9acecb88e5232ec446ca11f532);
+            
+    
+            var marker_20dcb263f5404e9ea547b8013332d9ad = L.marker(
+                [40.67303, -73.881247],
+                {
+}
+            ).addTo(map_4789f9f59062e9f615a2fa05636c2663);
+        
+    
+            var div_icon_cb942c9c7d86966ba7dbf3236f433ddd = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                font-size: 14px;\n                font-weight: bold;\n                text-align: center;\n                background: white;\n                border: 2px solid black;\n                border-radius: 50%;\n                width: 34px;\n                height: 34px;\n                line-height: 30px;\n            \"\u003e\n                4\n            \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+        var popup_5678c0719ade048cb738c4582fb2d6d0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fea2382ced0400ce16b4b31e669e79d0 = $(`<div id="html_fea2382ced0400ce16b4b31e669e79d0" style="width: 100.0%; height: 100.0%;">     <b>Opportunity Zone 4</b><br>     Borough: Brooklyn<br>     Candidates: 1<br><br>      Mean pedestrian score: 0.633<br>     Mean competition score: 0.076<br>     Mean rent score: 0.060<br>     Mean average rank: 11.3     </div>`)[0];
+                popup_5678c0719ade048cb738c4582fb2d6d0.setContent(html_fea2382ced0400ce16b4b31e669e79d0);
+            
+        
+
+        marker_20dcb263f5404e9ea547b8013332d9ad.bindPopup(popup_5678c0719ade048cb738c4582fb2d6d0)
+        ;
+
+        
+    
+    
+            marker_20dcb263f5404e9ea547b8013332d9ad.bindTooltip(
+                `<div>
+                     ZONE 4
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_20dcb263f5404e9ea547b8013332d9ad.setIcon(div_icon_cb942c9c7d86966ba7dbf3236f433ddd);
+            
+    
+            var marker_f55b44b204e9fed2b2a1c8ed09db9967 = L.marker(
+                [40.67753, -73.863397],
+                {
+}
+            ).addTo(map_4789f9f59062e9f615a2fa05636c2663);
+        
+    
+            var div_icon_ee3ee262d7c161b8b10330b423eb6a99 = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                font-size: 14px;\n                font-weight: bold;\n                text-align: center;\n                background: white;\n                border: 2px solid black;\n                border-radius: 50%;\n                width: 34px;\n                height: 34px;\n                line-height: 30px;\n            \"\u003e\n                5\n            \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+        var popup_bf786b56b0ac6c6e9bb866497ab25a5e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c43cef37d612574a027bbaae65d3fc73 = $(`<div id="html_c43cef37d612574a027bbaae65d3fc73" style="width: 100.0%; height: 100.0%;">     <b>Opportunity Zone 5</b><br>     Borough: Brooklyn<br>     Candidates: 1<br><br>      Mean pedestrian score: 0.610<br>     Mean competition score: 0.032<br>     Mean rent score: 0.060<br>     Mean average rank: 11.3     </div>`)[0];
+                popup_bf786b56b0ac6c6e9bb866497ab25a5e.setContent(html_c43cef37d612574a027bbaae65d3fc73);
+            
+        
+
+        marker_f55b44b204e9fed2b2a1c8ed09db9967.bindPopup(popup_bf786b56b0ac6c6e9bb866497ab25a5e)
+        ;
+
+        
+    
+    
+            marker_f55b44b204e9fed2b2a1c8ed09db9967.bindTooltip(
+                `<div>
+                     ZONE 5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f55b44b204e9fed2b2a1c8ed09db9967.setIcon(div_icon_ee3ee262d7c161b8b10330b423eb6a99);
+            
+    
+            map_4789f9f59062e9f615a2fa05636c2663.fitBounds(
+                [[40.65053, -73.95848], [40.826917, -73.863397]],
+                {}
+            );
+        
+</script>
+</html>

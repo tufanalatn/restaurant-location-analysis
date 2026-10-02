@@ -1,0 +1,1411 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_76508d3c0982c6c5b0a012ecf16d5736 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+<div style="
+    position: fixed;
+    bottom: 35px;
+    left: 35px;
+    width: 280px;
+    background-color: white;
+    border: 2px solid grey;
+    z-index: 9999;
+    padding: 12px;
+    font-size: 13px;
+">
+<b>Restaurant Location Analysis</b><br><br>
+
+<span style="color:blue;">●</span>
+2026 Robust Candidate<br>
+
+<span style="color:black;">●</span>
+2026 Opportunity Zone Center<br>
+
+<span style="color:red;">●</span>
+2019 Comparison Area<br><br>
+
+<b>2019 → 2026</b><br>
+Same location problem,<br>
+expanded data and methodology.
+</div>
+    
+            <div class="folium-map" id="map_76508d3c0982c6c5b0a012ecf16d5736" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_76508d3c0982c6c5b0a012ecf16d5736 = L.map(
+                "map_76508d3c0982c6c5b0a012ecf16d5736",
+                {
+                    center: [40.73, -73.94],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a59b34d7918f852750d31926024f7002 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_a59b34d7918f852750d31926024f7002.addTo(map_76508d3c0982c6c5b0a012ecf16d5736);
+        
+    
+            var feature_group_05a5189a7c67d9ba5265035d179b81ae = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_0c14f30041e27dc1f8bf666f43d0376e = L.circleMarker(
+                [40.65053, -73.899097],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
+            ).addTo(feature_group_05a5189a7c67d9ba5265035d179b81ae);
+        
+    
+        var popup_226df62e1334b48682f445b0bc11c4af = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_797891535289e13a428956998125abed = $(`<div id="html_797891535289e13a428956998125abed" style="width: 100.0%; height: 100.0%;">     <b>2026 Robust Candidate</b><br>     Candidate: C0398<br>     Technical Zone: 1<br>     Borough: Brooklyn<br><br>      Pedestrian Demand: 0.826<br>     Turkish Competition: 0.139<br>     Rent Cost: 0.000<br>     Average Rank: 2.0     </div>`)[0];
+                popup_226df62e1334b48682f445b0bc11c4af.setContent(html_797891535289e13a428956998125abed);
+            
+        
+
+        circle_marker_0c14f30041e27dc1f8bf666f43d0376e.bindPopup(popup_226df62e1334b48682f445b0bc11c4af)
+        ;
+
+        
+    
+    
+            circle_marker_0c14f30041e27dc1f8bf666f43d0376e.bindTooltip(
+                `<div>
+                     2026 — C0398
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c91d066dfd56624e795493326bd51e4b = L.circleMarker(
+                [40.66403, -73.905047],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
+            ).addTo(feature_group_05a5189a7c67d9ba5265035d179b81ae);
+        
+    
+        var popup_dc812d56a964a64101b195ea8c0249d0 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_dc1d06076712eb618d8061f4bc32603e = $(`<div id="html_dc1d06076712eb618d8061f4bc32603e" style="width: 100.0%; height: 100.0%;">     <b>2026 Robust Candidate</b><br>     Candidate: C0473<br>     Technical Zone: 2<br>     Borough: Brooklyn<br><br>      Pedestrian Demand: 0.742<br>     Turkish Competition: 0.145<br>     Rent Cost: 0.203<br>     Average Rank: 16.0     </div>`)[0];
+                popup_dc812d56a964a64101b195ea8c0249d0.setContent(html_dc1d06076712eb618d8061f4bc32603e);
+            
+        
+
+        circle_marker_c91d066dfd56624e795493326bd51e4b.bindPopup(popup_dc812d56a964a64101b195ea8c0249d0)
+        ;
+
+        
+    
+    
+            circle_marker_c91d066dfd56624e795493326bd51e4b.bindTooltip(
+                `<div>
+                     2026 — C0473
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_37b10ffa90efbb4fcb618396764f4863 = L.circleMarker(
+                [40.66403, -73.899097],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
+            ).addTo(feature_group_05a5189a7c67d9ba5265035d179b81ae);
+        
+    
+        var popup_8b03b2073b8dc2651129d17375987013 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_93fc934bbba45528f9d994577067a1b9 = $(`<div id="html_93fc934bbba45528f9d994577067a1b9" style="width: 100.0%; height: 100.0%;">     <b>2026 Robust Candidate</b><br>     Candidate: C0474<br>     Technical Zone: 2<br>     Borough: Brooklyn<br><br>      Pedestrian Demand: 0.812<br>     Turkish Competition: 0.126<br>     Rent Cost: 0.203<br>     Average Rank: 8.0     </div>`)[0];
+                popup_8b03b2073b8dc2651129d17375987013.setContent(html_93fc934bbba45528f9d994577067a1b9);
+            
+        
+
+        circle_marker_37b10ffa90efbb4fcb618396764f4863.bindPopup(popup_8b03b2073b8dc2651129d17375987013)
+        ;
+
+        
+    
+    
+            circle_marker_37b10ffa90efbb4fcb618396764f4863.bindTooltip(
+                `<div>
+                     2026 — C0474
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5b6c724567fe04a2102f3804b061943a = L.circleMarker(
+                [40.66403, -73.893147],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
+            ).addTo(feature_group_05a5189a7c67d9ba5265035d179b81ae);
+        
+    
+        var popup_3a1ca22edc95b67c5c647448a256531d = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_97cba2f645548b1336815dd14d8cc854 = $(`<div id="html_97cba2f645548b1336815dd14d8cc854" style="width: 100.0%; height: 100.0%;">     <b>2026 Robust Candidate</b><br>     Candidate: C0475<br>     Technical Zone: 2<br>     Borough: Brooklyn<br><br>      Pedestrian Demand: 0.726<br>     Turkish Competition: 0.108<br>     Rent Cost: 0.203<br>     Average Rank: 14.0     </div>`)[0];
+                popup_3a1ca22edc95b67c5c647448a256531d.setContent(html_97cba2f645548b1336815dd14d8cc854);
+            
+        
+
+        circle_marker_5b6c724567fe04a2102f3804b061943a.bindPopup(popup_3a1ca22edc95b67c5c647448a256531d)
+        ;
+
+        
+    
+    
+            circle_marker_5b6c724567fe04a2102f3804b061943a.bindTooltip(
+                `<div>
+                     2026 — C0475
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ac9463868e6391ed0ab470d1c3219707 = L.circleMarker(
+                [40.67303, -73.899097],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
+            ).addTo(feature_group_05a5189a7c67d9ba5265035d179b81ae);
+        
+    
+        var popup_fca5c47ff3066afc6361fb237e15702e = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_4abfabdb12b07e1a5ec453d116c5b6dc = $(`<div id="html_4abfabdb12b07e1a5ec453d116c5b6dc" style="width: 100.0%; height: 100.0%;">     <b>2026 Robust Candidate</b><br>     Candidate: C0526<br>     Technical Zone: 3<br>     Borough: Brooklyn<br><br>      Pedestrian Demand: 0.739<br>     Turkish Competition: 0.133<br>     Rent Cost: 0.203<br>     Average Rank: 14.3     </div>`)[0];
+                popup_fca5c47ff3066afc6361fb237e15702e.setContent(html_4abfabdb12b07e1a5ec453d116c5b6dc);
+            
+        
+
+        circle_marker_ac9463868e6391ed0ab470d1c3219707.bindPopup(popup_fca5c47ff3066afc6361fb237e15702e)
+        ;
+
+        
+    
+    
+            circle_marker_ac9463868e6391ed0ab470d1c3219707.bindTooltip(
+                `<div>
+                     2026 — C0526
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d369887532d3ebed50bcd7133ae81062 = L.circleMarker(
+                [40.67303, -73.881247],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
+            ).addTo(feature_group_05a5189a7c67d9ba5265035d179b81ae);
+        
+    
+        var popup_ece10c8986bb9b9540653c8b6683087f = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_94bb56b7d0666eb46fcc370502cf247c = $(`<div id="html_94bb56b7d0666eb46fcc370502cf247c" style="width: 100.0%; height: 100.0%;">     <b>2026 Robust Candidate</b><br>     Candidate: C0529<br>     Technical Zone: 4<br>     Borough: Brooklyn<br><br>      Pedestrian Demand: 0.633<br>     Turkish Competition: 0.076<br>     Rent Cost: 0.060<br>     Average Rank: 11.3     </div>`)[0];
+                popup_ece10c8986bb9b9540653c8b6683087f.setContent(html_94bb56b7d0666eb46fcc370502cf247c);
+            
+        
+
+        circle_marker_d369887532d3ebed50bcd7133ae81062.bindPopup(popup_ece10c8986bb9b9540653c8b6683087f)
+        ;
+
+        
+    
+    
+            circle_marker_d369887532d3ebed50bcd7133ae81062.bindTooltip(
+                `<div>
+                     2026 — C0529
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_50ee253c9467395fc1ec0a6a829b6662 = L.circleMarker(
+                [40.67753, -73.905047],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
+            ).addTo(feature_group_05a5189a7c67d9ba5265035d179b81ae);
+        
+    
+        var popup_74602f63af041d9ec35574e11dfe42e7 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_79cbed146c7e6eeb5fee280b96946f12 = $(`<div id="html_79cbed146c7e6eeb5fee280b96946f12" style="width: 100.0%; height: 100.0%;">     <b>2026 Robust Candidate</b><br>     Candidate: C0552<br>     Technical Zone: 3<br>     Borough: Brooklyn<br><br>      Pedestrian Demand: 0.737<br>     Turkish Competition: 0.156<br>     Rent Cost: 0.203<br>     Average Rank: 18.3     </div>`)[0];
+                popup_74602f63af041d9ec35574e11dfe42e7.setContent(html_79cbed146c7e6eeb5fee280b96946f12);
+            
+        
+
+        circle_marker_50ee253c9467395fc1ec0a6a829b6662.bindPopup(popup_74602f63af041d9ec35574e11dfe42e7)
+        ;
+
+        
+    
+    
+            circle_marker_50ee253c9467395fc1ec0a6a829b6662.bindTooltip(
+                `<div>
+                     2026 — C0552
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0d8076dd10506016c058f78b9ab2751d = L.circleMarker(
+                [40.67753, -73.899097],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
+            ).addTo(feature_group_05a5189a7c67d9ba5265035d179b81ae);
+        
+    
+        var popup_a2d3a2bfb818fe45b9af1bc9abeb977f = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_3e666a956e08a41bc91e3dc96796b959 = $(`<div id="html_3e666a956e08a41bc91e3dc96796b959" style="width: 100.0%; height: 100.0%;">     <b>2026 Robust Candidate</b><br>     Candidate: C0553<br>     Technical Zone: 3<br>     Borough: Brooklyn<br><br>      Pedestrian Demand: 0.868<br>     Turkish Competition: 0.136<br>     Rent Cost: 0.203<br>     Average Rank: 5.7     </div>`)[0];
+                popup_a2d3a2bfb818fe45b9af1bc9abeb977f.setContent(html_3e666a956e08a41bc91e3dc96796b959);
+            
+        
+
+        circle_marker_0d8076dd10506016c058f78b9ab2751d.bindPopup(popup_a2d3a2bfb818fe45b9af1bc9abeb977f)
+        ;
+
+        
+    
+    
+            circle_marker_0d8076dd10506016c058f78b9ab2751d.bindTooltip(
+                `<div>
+                     2026 — C0553
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_99231497a833d238da98d9111e0d6744 = L.circleMarker(
+                [40.67753, -73.893147],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
+            ).addTo(feature_group_05a5189a7c67d9ba5265035d179b81ae);
+        
+    
+        var popup_e9429126ae44cf2b2f454dfaa5c0573d = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_64875eb186586051af16cabb13ef52fa = $(`<div id="html_64875eb186586051af16cabb13ef52fa" style="width: 100.0%; height: 100.0%;">     <b>2026 Robust Candidate</b><br>     Candidate: C0554<br>     Technical Zone: 3<br>     Borough: Brooklyn<br><br>      Pedestrian Demand: 0.809<br>     Turkish Competition: 0.116<br>     Rent Cost: 0.031<br>     Average Rank: 3.0     </div>`)[0];
+                popup_e9429126ae44cf2b2f454dfaa5c0573d.setContent(html_64875eb186586051af16cabb13ef52fa);
+            
+        
+
+        circle_marker_99231497a833d238da98d9111e0d6744.bindPopup(popup_e9429126ae44cf2b2f454dfaa5c0573d)
+        ;
+
+        
+    
+    
+            circle_marker_99231497a833d238da98d9111e0d6744.bindTooltip(
+                `<div>
+                     2026 — C0554
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6433171740c7e0de25e858594ea1d123 = L.circleMarker(
+                [40.67753, -73.863397],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
+            ).addTo(feature_group_05a5189a7c67d9ba5265035d179b81ae);
+        
+    
+        var popup_91b5838eecec90ba3520f7e40b3d6d77 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_ffba015d44c6a30b5e5ebfd1edfe8160 = $(`<div id="html_ffba015d44c6a30b5e5ebfd1edfe8160" style="width: 100.0%; height: 100.0%;">     <b>2026 Robust Candidate</b><br>     Candidate: C0559<br>     Technical Zone: 5<br>     Borough: Brooklyn<br><br>      Pedestrian Demand: 0.610<br>     Turkish Competition: 0.032<br>     Rent Cost: 0.060<br>     Average Rank: 11.3     </div>`)[0];
+                popup_91b5838eecec90ba3520f7e40b3d6d77.setContent(html_ffba015d44c6a30b5e5ebfd1edfe8160);
+            
+        
+
+        circle_marker_6433171740c7e0de25e858594ea1d123.bindPopup(popup_91b5838eecec90ba3520f7e40b3d6d77)
+        ;
+
+        
+    
+    
+            circle_marker_6433171740c7e0de25e858594ea1d123.bindTooltip(
+                `<div>
+                     2026 — C0559
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7c373cc00d4b73034089993003c998af = L.circleMarker(
+                [40.68203, -73.881247],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
+            ).addTo(feature_group_05a5189a7c67d9ba5265035d179b81ae);
+        
+    
+        var popup_47033e75aa44ea78c5515144401fa954 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_6b0edd0f2b8c7f621f011900fdc96695 = $(`<div id="html_6b0edd0f2b8c7f621f011900fdc96695" style="width: 100.0%; height: 100.0%;">     <b>2026 Robust Candidate</b><br>     Candidate: C0581<br>     Technical Zone: 6<br>     Borough: Brooklyn<br><br>      Pedestrian Demand: 0.760<br>     Turkish Competition: 0.081<br>     Rent Cost: 0.203<br>     Average Rank: 10.3     </div>`)[0];
+                popup_47033e75aa44ea78c5515144401fa954.setContent(html_6b0edd0f2b8c7f621f011900fdc96695);
+            
+        
+
+        circle_marker_7c373cc00d4b73034089993003c998af.bindPopup(popup_47033e75aa44ea78c5515144401fa954)
+        ;
+
+        
+    
+    
+            circle_marker_7c373cc00d4b73034089993003c998af.bindTooltip(
+                `<div>
+                     2026 — C0581
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f044b184102a5b8fedcab07d3dcf1c9a = L.circleMarker(
+                [40.68203, -73.875297],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
+            ).addTo(feature_group_05a5189a7c67d9ba5265035d179b81ae);
+        
+    
+        var popup_ca359ece19b9a6265d72f0f842e03c0d = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_d204b9a682428b84496f9ab30236e5b1 = $(`<div id="html_d204b9a682428b84496f9ab30236e5b1" style="width: 100.0%; height: 100.0%;">     <b>2026 Robust Candidate</b><br>     Candidate: C0582<br>     Technical Zone: 6<br>     Borough: Brooklyn<br><br>      Pedestrian Demand: 0.705<br>     Turkish Competition: 0.066<br>     Rent Cost: 0.060<br>     Average Rank: 5.3     </div>`)[0];
+                popup_ca359ece19b9a6265d72f0f842e03c0d.setContent(html_d204b9a682428b84496f9ab30236e5b1);
+            
+        
+
+        circle_marker_f044b184102a5b8fedcab07d3dcf1c9a.bindPopup(popup_ca359ece19b9a6265d72f0f842e03c0d)
+        ;
+
+        
+    
+    
+            circle_marker_f044b184102a5b8fedcab07d3dcf1c9a.bindTooltip(
+                `<div>
+                     2026 — C0582
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_eacf00dca6a75063e1956ce74e299ee0 = L.circleMarker(
+                [40.804417, -73.93468],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
+            ).addTo(feature_group_05a5189a7c67d9ba5265035d179b81ae);
+        
+    
+        var popup_61aefa8a7b6b8a1841faf11bec89b75b = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_b5b8e9c8b1bbb7f6a08de2cee969019d = $(`<div id="html_b5b8e9c8b1bbb7f6a08de2cee969019d" style="width: 100.0%; height: 100.0%;">     <b>2026 Robust Candidate</b><br>     Candidate: C0881<br>     Technical Zone: 7<br>     Borough: Manhattan<br><br>      Pedestrian Demand: 0.713<br>     Turkish Competition: 0.203<br>     Rent Cost: 0.009<br>     Average Rank: 8.0     </div>`)[0];
+                popup_61aefa8a7b6b8a1841faf11bec89b75b.setContent(html_b5b8e9c8b1bbb7f6a08de2cee969019d);
+            
+        
+
+        circle_marker_eacf00dca6a75063e1956ce74e299ee0.bindPopup(popup_61aefa8a7b6b8a1841faf11bec89b75b)
+        ;
+
+        
+    
+    
+            circle_marker_eacf00dca6a75063e1956ce74e299ee0.bindTooltip(
+                `<div>
+                     2026 — C0881
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_91987ec300a4807969f837face8524eb = L.circleMarker(
+                [40.808917, -73.95848],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
+            ).addTo(feature_group_05a5189a7c67d9ba5265035d179b81ae);
+        
+    
+        var popup_1a803b66e1f291acaef57ec61da4696d = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_1d040e042dba20af75d1637e177b5872 = $(`<div id="html_1d040e042dba20af75d1637e177b5872" style="width: 100.0%; height: 100.0%;">     <b>2026 Robust Candidate</b><br>     Candidate: C0883<br>     Technical Zone: 8<br>     Borough: Manhattan<br><br>      Pedestrian Demand: 0.745<br>     Turkish Competition: 0.213<br>     Rent Cost: 0.060<br>     Average Rank: 9.7     </div>`)[0];
+                popup_1a803b66e1f291acaef57ec61da4696d.setContent(html_1d040e042dba20af75d1637e177b5872);
+            
+        
+
+        circle_marker_91987ec300a4807969f837face8524eb.bindPopup(popup_1a803b66e1f291acaef57ec61da4696d)
+        ;
+
+        
+    
+    
+            circle_marker_91987ec300a4807969f837face8524eb.bindTooltip(
+                `<div>
+                     2026 — C0883
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e297c1f270bb6f2470b7a00e3ad704c1 = L.circleMarker(
+                [40.822417, -73.93468],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
+            ).addTo(feature_group_05a5189a7c67d9ba5265035d179b81ae);
+        
+    
+        var popup_0876fb99b0b60469808c3dc84be31f3e = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_05641286c924e4f348bb448b8e72e0a5 = $(`<div id="html_05641286c924e4f348bb448b8e72e0a5" style="width: 100.0%; height: 100.0%;">     <b>2026 Robust Candidate</b><br>     Candidate: C0902<br>     Technical Zone: 9<br>     Borough: Manhattan<br><br>      Pedestrian Demand: 0.811<br>     Turkish Competition: 0.107<br>     Rent Cost: 0.000<br>     Average Rank: 1.0     </div>`)[0];
+                popup_0876fb99b0b60469808c3dc84be31f3e.setContent(html_05641286c924e4f348bb448b8e72e0a5);
+            
+        
+
+        circle_marker_e297c1f270bb6f2470b7a00e3ad704c1.bindPopup(popup_0876fb99b0b60469808c3dc84be31f3e)
+        ;
+
+        
+    
+    
+            circle_marker_e297c1f270bb6f2470b7a00e3ad704c1.bindTooltip(
+                `<div>
+                     2026 — C0902
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e90ccb649ae965ee67356d4eed030375 = L.circleMarker(
+                [40.826917, -73.93468],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
+            ).addTo(feature_group_05a5189a7c67d9ba5265035d179b81ae);
+        
+    
+        var popup_b08431888eab47b1aa042194a50fc470 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_9fb40016c6a38564ad175e3788a5d9df = $(`<div id="html_9fb40016c6a38564ad175e3788a5d9df" style="width: 100.0%; height: 100.0%;">     <b>2026 Robust Candidate</b><br>     Candidate: C0906<br>     Technical Zone: 9<br>     Borough: Manhattan<br><br>      Pedestrian Demand: 0.677<br>     Turkish Competition: 0.091<br>     Rent Cost: 0.000<br>     Average Rank: 5.0     </div>`)[0];
+                popup_b08431888eab47b1aa042194a50fc470.setContent(html_9fb40016c6a38564ad175e3788a5d9df);
+            
+        
+
+        circle_marker_e90ccb649ae965ee67356d4eed030375.bindPopup(popup_b08431888eab47b1aa042194a50fc470)
+        ;
+
+        
+    
+    
+            circle_marker_e90ccb649ae965ee67356d4eed030375.bindTooltip(
+                `<div>
+                     2026 — C0906
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_05a5189a7c67d9ba5265035d179b81ae.addTo(map_76508d3c0982c6c5b0a012ecf16d5736);
+        
+    
+            var feature_group_91223fa04ec13d9f4265f8e8e0e62e7e = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_16fe83c5239e530f4eab5a85497ca3a9 = L.marker(
+                [40.824667000000005, -73.93468],
+                {
+}
+            ).addTo(feature_group_91223fa04ec13d9f4265f8e8e0e62e7e);
+        
+    
+            var div_icon_f7749be64384c3d58404b962478afb5c = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                font-size: 13px;\n                font-weight: bold;\n                text-align: center;\n                background: white;\n                border: 2px solid #111;\n                border-radius: 50%;\n                width: 34px;\n                height: 34px;\n                line-height: 30px;\n            \"\u003e\n                9\n            \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+        var popup_833558011a9c65d771a40669782e460b = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_3df707510d944161ee7f1b833522e76b = $(`<div id="html_3df707510d944161ee7f1b833522e76b" style="width: 100.0%; height: 100.0%;">     <b>2026 Opportunity Zone 9</b><br>     Upper East Harlem / Harlem River<br>     Borough: Manhattan<br>     Robust candidates: 2<br><br>      Mean Pedestrian Demand: 0.744<br>     Mean Competition: 0.099<br>     Mean Rent Cost: 0.000<br>     Mean Average Rank: 3.0     </div>`)[0];
+                popup_833558011a9c65d771a40669782e460b.setContent(html_3df707510d944161ee7f1b833522e76b);
+            
+        
+
+        marker_16fe83c5239e530f4eab5a85497ca3a9.bindPopup(popup_833558011a9c65d771a40669782e460b)
+        ;
+
+        
+    
+    
+            marker_16fe83c5239e530f4eab5a85497ca3a9.bindTooltip(
+                `<div>
+                     Zone 9 — Upper East Harlem / Harlem River
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_16fe83c5239e530f4eab5a85497ca3a9.setIcon(div_icon_f7749be64384c3d58404b962478afb5c);
+            
+    
+            var marker_d8c85c7e5b1fce2e8d767ad8268538ab = L.marker(
+                [40.65053, -73.899097],
+                {
+}
+            ).addTo(feature_group_91223fa04ec13d9f4265f8e8e0e62e7e);
+        
+    
+            var div_icon_94b6e95982b4d350a3b26d2ba7af164e = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                font-size: 13px;\n                font-weight: bold;\n                text-align: center;\n                background: white;\n                border: 2px solid #111;\n                border-radius: 50%;\n                width: 34px;\n                height: 34px;\n                line-height: 30px;\n            \"\u003e\n                1\n            \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+        var popup_b0436283a93fbb1701bbd3df7c88856c = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_29ee792c12196419bcd0888257c59242 = $(`<div id="html_29ee792c12196419bcd0888257c59242" style="width: 100.0%; height: 100.0%;">     <b>2026 Opportunity Zone 1</b><br>     Brownsville / East New York<br>     Borough: Brooklyn<br>     Robust candidates: 1<br><br>      Mean Pedestrian Demand: 0.826<br>     Mean Competition: 0.139<br>     Mean Rent Cost: 0.000<br>     Mean Average Rank: 2.0     </div>`)[0];
+                popup_b0436283a93fbb1701bbd3df7c88856c.setContent(html_29ee792c12196419bcd0888257c59242);
+            
+        
+
+        marker_d8c85c7e5b1fce2e8d767ad8268538ab.bindPopup(popup_b0436283a93fbb1701bbd3df7c88856c)
+        ;
+
+        
+    
+    
+            marker_d8c85c7e5b1fce2e8d767ad8268538ab.bindTooltip(
+                `<div>
+                     Zone 1 — Brownsville / East New York
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d8c85c7e5b1fce2e8d767ad8268538ab.setIcon(div_icon_94b6e95982b4d350a3b26d2ba7af164e);
+            
+    
+            var marker_6f5bd64c4ff9855932cff177cbdc550c = L.marker(
+                [40.676405, -73.899097],
+                {
+}
+            ).addTo(feature_group_91223fa04ec13d9f4265f8e8e0e62e7e);
+        
+    
+            var div_icon_829827b1506fe63b041fbcd08009b8eb = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                font-size: 13px;\n                font-weight: bold;\n                text-align: center;\n                background: white;\n                border: 2px solid #111;\n                border-radius: 50%;\n                width: 34px;\n                height: 34px;\n                line-height: 30px;\n            \"\u003e\n                3\n            \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+        var popup_6711817e71fa75148f84605d99f217f5 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_d76cf6b41bb9010b4f75fa4a5caca278 = $(`<div id="html_d76cf6b41bb9010b4f75fa4a5caca278" style="width: 100.0%; height: 100.0%;">     <b>2026 Opportunity Zone 3</b><br>     Brownsville / East New York<br>     Borough: Brooklyn<br>     Robust candidates: 4<br><br>      Mean Pedestrian Demand: 0.788<br>     Mean Competition: 0.135<br>     Mean Rent Cost: 0.160<br>     Mean Average Rank: 10.3     </div>`)[0];
+                popup_6711817e71fa75148f84605d99f217f5.setContent(html_d76cf6b41bb9010b4f75fa4a5caca278);
+            
+        
+
+        marker_6f5bd64c4ff9855932cff177cbdc550c.bindPopup(popup_6711817e71fa75148f84605d99f217f5)
+        ;
+
+        
+    
+    
+            marker_6f5bd64c4ff9855932cff177cbdc550c.bindTooltip(
+                `<div>
+                     Zone 3 — Brownsville / East New York
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6f5bd64c4ff9855932cff177cbdc550c.setIcon(div_icon_829827b1506fe63b041fbcd08009b8eb);
+            
+    
+            var marker_7fa3d75cdb93d861fd13d17293679b8b = L.marker(
+                [40.68203, -73.87827200000001],
+                {
+}
+            ).addTo(feature_group_91223fa04ec13d9f4265f8e8e0e62e7e);
+        
+    
+            var div_icon_ea7b1d9d8ea3fce531bf7cb7ad806125 = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                font-size: 13px;\n                font-weight: bold;\n                text-align: center;\n                background: white;\n                border: 2px solid #111;\n                border-radius: 50%;\n                width: 34px;\n                height: 34px;\n                line-height: 30px;\n            \"\u003e\n                6\n            \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+        var popup_899a3968ce1157b2d78fd6ebb044cc41 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_54e68931d56f9ede5241bc4b71925d0b = $(`<div id="html_54e68931d56f9ede5241bc4b71925d0b" style="width: 100.0%; height: 100.0%;">     <b>2026 Opportunity Zone 6</b><br>     East New York / Cypress Hills<br>     Borough: Brooklyn<br>     Robust candidates: 2<br><br>      Mean Pedestrian Demand: 0.732<br>     Mean Competition: 0.074<br>     Mean Rent Cost: 0.132<br>     Mean Average Rank: 7.8     </div>`)[0];
+                popup_899a3968ce1157b2d78fd6ebb044cc41.setContent(html_54e68931d56f9ede5241bc4b71925d0b);
+            
+        
+
+        marker_7fa3d75cdb93d861fd13d17293679b8b.bindPopup(popup_899a3968ce1157b2d78fd6ebb044cc41)
+        ;
+
+        
+    
+    
+            marker_7fa3d75cdb93d861fd13d17293679b8b.bindTooltip(
+                `<div>
+                     Zone 6 — East New York / Cypress Hills
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7fa3d75cdb93d861fd13d17293679b8b.setIcon(div_icon_ea7b1d9d8ea3fce531bf7cb7ad806125);
+            
+    
+            var marker_5df238f0904e80107fdb3d065df34b59 = L.marker(
+                [40.804417, -73.93468],
+                {
+}
+            ).addTo(feature_group_91223fa04ec13d9f4265f8e8e0e62e7e);
+        
+    
+            var div_icon_0b282aa1fd21476ff79ee76a0aebcb5c = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                font-size: 13px;\n                font-weight: bold;\n                text-align: center;\n                background: white;\n                border: 2px solid #111;\n                border-radius: 50%;\n                width: 34px;\n                height: 34px;\n                line-height: 30px;\n            \"\u003e\n                7\n            \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+        var popup_20ce56294ba4e501a869b4b16cc47c2a = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_4c63a7ea021e146d7a8ac654819eabd2 = $(`<div id="html_4c63a7ea021e146d7a8ac654819eabd2" style="width: 100.0%; height: 100.0%;">     <b>2026 Opportunity Zone 7</b><br>     East Harlem<br>     Borough: Manhattan<br>     Robust candidates: 1<br><br>      Mean Pedestrian Demand: 0.713<br>     Mean Competition: 0.203<br>     Mean Rent Cost: 0.009<br>     Mean Average Rank: 8.0     </div>`)[0];
+                popup_20ce56294ba4e501a869b4b16cc47c2a.setContent(html_4c63a7ea021e146d7a8ac654819eabd2);
+            
+        
+
+        marker_5df238f0904e80107fdb3d065df34b59.bindPopup(popup_20ce56294ba4e501a869b4b16cc47c2a)
+        ;
+
+        
+    
+    
+            marker_5df238f0904e80107fdb3d065df34b59.bindTooltip(
+                `<div>
+                     Zone 7 — East Harlem
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5df238f0904e80107fdb3d065df34b59.setIcon(div_icon_0b282aa1fd21476ff79ee76a0aebcb5c);
+            
+    
+            var marker_3cce97abf69e074e145e3f985e6fde11 = L.marker(
+                [40.66403, -73.899097],
+                {
+}
+            ).addTo(feature_group_91223fa04ec13d9f4265f8e8e0e62e7e);
+        
+    
+            var div_icon_f7d771b5717cd6dcb8c28e68f43ca000 = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                font-size: 13px;\n                font-weight: bold;\n                text-align: center;\n                background: white;\n                border: 2px solid #111;\n                border-radius: 50%;\n                width: 34px;\n                height: 34px;\n                line-height: 30px;\n            \"\u003e\n                2\n            \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+        var popup_b64ca6e8fc4b02d252f2f8d1527c59ec = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_cee079e7a055b05372746b1c6fa59548 = $(`<div id="html_cee079e7a055b05372746b1c6fa59548" style="width: 100.0%; height: 100.0%;">     <b>2026 Opportunity Zone 2</b><br>     Brownsville / East New York<br>     Borough: Brooklyn<br>     Robust candidates: 3<br><br>      Mean Pedestrian Demand: 0.760<br>     Mean Competition: 0.126<br>     Mean Rent Cost: 0.203<br>     Mean Average Rank: 12.7     </div>`)[0];
+                popup_b64ca6e8fc4b02d252f2f8d1527c59ec.setContent(html_cee079e7a055b05372746b1c6fa59548);
+            
+        
+
+        marker_3cce97abf69e074e145e3f985e6fde11.bindPopup(popup_b64ca6e8fc4b02d252f2f8d1527c59ec)
+        ;
+
+        
+    
+    
+            marker_3cce97abf69e074e145e3f985e6fde11.bindTooltip(
+                `<div>
+                     Zone 2 — Brownsville / East New York
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3cce97abf69e074e145e3f985e6fde11.setIcon(div_icon_f7d771b5717cd6dcb8c28e68f43ca000);
+            
+    
+            var marker_ae4b17790516d8b8d3189abd4406b173 = L.marker(
+                [40.808917, -73.95848],
+                {
+}
+            ).addTo(feature_group_91223fa04ec13d9f4265f8e8e0e62e7e);
+        
+    
+            var div_icon_ceaa667fbe4d65a691ba16a48bbef013 = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                font-size: 13px;\n                font-weight: bold;\n                text-align: center;\n                background: white;\n                border: 2px solid #111;\n                border-radius: 50%;\n                width: 34px;\n                height: 34px;\n                line-height: 30px;\n            \"\u003e\n                8\n            \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+        var popup_c95f7aae98fdee6bb218539d3939f696 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_daa49c6856ad7773dfcd167ca9122940 = $(`<div id="html_daa49c6856ad7773dfcd167ca9122940" style="width: 100.0%; height: 100.0%;">     <b>2026 Opportunity Zone 8</b><br>     Morningside Heights / Manhattanville<br>     Borough: Manhattan<br>     Robust candidates: 1<br><br>      Mean Pedestrian Demand: 0.745<br>     Mean Competition: 0.213<br>     Mean Rent Cost: 0.060<br>     Mean Average Rank: 9.7     </div>`)[0];
+                popup_c95f7aae98fdee6bb218539d3939f696.setContent(html_daa49c6856ad7773dfcd167ca9122940);
+            
+        
+
+        marker_ae4b17790516d8b8d3189abd4406b173.bindPopup(popup_c95f7aae98fdee6bb218539d3939f696)
+        ;
+
+        
+    
+    
+            marker_ae4b17790516d8b8d3189abd4406b173.bindTooltip(
+                `<div>
+                     Zone 8 — Morningside Heights / Manhattanville
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ae4b17790516d8b8d3189abd4406b173.setIcon(div_icon_ceaa667fbe4d65a691ba16a48bbef013);
+            
+    
+            var marker_cfb5c7729a7b22bcaa8e0ecf3f6d412e = L.marker(
+                [40.67303, -73.881247],
+                {
+}
+            ).addTo(feature_group_91223fa04ec13d9f4265f8e8e0e62e7e);
+        
+    
+            var div_icon_fa1c31b2b008a098cc252122eb77ddbc = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                font-size: 13px;\n                font-weight: bold;\n                text-align: center;\n                background: white;\n                border: 2px solid #111;\n                border-radius: 50%;\n                width: 34px;\n                height: 34px;\n                line-height: 30px;\n            \"\u003e\n                4\n            \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+        var popup_759b72b8f3856fc279eebaf713d7e028 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_117a7e91d14837cb3be53e047030c2d4 = $(`<div id="html_117a7e91d14837cb3be53e047030c2d4" style="width: 100.0%; height: 100.0%;">     <b>2026 Opportunity Zone 4</b><br>     East New York / Cypress Hills<br>     Borough: Brooklyn<br>     Robust candidates: 1<br><br>      Mean Pedestrian Demand: 0.633<br>     Mean Competition: 0.076<br>     Mean Rent Cost: 0.060<br>     Mean Average Rank: 11.3     </div>`)[0];
+                popup_759b72b8f3856fc279eebaf713d7e028.setContent(html_117a7e91d14837cb3be53e047030c2d4);
+            
+        
+
+        marker_cfb5c7729a7b22bcaa8e0ecf3f6d412e.bindPopup(popup_759b72b8f3856fc279eebaf713d7e028)
+        ;
+
+        
+    
+    
+            marker_cfb5c7729a7b22bcaa8e0ecf3f6d412e.bindTooltip(
+                `<div>
+                     Zone 4 — East New York / Cypress Hills
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cfb5c7729a7b22bcaa8e0ecf3f6d412e.setIcon(div_icon_fa1c31b2b008a098cc252122eb77ddbc);
+            
+    
+            var marker_3f682f3d75d853497062c5bd26842ea7 = L.marker(
+                [40.67753, -73.863397],
+                {
+}
+            ).addTo(feature_group_91223fa04ec13d9f4265f8e8e0e62e7e);
+        
+    
+            var div_icon_7c6198304f250f3d02f053ea3329d48a = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                font-size: 13px;\n                font-weight: bold;\n                text-align: center;\n                background: white;\n                border: 2px solid #111;\n                border-radius: 50%;\n                width: 34px;\n                height: 34px;\n                line-height: 30px;\n            \"\u003e\n                5\n            \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+        var popup_81ebab9a49220e7259d29ef68bdc43b2 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_654275bd54faaf124ce47ab80d9a779b = $(`<div id="html_654275bd54faaf124ce47ab80d9a779b" style="width: 100.0%; height: 100.0%;">     <b>2026 Opportunity Zone 5</b><br>     East New York / Cypress Hills<br>     Borough: Brooklyn<br>     Robust candidates: 1<br><br>      Mean Pedestrian Demand: 0.610<br>     Mean Competition: 0.032<br>     Mean Rent Cost: 0.060<br>     Mean Average Rank: 11.3     </div>`)[0];
+                popup_81ebab9a49220e7259d29ef68bdc43b2.setContent(html_654275bd54faaf124ce47ab80d9a779b);
+            
+        
+
+        marker_3f682f3d75d853497062c5bd26842ea7.bindPopup(popup_81ebab9a49220e7259d29ef68bdc43b2)
+        ;
+
+        
+    
+    
+            marker_3f682f3d75d853497062c5bd26842ea7.bindTooltip(
+                `<div>
+                     Zone 5 — East New York / Cypress Hills
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3f682f3d75d853497062c5bd26842ea7.setIcon(div_icon_7c6198304f250f3d02f053ea3329d48a);
+            
+    
+            feature_group_91223fa04ec13d9f4265f8e8e0e62e7e.addTo(map_76508d3c0982c6c5b0a012ecf16d5736);
+        
+    
+            var feature_group_11d75fabb0d6576be9cfba331b52025f = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_3487386ee9439ffd080fa391330b1529 = L.circleMarker(
+                [40.759417, -73.98228],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(feature_group_11d75fabb0d6576be9cfba331b52025f);
+        
+    
+        var popup_f6983966f221b9da8137d9d2a4b29c06 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_c974908ec7b1a27b2e85caefd9976638 = $(`<div id="html_c974908ec7b1a27b2e85caefd9976638" style="width: 100.0%; height: 100.0%;">     <b>2019 Comparison Area</b><br>     59th Street / Central Park South<br>     Candidate: C0790<br><br>      2026 Pedestrian Demand: 0.994<br>     Turkish Competition: 0.996<br>     Rent Cost: 0.982     </div>`)[0];
+                popup_f6983966f221b9da8137d9d2a4b29c06.setContent(html_c974908ec7b1a27b2e85caefd9976638);
+            
+        
+
+        circle_marker_3487386ee9439ffd080fa391330b1529.bindPopup(popup_f6983966f221b9da8137d9d2a4b29c06)
+        ;
+
+        
+    
+    
+            circle_marker_3487386ee9439ffd080fa391330b1529.bindTooltip(
+                `<div>
+                     2019 Comparison — 59th Street
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bd8d935a16d06f1c2e7e171bc7be685d = L.circleMarker(
+                [40.759417, -73.97633],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(feature_group_11d75fabb0d6576be9cfba331b52025f);
+        
+    
+        var popup_8952bd90c2243d953cac43473577483c = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_2294ab60fa9f4e1546e5421a36d65fe4 = $(`<div id="html_2294ab60fa9f4e1546e5421a36d65fe4" style="width: 100.0%; height: 100.0%;">     <b>2019 Comparison Area</b><br>     59th Street / Central Park South<br>     Candidate: C0791<br><br>      2026 Pedestrian Demand: 0.982<br>     Turkish Competition: 0.986<br>     Rent Cost: 0.986     </div>`)[0];
+                popup_8952bd90c2243d953cac43473577483c.setContent(html_2294ab60fa9f4e1546e5421a36d65fe4);
+            
+        
+
+        circle_marker_bd8d935a16d06f1c2e7e171bc7be685d.bindPopup(popup_8952bd90c2243d953cac43473577483c)
+        ;
+
+        
+    
+    
+            circle_marker_bd8d935a16d06f1c2e7e171bc7be685d.bindTooltip(
+                `<div>
+                     2019 Comparison — 59th Street
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f998ba956a936ac8e96919045a27458c = L.circleMarker(
+                [40.759417, -73.97038],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(feature_group_11d75fabb0d6576be9cfba331b52025f);
+        
+    
+        var popup_0ddbae69278800b8545039b2fcc59679 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_1808ab3098657f9241ba351368339d28 = $(`<div id="html_1808ab3098657f9241ba351368339d28" style="width: 100.0%; height: 100.0%;">     <b>2019 Comparison Area</b><br>     59th Street / Central Park South<br>     Candidate: C0792<br><br>      2026 Pedestrian Demand: 0.967<br>     Turkish Competition: 0.945<br>     Rent Cost: 0.944     </div>`)[0];
+                popup_0ddbae69278800b8545039b2fcc59679.setContent(html_1808ab3098657f9241ba351368339d28);
+            
+        
+
+        circle_marker_f998ba956a936ac8e96919045a27458c.bindPopup(popup_0ddbae69278800b8545039b2fcc59679)
+        ;
+
+        
+    
+    
+            circle_marker_f998ba956a936ac8e96919045a27458c.bindTooltip(
+                `<div>
+                     2019 Comparison — 59th Street
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_78af70ae55fb63ea9028a9418202ff8e = L.circleMarker(
+                [40.763917, -73.98228],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(feature_group_11d75fabb0d6576be9cfba331b52025f);
+        
+    
+        var popup_7749ab91d74a5edc186cf9d4142bf5d0 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_4142a7db24aaf270f5a1f16b3244642f = $(`<div id="html_4142a7db24aaf270f5a1f16b3244642f" style="width: 100.0%; height: 100.0%;">     <b>2019 Comparison Area</b><br>     59th Street / Central Park South<br>     Candidate: C0798<br><br>      2026 Pedestrian Demand: 0.991<br>     Turkish Competition: 0.985<br>     Rent Cost: 0.971     </div>`)[0];
+                popup_7749ab91d74a5edc186cf9d4142bf5d0.setContent(html_4142a7db24aaf270f5a1f16b3244642f);
+            
+        
+
+        circle_marker_78af70ae55fb63ea9028a9418202ff8e.bindPopup(popup_7749ab91d74a5edc186cf9d4142bf5d0)
+        ;
+
+        
+    
+    
+            circle_marker_78af70ae55fb63ea9028a9418202ff8e.bindTooltip(
+                `<div>
+                     2019 Comparison — 59th Street
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9a8eb367d86852d3202a2d07e643c540 = L.circleMarker(
+                [40.763917, -73.97633],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(feature_group_11d75fabb0d6576be9cfba331b52025f);
+        
+    
+        var popup_ed200b843cef79a06b988575d81028fd = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_cb7ff4ebfab1d2199bed4c1bc111452c = $(`<div id="html_cb7ff4ebfab1d2199bed4c1bc111452c" style="width: 100.0%; height: 100.0%;">     <b>2019 Comparison Area</b><br>     59th Street / Central Park South<br>     Candidate: C0799<br><br>      2026 Pedestrian Demand: 0.984<br>     Turkish Competition: 0.956<br>     Rent Cost: 0.944     </div>`)[0];
+                popup_ed200b843cef79a06b988575d81028fd.setContent(html_cb7ff4ebfab1d2199bed4c1bc111452c);
+            
+        
+
+        circle_marker_9a8eb367d86852d3202a2d07e643c540.bindPopup(popup_ed200b843cef79a06b988575d81028fd)
+        ;
+
+        
+    
+    
+            circle_marker_9a8eb367d86852d3202a2d07e643c540.bindTooltip(
+                `<div>
+                     2019 Comparison — 59th Street
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b2fa77c638b4697c0812a2486ed52ea7 = L.circleMarker(
+                [40.763917, -73.97038],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(feature_group_11d75fabb0d6576be9cfba331b52025f);
+        
+    
+        var popup_b18f6049140bd85eb8b55948f98f3811 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_df8e5373401b1b70fae2202b10030c53 = $(`<div id="html_df8e5373401b1b70fae2202b10030c53" style="width: 100.0%; height: 100.0%;">     <b>2019 Comparison Area</b><br>     59th Street / Central Park South<br>     Candidate: C0800<br><br>      2026 Pedestrian Demand: 0.949<br>     Turkish Competition: 0.893<br>     Rent Cost: 0.991     </div>`)[0];
+                popup_b18f6049140bd85eb8b55948f98f3811.setContent(html_df8e5373401b1b70fae2202b10030c53);
+            
+        
+
+        circle_marker_b2fa77c638b4697c0812a2486ed52ea7.bindPopup(popup_b18f6049140bd85eb8b55948f98f3811)
+        ;
+
+        
+    
+    
+            circle_marker_b2fa77c638b4697c0812a2486ed52ea7.bindTooltip(
+                `<div>
+                     2019 Comparison — 59th Street
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_89c2423fbc13edf859bfb4c623f80f81 = L.circleMarker(
+                [40.768417, -73.98228],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(feature_group_11d75fabb0d6576be9cfba331b52025f);
+        
+    
+        var popup_a71a1519d43989910590172588b85197 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_24139058a32c0129b68f118aa511bde4 = $(`<div id="html_24139058a32c0129b68f118aa511bde4" style="width: 100.0%; height: 100.0%;">     <b>2019 Comparison Area</b><br>     59th Street / Central Park South<br>     Candidate: C0806<br><br>      2026 Pedestrian Demand: 0.963<br>     Turkish Competition: 0.966<br>     Rent Cost: 0.944     </div>`)[0];
+                popup_a71a1519d43989910590172588b85197.setContent(html_24139058a32c0129b68f118aa511bde4);
+            
+        
+
+        circle_marker_89c2423fbc13edf859bfb4c623f80f81.bindPopup(popup_a71a1519d43989910590172588b85197)
+        ;
+
+        
+    
+    
+            circle_marker_89c2423fbc13edf859bfb4c623f80f81.bindTooltip(
+                `<div>
+                     2019 Comparison — 59th Street
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8a03aee2d5dec7b36e30a1f3ff56cae4 = L.circleMarker(
+                [40.768417, -73.97633],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(feature_group_11d75fabb0d6576be9cfba331b52025f);
+        
+    
+        var popup_ebd43b67625b626b85f4ce05225fa5cf = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_2e6f30d988b5377a669038dce5a70271 = $(`<div id="html_2e6f30d988b5377a669038dce5a70271" style="width: 100.0%; height: 100.0%;">     <b>2019 Comparison Area</b><br>     59th Street / Central Park South<br>     Candidate: C0807<br><br>      2026 Pedestrian Demand: 0.916<br>     Turkish Competition: 0.901<br>     Rent Cost: 0.944     </div>`)[0];
+                popup_ebd43b67625b626b85f4ce05225fa5cf.setContent(html_2e6f30d988b5377a669038dce5a70271);
+            
+        
+
+        circle_marker_8a03aee2d5dec7b36e30a1f3ff56cae4.bindPopup(popup_ebd43b67625b626b85f4ce05225fa5cf)
+        ;
+
+        
+    
+    
+            circle_marker_8a03aee2d5dec7b36e30a1f3ff56cae4.bindTooltip(
+                `<div>
+                     2019 Comparison — 59th Street
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_50d411ce349d4ddfadf7783accd29ba6 = L.circleMarker(
+                [40.768417, -73.97038],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(feature_group_11d75fabb0d6576be9cfba331b52025f);
+        
+    
+        var popup_4dbdaeb6f071eba518cadfdcf1d3a2b7 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_86b002bc7fc29ee5c525d482a9b3d609 = $(`<div id="html_86b002bc7fc29ee5c525d482a9b3d609" style="width: 100.0%; height: 100.0%;">     <b>2019 Comparison Area</b><br>     59th Street / Central Park South<br>     Candidate: C0808<br><br>      2026 Pedestrian Demand: 0.878<br>     Turkish Competition: 0.841<br>     Rent Cost: 0.944     </div>`)[0];
+                popup_4dbdaeb6f071eba518cadfdcf1d3a2b7.setContent(html_86b002bc7fc29ee5c525d482a9b3d609);
+            
+        
+
+        circle_marker_50d411ce349d4ddfadf7783accd29ba6.bindPopup(popup_4dbdaeb6f071eba518cadfdcf1d3a2b7)
+        ;
+
+        
+    
+    
+            circle_marker_50d411ce349d4ddfadf7783accd29ba6.bindTooltip(
+                `<div>
+                     2019 Comparison — 59th Street
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var rectangle_b0444c2f0fe9995b01a006810bcf9af1 = L.rectangle(
+                [[40.758, -73.985], [40.772, -73.97]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "6", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_11d75fabb0d6576be9cfba331b52025f);
+        
+    
+            rectangle_b0444c2f0fe9995b01a006810bcf9af1.bindTooltip(
+                `<div>
+                     2019 Recommended Area — 59th Street / Central Park South
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_11d75fabb0d6576be9cfba331b52025f.addTo(map_76508d3c0982c6c5b0a012ecf16d5736);
+        
+    
+            var layer_control_8207a3e6dc5e576221c053a3ed90b6b6_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_a59b34d7918f852750d31926024f7002,
+                },
+                overlays :  {
+                    "2026 Robust Candidates" : feature_group_05a5189a7c67d9ba5265035d179b81ae,
+                    "2026 Opportunity Zones" : feature_group_91223fa04ec13d9f4265f8e8e0e62e7e,
+                    "2019 \u2014 59th Street Comparison Area" : feature_group_11d75fabb0d6576be9cfba331b52025f,
+                },
+            };
+            let layer_control_8207a3e6dc5e576221c053a3ed90b6b6 = L.control.layers(
+                layer_control_8207a3e6dc5e576221c053a3ed90b6b6_layers.base_layers,
+                layer_control_8207a3e6dc5e576221c053a3ed90b6b6_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": false,
+  "autoZIndex": true,
+}
+            ).addTo(map_76508d3c0982c6c5b0a012ecf16d5736);
+
+        
+    
+            map_76508d3c0982c6c5b0a012ecf16d5736.fitBounds(
+                [[40.65053, -73.98228], [40.826917, -73.863397]],
+                {}
+            );
+        
+</script>
+</html>

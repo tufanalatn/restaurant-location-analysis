@@ -1,0 +1,37 @@
+osm_type,osm_id,borough,name,amenity,cuisine,latitude,longitude
+node,2192629490,Brooklyn,Abracadabra,restaurant,turkish,40.7120324,-73.9627025
+node,2562969391,Brooklyn,Aksaray,restaurant,turkish,40.6099739,-73.9576925
+node,10780489355,Brooklyn,Anchor Cafe,restaurant,turkish,40.5786613,-73.9891743
+node,11073916484,Brooklyn,Ankara 1,restaurant,turkish,40.6088231,-73.9584271
+node,2552604088,Brooklyn,Ay Kebab,restaurant,turkish,40.6227094,-74.0286001
+node,9132786080,Brooklyn,Burchak Pide,restaurant,turkish;pizza,40.5869556,-73.9528547
+node,2572981704,Brooklyn,Deniz,restaurant,turkish;brunch,40.6866318,-73.9756587
+node,12660808463,Brooklyn,Istanblue Kebab House,restaurant,turkish,40.6250049,-73.9617935
+node,10033913218,Brooklyn,Istanbul Bay,restaurant,turkish,40.6015805,-73.9938679
+node,10822931542,Brooklyn,Istanbul Bay,restaurant,turkish,40.6257548,-74.0243381
+node,7124985058,Brooklyn,Istanbul Clinton Hill,restaurant,turkish,40.6834178,-73.9672664
+way,247925864,Brooklyn,Istanbul Kebab House,restaurant,turkish;mediterranean,40.6087615,-73.9588678
+node,6927557384,Brooklyn,Köfte Piyaz,restaurant,turkish,40.6514533,-74.0035184
+node,7232137893,Brooklyn,Liman,restaurant,turkish;mediterranean,40.5755699,-73.9773106
+node,8021954514,Brooklyn,Masal Cafe,restaurant,turkish,40.5837813,-73.9489696
+node,5815796653,Brooklyn,OPera Cafe & Lounge,restaurant,turkish;mediterranean,40.5838655,-73.9445598
+node,5373756804,Brooklyn,Rana Fifteen,restaurant,turkish,40.6775093,-73.9826979
+node,10821031005,Brooklyn,Rocca Cafe & Lounge,restaurant,turkish;mediterranean,40.5834945,-73.9408495
+node,8931103808,Brooklyn,Sahara Turkish Grill,restaurant,turkish,40.5796047,-73.9723498
+way,247926054,Brooklyn,Taci's Beyti,restaurant,turkish,40.6095361,-73.9619245
+node,5709849145,Brooklyn,Tava,restaurant,turkish;brunch,40.6731143,-73.9832079
+node,8416888682,Brooklyn,The Blaze Gourmet,restaurant,turkish;burger,40.5849851,-73.9509875
+node,2723789296,Manhattan,A La Turka Restaurant,restaurant,turkish,40.7700896,-73.9576457
+node,4149450808,Manhattan,ABA Turkish Restaurant,restaurant,turkish,40.7674386,-73.9839741
+node,11674339848,Manhattan,Akdeniz,restaurant,turkish,40.7568615,-73.9806953
+node,7097867546,Manhattan,Ankara #3,restaurant,turkish,40.7225587,-73.988108
+node,4709047192,Manhattan,Antalia,restaurant,turkish,40.7559182,-73.9804278
+node,6233999017,Manhattan,Gazalas,restaurant,turkish,40.7626427,-73.9897868
+node,10863519205,Manhattan,Kubeh,restaurant,arab;lebanese;persian;turkish;middle_eastern,40.7354601,-73.9980005
+node,10261382324,Manhattan,Little Rascal,restaurant,turkish,40.7208393,-73.9950056
+node,2704114395,Manhattan,Sahara's,restaurant,turkish,40.7414352,-73.9785461
+node,7112624485,Manhattan,Sophra Grill,restaurant,turkish,40.7466487,-73.9771934
+node,8333736447,Manhattan,Soup & Gyro,restaurant,turkish,40.7157083,-74.0075514
+node,6233991635,Manhattan,Turkish Cuisine,restaurant,turkish,40.7600863,-73.9916414
+node,6110126636,Manhattan,Turks and Frogs,restaurant,turkish,40.7357449,-74.0073406
+node,2711639380,Manhattan,Zara Terrace,restaurant,turkish;mediterranean,40.7524053,-73.9700918

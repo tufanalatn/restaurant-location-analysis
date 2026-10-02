@@ -1,0 +1,124 @@
+UNITID,INSTNM,borough,CITY,LATITUDE,LONGITUD,EFDETOT,EFDEEXC,EFDESOM,EFDENON,physical_student_potential,campus_allocation
+193900,New York University - Washington Square,Manhattan,New York,40.729452,-73.997264,56832,3493.0,10998.0,42341.0,46282.2503,estimated_split
+193900,New York University - Downtown Brooklyn,Brooklyn,New York,40.6943,-73.9866,56832,3493.0,10998.0,42341.0,7056.7497,estimated_split
+190150,Columbia University - Morningside / Manhattanville,Manhattan,New York,40.808286,-73.961885,35173,1499.0,2519.0,31155.0,29380.565000000002,estimated_split
+190150,Columbia University - Medical Center,Manhattan,New York,40.8421,-73.9419,35173,1499.0,2519.0,31155.0,4293.435,estimated_split
+190594,CUNY Hunter College,Manhattan,New York,40.768669,-73.964795,22538,735.0,8220.0,13583.0,21803.0,IPEDS
+190512,CUNY Bernard M Baruch College,Manhattan,New York,40.740238,-73.983417,20081,899.0,9178.0,10004.0,19182.0,IPEDS
+190521,CUNY Borough of Manhattan Community College,Manhattan,New York,40.71879,-74.011826,20123,3258.0,9241.0,7624.0,16865.0,IPEDS
+190567,CUNY City College,Manhattan,New York,40.819846,-73.948542,15544,1013.0,5745.0,8786.0,14531.0,IPEDS
+190655,CUNY New York City College of Technology,Brooklyn,Brooklyn,40.695483,-73.987856,14486,1006.0,5921.0,7559.0,13480.0,IPEDS
+194310,Pace University,Manhattan,New York,40.711014,-74.004719,13634,1127.0,6246.0,6261.0,12507.0,IPEDS
+190549,CUNY Brooklyn College,Brooklyn,Brooklyn,40.631517,-73.949898,14390,2086.0,6308.0,5996.0,12304.0,IPEDS
+190600,CUNY John Jay College of Criminal Justice,Manhattan,New York,40.770351,-73.98841,13763,2362.0,6014.0,5387.0,11401.0,IPEDS
+190619,CUNY Kingsborough Community College,Brooklyn,Brooklyn,40.577222,-73.935812,18165,7148.0,4706.0,6311.0,11017.0,IPEDS
+193654,The New School,Manhattan,New York,40.735508,-73.997114,9068,205.0,2454.0,6409.0,8863.0,IPEDS
+196592,Touro University,Manhattan,New York,40.756832,-73.987049,11937,3688.0,3536.0,4713.0,8249.0,IPEDS
+191126,Fashion Institute of Technology,Manhattan,New York,40.74731,-73.994781,8206,327.0,3606.0,4273.0,7879.0,IPEDS
+197708,Yeshiva University,Manhattan,New York,40.850605,-73.929873,6965,1214.0,1323.0,4428.0,5751.0,IPEDS
+194578,Pratt Institute-Main,Brooklyn,Brooklyn,40.691297,-73.96431,5356,36.0,1270.0,4050.0,5320.0,IPEDS
+195173,St. Francis College,Brooklyn,Brooklyn,40.690233,-73.986559,4567,53.0,4507.0,7.0,4514.0,IPEDS
+190576,CUNY Graduate School and University Center,Manhattan,New York,40.748612,-73.983822,9536,5255.0,567.0,3714.0,4281.0,IPEDS
+196468,Teachers College at Columbia University,Manhattan,New York,40.810216,-73.960194,4401,251.0,1076.0,3074.0,4150.0,IPEDS
+197151,School of Visual Arts,Manhattan,New York,40.738809,-73.982359,3812,,,3812.0,3812.0,IPEDS
+195544,St. Joseph's University-New York,Brooklyn,Brooklyn,40.690418,-73.967664,3899,567.0,1743.0,1589.0,3332.0,IPEDS
+189097,Barnard College,Manhattan,New York,40.810098,-73.963346,3487,218.0,0.0,3269.0,3269.0,IPEDS
+190646,CUNY Medgar Evers College,Brooklyn,Brooklyn,40.666256,-73.957076,3736,608.0,1488.0,1640.0,3128.0,IPEDS
+197018,United Talmudical Seminary,Brooklyn,Brooklyn,40.705687,-73.959113,2241,,,2241.0,2241.0,IPEDS
+196255,SUNY Downstate Health Sciences University,Brooklyn,Brooklyn,40.653855,-73.945535,2220,521.0,546.0,1153.0,1699.0,IPEDS
+192864,Marymount Manhattan College,Manhattan,New York,40.768787,-73.959767,1601,10.0,574.0,1017.0,1591.0,IPEDS
+190424,Weill Medical College of Cornell University,Manhattan,New York,40.764738,-73.954839,1474,6.0,51.0,1417.0,1468.0,IPEDS
+188854,American Musical and Dramatic Academy,Manhattan,New York,40.772275,-73.987549,1452,19.0,0.0,1433.0,1433.0,IPEDS
+193405,Icahn School of Medicine at Mount Sinai,Manhattan,New York,40.790359,-73.952414,1261,0.0,3.0,1258.0,1261.0,IPEDS
+196389,Swedish Institute a College of Health Sciences,Manhattan,New York,40.746384,-73.99567,1233,,,1233.0,1233.0,IPEDS
+189501,Brooklyn Law School,Brooklyn,Brooklyn,40.691836,-73.989623,1125,1.0,209.0,915.0,1124.0,IPEDS
+192712,Manhattan School of Music,Manhattan,New York,40.812312,-73.961334,1084,8.0,70.0,1006.0,1076.0,IPEDS
+193821,New York Law School,Manhattan,New York,40.717998,-74.006969,1062,3.0,301.0,758.0,1059.0,IPEDS
+475565,CUNY Stella and Charles Guttman Community College,Manhattan,New York,40.75281,-73.984131,1048,41.0,296.0,711.0,1007.0,IPEDS
+189857,Central Yeshiva Tomchei Tmimim Lubavitz,Brooklyn,Brooklyn,40.669694,-73.938778,986,,,986.0,986.0,IPEDS
+192110,The Juilliard School,Manhattan,New York,40.773725,-73.982913,1073,99.0,11.0,963.0,974.0,IPEDS
+461014,Mildred Elley-New York Campus,Manhattan,New York,40.70563,-74.013948,961,0.0,333.0,628.0,961.0,IPEDS
+190372,The Cooper Union for the Advancement of Science and Art,Manhattan,New York,40.728148,-73.991609,933,,,933.0,933.0,IPEDS
+192271,LIM College,Manhattan,New York,40.754991,-73.979413,1467,536.0,668.0,263.0,931.0,IPEDS
+191597,Helene Fuld College of Nursing,Manhattan,New York,40.802495,-73.943356,914,38.0,560.0,316.0,876.0,IPEDS
+189228,Berkeley College-New York,Manhattan,New York,40.753986,-73.979458,2156,1497.0,390.0,269.0,659.0,IPEDS
+189990,"Christine Valmy International School for Esthetics, Skin Care & Makeup",Manhattan,New York,40.757105,-73.986466,641,,,641.0,641.0,IPEDS
+451404,Talmudical Seminary of Bobov,Brooklyn,Brooklyn,40.634485,-73.995378,602,,,602.0,602.0,IPEDS
+193052,Mesivta Torah Vodaath Rabbinical Seminary,Brooklyn,Brooklyn,40.6382,-73.969395,593,,,593.0,593.0,IPEDS
+457819,Institute of Culinary Education,Manhattan,New York,40.712449,-74.015637,589,5.0,0.0,584.0,584.0,IPEDS
+486415,AMG School of Nursing,Brooklyn,Brooklyn,40.701286,-73.985092,552,,,552.0,552.0,IPEDS
+194666,Rabbinical College Bobover Yeshiva Bnei Zion,Brooklyn,Brooklyn,40.631954,-73.985026,548,,,548.0,548.0,IPEDS
+189413,Boricua College,Manhattan,New York,40.833434,-73.9458,516,,,516.0,516.0,IPEDS
+455257,Yeshiva of Machzikai Hadas,Brooklyn,Brooklyn,40.636104,-73.990592,515,,,515.0,515.0,IPEDS
+414595,Pacific College of Health and Science,Manhattan,New York,40.7088,-74.006721,736,225.0,424.0,87.0,511.0,IPEDS
+491057,Yeshiva Kollel Tifereth Elizer,Brooklyn,Brooklyn,40.637096,-73.992171,499,,,499.0,499.0,IPEDS
+192688,Mandl School-The College of Allied Health,Manhattan,New York,40.764404,-73.983786,497,,,497.0,497.0,IPEDS
+386153,Seminar L'moros Bais Yaakov,Brooklyn,Brooklyn,40.634863,-73.985376,449,,,449.0,449.0,IPEDS
+451413,Center for Allied Health Education,Brooklyn,Brooklyn,40.608783,-73.958977,437,0.0,437.0,0.0,437.0,IPEDS
+196228,SUNY College of Optometry,Manhattan,New York,40.754465,-73.982236,400,,,400.0,400.0,IPEDS
+196431,Talmudical Seminary Oholei Torah,Brooklyn,Brooklyn,40.670089,-73.945759,400,,,400.0,400.0,IPEDS
+195067,Empire Beauty School-Manhattan,Manhattan,New York,40.748938,-73.986453,388,,,388.0,388.0,IPEDS
+194073,New York College of Podiatric Medicine,Manhattan,New York,40.805037,-73.940496,339,,,339.0,339.0,IPEDS
+194116,New York School of Interior Design,Manhattan,New York,40.768615,-73.962404,573,245.0,250.0,78.0,328.0,IPEDS
+189282,Mount Sinai Phillips School of Nursing,Manhattan,New York,40.804778,-73.936639,311,,,311.0,311.0,IPEDS
+189015,Bank Street College of Education,Manhattan,New York,40.805604,-73.966643,719,411.0,54.0,254.0,308.0,IPEDS
+461768,Atelier Esthetique Institute of Esthetics,Manhattan,New York,40.746376,-73.995669,299,,,299.0,299.0,IPEDS
+448071,Aveda Arts & Sciences Institute-New York,Manhattan,New York,40.725861,-74.00497,293,,,293.0,293.0,IPEDS
+192040,Jewish Theological Seminary of America,Manhattan,New York,40.811892,-73.960582,316,27.0,70.0,219.0,289.0,IPEDS
+420981,Manhattan School of Computer Technology,Brooklyn,Brooklyn,40.63473,-73.967118,1002,716.0,255.0,31.0,286.0,IPEDS
+195049,The Rockefeller University,Manhattan,New York,40.762489,-73.955198,281,,,281.0,281.0,IPEDS
+449676,Ace Institute of Technology,Manhattan,New York,40.753658,-73.993385,275,,,275.0,275.0,IPEDS
+194657,Rabbinical Academy Mesivta Rabbi Chaim Berlin,Brooklyn,Brooklyn,40.618347,-73.963615,264,,,264.0,264.0,IPEDS
+188942,Associated Beth Rivkah Schools,Brooklyn,Brooklyn,40.666034,-73.949796,254,,,254.0,254.0,IPEDS
+421841,New York Conservatory for Dramatic Arts,Manhattan,New York,40.740148,-73.993388,251,,,251.0,251.0,IPEDS
+405854,Rabbinical College of Ohr Shimon Yisroel,Brooklyn,Brooklyn,40.704389,-73.956772,232,,,232.0,232.0,IPEDS
+375230,Yeshiva Gedolah Imrei Yosef D'spinka,Brooklyn,Brooklyn,40.628468,-73.992328,226,,,226.0,226.0,IPEDS
+494737,Yeshiva Yesoda Hatorah Vetz Chaim,Brooklyn,Brooklyn,40.706959,-73.961026,223,,,223.0,223.0,IPEDS
+196884,Union Theological Seminary in the City of New York,Manhattan,New York,40.811823,-73.961549,234,34.0,116.0,84.0,200.0,IPEDS
+188650,Allen School-Brooklyn,Brooklyn,Brooklyn,40.693797,-73.991546,192,0.0,192.0,0.0,192.0,IPEDS
+203067,Hebrew Union College-Jewish Institute of Religion,Manhattan,New York,40.728938,-73.994499,240,51.0,87.0,102.0,189.0,IPEDS
+449685,New Age Training,Manhattan,New York,40.748345,-73.991591,187,,,187.0,187.0,IPEDS
+188678,American Academy of Dramatic Arts-New York,Manhattan,New York,40.745545,-73.984843,187,0.0,0.0,187.0,187.0,IPEDS
+498809,Yeshiva of Kasho,Brooklyn,Brooklyn,40.671255,-74.00015,185,,,185.0,185.0,IPEDS
+493600,Congregation Talmidei Mesivta Tiferes Shmiel Aleksander,Brooklyn,Brooklyn,40.624233,-73.994778,168,,,168.0,168.0,IPEDS
+197601,Yeshiva Karlin Stolin,Brooklyn,Brooklyn,40.624918,-73.983373,164,,,164.0,164.0,IPEDS
+191311,Gemological Institute of America-New York,Manhattan,New York,40.757267,-73.980813,160,,,160.0,160.0,IPEDS
+405058,Yeshivas Novominsk,Brooklyn,Brooklyn,40.623395,-73.989968,157,,,157.0,157.0,IPEDS
+481094,Sotheby's Institute of Art-NY,Manhattan,New York,40.756988,-73.972232,188,35.0,0.0,153.0,153.0,IPEDS
+457794,EDP School,Brooklyn,Brooklyn,40.58605,-73.952901,151,,,151.0,151.0,IPEDS
+197647,Yeshiva Derech Chaim,Brooklyn,Brooklyn,40.636889,-73.979757,147,,,147.0,147.0,IPEDS
+193247,Mirrer Yeshiva Cent Institute,Brooklyn,Brooklyn,40.605043,-73.966049,139,,,139.0,139.0,IPEDS
+486026,Yeshiva Sholom Shachna,Brooklyn,Brooklyn,40.6275,-73.973431,132,,,132.0,132.0,IPEDS
+192624,Machzikei Hadath Rabbinical College,Brooklyn,Brooklyn,40.627937,-73.988378,131,,,131.0,131.0,IPEDS
+491446,Bnos Zion Of Bobov Seminary,Brooklyn,Brooklyn,40.633353,-73.991157,124,,,124.0,124.0,IPEDS
+484871,Rabbinical College Ohr Yisroel,Brooklyn,Brooklyn,40.629707,-73.896524,114,,,114.0,114.0,IPEDS
+485999,Bet Medrash Gadol Ateret Torah,Brooklyn,Brooklyn,40.607809,-73.969945,112,,,112.0,112.0,IPEDS
+427308,Merkaz Bnos-Business School,Brooklyn,Brooklyn,40.601511,-73.997176,110,,,110.0,110.0,IPEDS
+366368,New York Academy of Art,Manhattan,New York,40.718388,-74.006019,106,,,106.0,106.0,IPEDS
+482194,Arrojo Cosmetology School,Manhattan,New York,40.72765,-74.005007,104,0.0,0.0,104.0,104.0,IPEDS
+383765,Empire Beauty School-Brooklyn,Brooklyn,Brooklyn,40.599279,-73.989884,98,,,98.0,98.0,IPEDS
+498906,Yeshivas Sanz Klauzenburg,Brooklyn,Brooklyn,40.632725,-73.990129,98,,,98.0,98.0,IPEDS
+493798,New York Seminary,Brooklyn,Brooklyn,40.63193,-73.977011,97,,,97.0,97.0,IPEDS
+188669,The Ailey School,Manhattan,New York,40.766921,-73.986891,94,,,94.0,94.0,IPEDS
+189273,Beth Hamedrash Shaarei Yosher Institute,Brooklyn,Brooklyn,40.635444,-73.981202,91,,,91.0,91.0,IPEDS
+189404,Brittany Beauty Academy,Brooklyn,Brooklyn,40.62318,-74.028581,89,,,89.0,89.0,IPEDS
+499866,Atlantic Acting School,Manhattan,New York,40.74193,-74.004249,82,,,82.0,82.0,IPEDS
+190114,Metropolitan College of New York,Manhattan,New York,40.708706,-74.014702,683,608.0,75.0,0.0,75.0,IPEDS
+430564,Studio Jewelers,Manhattan,New York,40.745464,-73.983774,74,,,74.0,74.0,IPEDS
+193070,Mesivtha Tifereth Jerusalem of America,Manhattan,New York,40.713812,-73.991271,72,0.0,0.0,72.0,72.0,IPEDS
+490346,Elyon College,Brooklyn,Brooklyn,40.611081,-73.980593,79,7.0,0.0,72.0,72.0,IPEDS
+193609,Neighborhood Playhouse School of the Theater,Manhattan,New York City,40.756613,-73.965332,67,,,67.0,67.0,IPEDS
+493664,Yeshivat Hechal Shemuel,Brooklyn,Brooklyn,40.610906,-73.955944,65,,,65.0,65.0,IPEDS
+488253,Focus Personal Training Institute,Manhattan,New York,40.745926,-73.991731,64,0.0,0.0,64.0,64.0,IPEDS
+188687,American Academy McAllister Institute of Funeral Service,Manhattan,New York,40.757105,-73.986466,270,214.0,3.0,53.0,56.0,IPEDS
+482413,DeVry College of New York,Manhattan,New York,40.747747,-73.983492,107,63.0,33.0,11.0,44.0,IPEDS
+246789,HJ International Graduate School for Peace and Public Leadership,Manhattan,New York,40.754309,-73.981154,155,115.0,15.0,25.0,40.0,IPEDS
+190008,Circle in the Square Theatre School,Manhattan,New York,40.762059,-73.984607,39,,,39.0,39.0,IPEDS
+193061,Mesivta of Eastern Parkway-Yeshiva Zichron Meilech,Brooklyn,Brooklyn,40.635236,-73.979327,39,,,39.0,39.0,IPEDS
+418171,Charles Stuart School of Diamond Setting,Brooklyn,Brooklyn,40.608484,-73.95856,38,,,38.0,38.0,IPEDS
+427335,Lia Schorr Institute of Cosmetic Skin Care Training,Manhattan,New York,40.764401,-73.976807,34,,,34.0,34.0,IPEDS
+486017,Yeshiva Ohr Yisrael,Brooklyn,Brooklyn,40.61359,-73.944041,23,,,23.0,23.0,IPEDS
+488004,Central Yeshiva Beth Joseph,Brooklyn,Brooklyn,40.615411,-73.959386,15,,,15.0,15.0,IPEDS
+192970,Memorial Hospital School of Radiation Therapy Technology,Manhattan,New York,40.764128,-73.956143,11,0.0,0.0,11.0,11.0,IPEDS
+494551,IE New York College,Manhattan,New York,40.723346,-74.001699,4,0.0,0.0,4.0,4.0,IPEDS
+475033,Relay Graduate School of Education,Manhattan,New York,40.70563,-74.013948,1324,1324.0,,,0.0,IPEDS
